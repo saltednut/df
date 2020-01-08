@@ -1,0 +1,32 @@
+latest: dfs_gol
+enabled:
+  dfs_gol: dfs_gol
+safe:
+  block_content: block_content
+  media: media
+  node: node
+  path_alias: path_alias
+  redirect: redirect
+  menu_link_content: menu_link_content
+types:
+  block_content:
+    - banner
+    - hero
+    - media
+    - media_slideshow
+    - text
+  media:
+    - image
+  node:
+    - article
+    - landing_page
+  path_alias:
+    - path_alias
+  redirect:
+    - redirect
+  menu_link_content:
+    - main
+author: AshRydell
+_core:
+  default_config_hash: o_9CJPHiYxgeqjNXUSwz2MXwZGc-dSqYk4ZkUNWgRiQ
+

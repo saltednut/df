@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Set up the One Scenario.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function dfs_gol_install() {
+  \Drupal::configFactory()
+    ->getEditable('system.site')
+    ->set('page.front', '/gol')
+    ->set('name', "GOL Sports")
+    ->save(TRUE);
+  drupal_flush_all_caches();
+}
