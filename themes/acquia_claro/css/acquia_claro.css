@@ -153,3 +153,32 @@ div.scheduled-transition input {
  background-image: unset;
  top: 0.26rem !important;
 }
+
+/* Acquia DAM */
+.acquiadam-browser-breadcrumb-container {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.acquiadam-browser-breadcrumb-container .button:not(:focus){
+  box-shadow: none;
+}
+
+.acquiadam-asset-browser .form-item {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.acquiadam-asset-browser .acquiadam-asset-checkbox {
+  margin-top: 0px;
+}
+
+.acquiadam-asset-browser .form-type--boolean {
+  margin-left: 0;
+}
+
+.acquiadam-asset-browser .form-type--boolean .form-boolean {
+  margin-left: 0px;
+  left: 21px;
+}
