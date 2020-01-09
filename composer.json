@@ -119,10 +119,6 @@
                 "Integration with Drupal core's new Layout Builder| http://drupal.org/node/2998114":
                 "https://www.drupal.org/files/issues/2019-11-30/2998114-67.patch"
             },
-            "drupal/contact_storage": {
-                "Conflict with other modules implementing same action plugin | http://drupal.org/node/2834490":
-                "https://www.drupal.org/files/issues/contact-storage-action-namepsace-2834490-6.patch"
-            },
             "drupal/content_browser": {
                 "Combined Content Browser patch | http://drupal.org/node/2851687":
                 "https://www.drupal.org/files/issues/content-browser-2851687-2903529-combined-3.patch",
