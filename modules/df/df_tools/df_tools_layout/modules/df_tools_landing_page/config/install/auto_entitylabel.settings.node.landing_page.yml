@@ -1,7 +1,0 @@
-status: 3
-pattern: 'New Landing Page'
-escape: false
-dependencies:
-  config:
-    - node.type.landing_page
-
