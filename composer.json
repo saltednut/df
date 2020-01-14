@@ -142,8 +142,8 @@
                 "https://www.drupal.org/files/issues/2845037-4.patch",
                 "Quick edit compatibility | http://drupal.org/node/2733605":
                 "https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch",
-                "Combined patch | http://drupal.org/node/2825555 and http://drupal.org/node/2877751":
-                "https://www.drupal.org/files/issues/2018-12-27/2877751-39_2825555-20_combined.patch"
+                "Improve Field Widget UX for single-cardinality File/Image fields | http://drupal.org/node/2825555":
+                "https://www.drupal.org/files/issues/2018-06-16/entity_browser-single-value-widget-ux-2825555-20-D8.patch"
             },
             "drupal/gdpr": {
                 "Add icon to custom toolbar item | http://drupal.org/node/2972047":
@@ -180,11 +180,6 @@
             "drupal/lightning_layout": {
                 "drupal/core": {
                     "2955065 - Customized layout does not display for node with customizations enabled when using full content view mode": "https://www.drupal.org/files/issues/2019-03-25/2955065-25.patch"
-                }
-            },
-            "drupal/lightning_media": {
-                "drupal/entity_browser": {
-                    "2877751 - Inform users how many items they can add to a field that uses an entity browser": "https://www.drupal.org/files/issues/2018-06-28/2877751-39-8.x-2.x.patch"
                 }
             },
             "drupal/jsonapi_schema": {

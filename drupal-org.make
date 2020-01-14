@@ -123,6 +123,7 @@ projects[entity_block][version] = 1.0-beta1
 projects[entity_browser][type] = module
 projects[entity_browser][patch][] = https://www.drupal.org/files/issues/2845037-4.patch
 projects[entity_browser][patch][] = https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch
+projects[entity_browser][patch][] = https://www.drupal.org/files/issues/2018-06-16/entity_browser-single-value-widget-ux-2825555-20-D8.patch
 projects[entity_browser][version] = 2.3
 projects[entity_browser_block][type] = module
 projects[entity_browser_block][version] = 1.0

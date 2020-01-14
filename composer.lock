@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aa4d206c43b9547cf2a33f7f329b8aa",
+    "content-hash": "26afd0dc8e5dae3b54edff0183d5e3df",
     "packages": [
         {
             "name": "acquia/acf",
@@ -6342,7 +6342,8 @@
                 },
                 "patches_applied": {
                     "Fixed the issue of Call to a member function getConfigDependencyKey() on null | http://drupal.org/node/2845037": "https://www.drupal.org/files/issues/2845037-4.patch",
-                    "Quick edit compatibility | http://drupal.org/node/2733605": "https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch"
+                    "Quick edit compatibility | http://drupal.org/node/2733605": "https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch",
+                    "Improve Field Widget UX for single-cardinality File/Image fields | http://drupal.org/node/2825555": "https://www.drupal.org/files/issues/2018-06-16/entity_browser-single-value-widget-ux-2825555-20-D8.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
