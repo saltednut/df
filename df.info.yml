@@ -27,6 +27,7 @@ install:
   - df_tools_menu
   - df_tools_user_demo
   - df_tools_workflow
+  - dynamic_page_cache
   - google_analytics
   - pathauto
   - responsive_preview
