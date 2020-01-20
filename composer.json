@@ -27,6 +27,10 @@
             "type": "vcs",
             "url": "https://github.com/acquia/lift-sdk-php"
         },
+        "lift-samples": {
+            "type": "vcs",
+            "url": "https://github.com/acquia/acquia-lift-samples"
+        },
         "cohesion": {
             "type": "vcs",
             "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
@@ -192,7 +196,9 @@
     },
     "require": {
         "acquia/lightning": "4.1.1",
+        "acquia/acquia-lift-samples": "dev-master",
         "acquia/content-hub-php": "2.x-dev",
+        "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
         "bower-asset/leaflet": "1.0.3",
