@@ -18,6 +18,7 @@ dependencies:
     - field.field.block_content.hero.field_nested_block
     - field.field.block_content.hero.field_second_line
     - field.field.block_content.hero.field_second_line_size
+    - field.field.block_content.hero.field_text_align
     - field.field.block_content.hero.field_text_color
   module:
     - link
@@ -90,6 +91,7 @@ hidden:
   field_gradient_color: true
   field_hero_alignment: true
   field_second_line_size: true
+  field_text_align: true
   field_text_color: true
   search_api_excerpt: true
 

@@ -16,15 +16,15 @@
 
 }
 
-.hero-block .hero-block-fields.hero-block-align-right {
+.hero-block .hero-block-fields.text-align-right {
   text-align: right;
 }
 
-.hero-block .hero-block-fields.hero-block-align-left {
+.hero-block .hero-block-fields.text-align-left {
   text-align: left;
 }
 
-.hero-block .hero-block-fields.hero-block-align-center {
+.hero-block .hero-block-fields.text-align-center {
   text-align: center;
 }
 
