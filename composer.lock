@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26afd0dc8e5dae3b54edff0183d5e3df",
+    "content-hash": "15913b1db8973ecd1d9e8f54663c85a7",
     "packages": [
         {
             "name": "acquia/acf",
@@ -34,6 +34,38 @@
             ],
             "description": "a lightweight framework for headless e-commerce with Drupal. Starter connectors for major e-commerce engines",
             "time": "2019-07-31T17:54:40+00:00"
+        },
+        {
+            "name": "acquia/acquia-lift-samples",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/acquia-lift-samples.git",
+                "reference": "a5aa9f85ff1e1a0037b5c6b47b62611c77df2738"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/a5aa9f85ff1e1a0037b5c6b47b62611c77df2738",
+                "reference": "a5aa9f85ff1e1a0037b5c6b47b62611c77df2738",
+                "shasum": ""
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Code samples and integration examples for Acquia Lift. This is for reference only and should not be used in any production site",
+            "support": {
+                "source": "https://github.com/acquia/acquia-lift-samples/tree/master",
+                "issues": "https://github.com/acquia/acquia-lift-samples/issues"
+            },
+            "time": "2020-01-21T17:45:27+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -92,42 +124,46 @@
         },
         {
             "name": "acquia/http-hmac-php",
-            "version": "4.0.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/http-hmac-php.git",
-                "reference": "da3ad88dc10ded01a666e520b56f5e7517590a37"
+                "reference": "ee04f68a1c8e749b70bc2bb6da52da0db20d0009"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/http-hmac-php/zipball/da3ad88dc10ded01a666e520b56f5e7517590a37",
-                "reference": "da3ad88dc10ded01a666e520b56f5e7517590a37",
+                "url": "https://api.github.com/repos/acquia/http-hmac-php/zipball/ee04f68a1c8e749b70bc2bb6da52da0db20d0009",
+                "reference": "ee04f68a1c8e749b70bc2bb6da52da0db20d0009",
                 "shasum": ""
             },
             "require": {
-                "php": "~5.6 || ~7.0",
-                "psr/http-message": "~1.0.0"
+                "php": ">=5.5.0",
+                "psr/http-message": "~1.0.0",
+                "sarciszewski/php-future": "~0.4.2"
             },
             "replace": {
                 "acquia/hmac-request": "self.version"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.11",
                 "guzzlehttp/guzzle": "~6.0",
-                "phploc/phploc": "^4.0",
-                "phpmd/phpmd": "^2.0",
-                "phpunit/phpunit": "~5.7",
-                "sebastian/phpcpd": "^2.0",
-                "symfony/psr-http-message-bridge": "^1.0",
-                "symfony/security": "^3.0 | ^4.0",
-                "symfony/security-bundle": "^3.0 | ^4.0",
-                "zendframework/zend-diactoros": "^1.3"
+                "pdepend/pdepend": "~1.0",
+                "phploc/phploc": "~2.0",
+                "phpmd/phpmd": "~1.0",
+                "phpunit/phpunit": "^4.8",
+                "scrutinizer/ocular": "~1.0",
+                "sebastian/phpcpd": "~2.0",
+                "silex/silex": "~1.3.0",
+                "squizlabs/php_codesniffer": "^2.3",
+                "symfony/psr-http-message-bridge": "~0.1.0",
+                "symfony/security": "~3.0.0",
+                "zendframework/zend-diactoros": "~1.3.5"
             },
             "suggest": {
                 "guzzlehttp/guzzle": "~6.0",
-                "symfony/psr-http-message-bridge": "^1.0",
-                "symfony/security": "^3.0 | ^4.0",
-                "zendframework/zend-diactoros": "^1.3"
+                "silex/silex": "~1.3.0",
+                "symfony/psr-http-message-bridge": "~0.1.0",
+                "symfony/security": "~3.0.0",
+                "zendframework/zend-diactoros": "~1.3.5"
             },
             "type": "library",
             "autoload": {
@@ -147,7 +183,68 @@
             ],
             "description": "An implementation of the HTTP HMAC Spec in PHP that integrates with popular libraries such as Symfony and Guzzle.",
             "homepage": "https://github.com/acquia/http-hmac-php",
-            "time": "2018-03-23T16:51:53+00:00"
+            "time": "2018-03-19T19:13:26+00:00"
+        },
+        {
+            "name": "acquia/lift-sdk-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/lift-sdk-php.git",
+                "reference": "ad10640efc4b8d8c2e8d65c3b47cc1cc7e8b958e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/lift-sdk-php/zipball/ad10640efc4b8d8c2e8d65c3b47cc1cc7e8b958e",
+                "reference": "ad10640efc4b8d8c2e8d65c3b47cc1cc7e8b958e",
+                "shasum": ""
+            },
+            "require": {
+                "acquia/http-hmac-php": "~3.1",
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">=5.5.0",
+                "symfony/http-foundation": "~2.7|^3.2",
+                "symfony/serializer": "~2.7|^3.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.0",
+                "pdepend/pdepend": "~1.0",
+                "phploc/phploc": "~2.0",
+                "phpmd/phpmd": "~1.0",
+                "phpunit/phpunit": ">=4.8.35 <5",
+                "scrutinizer/ocular": "~1.0",
+                "sebastian/phpcpd": "~2.0"
+            },
+            "suggest": {
+                "ramsey/uuid": "A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Acquia\\LiftClient\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Acquia\\LiftClient\\Test\\": "test/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "See Contributors",
+                    "homepage": "https://github.com/acquia/lift-sdk-php/graphs/contributors"
+                }
+            ],
+            "description": "A PHP Client library to consume the Acquia Lift API.",
+            "homepage": "https://github.com/acquia/lift-sdk-php",
+            "support": {
+                "issues": "https://github.com/acquia/lift-sdk-php/issues",
+                "source": "https://github.com/acquia/lift-sdk-php/tree/0.9.1"
+            },
+            "time": "2018-12-20T18:44:40+00:00"
         },
         {
             "name": "acquia/lightning",
@@ -15857,6 +15954,50 @@
             "time": "2019-11-05T11:44:22+00:00"
         },
         {
+            "name": "sarciszewski/php-future",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sarciszewski/php-future.git",
+                "reference": "8bcc414eecfe68bb4600ab9b179ef6e8454b8ca0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sarciszewski/php-future/zipball/8bcc414eecfe68bb4600ab9b179ef6e8454b8ca0",
+                "reference": "8bcc414eecfe68bb4600ab9b179ef6e8454b8ca0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Arciszewski",
+                    "email": "scott@paragonie.com",
+                    "homepage": "https://appsec.solutions",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Polyfill new (5.6+) features into old (5.4+) versions of PHP",
+            "keywords": [
+                "compatibility",
+                "future",
+                "hash_equals",
+                "security"
+            ],
+            "time": "2015-09-28T20:04:00+00:00"
+        },
+        {
             "name": "solarium/solarium",
             "version": "3.8.1",
             "source": {
@@ -21731,7 +21872,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "acquia/acquia-lift-samples": 20,
         "acquia/content-hub-php": 20,
+        "acquia/lift-sdk-php": 20,
         "drupal/acquia_contenthub": 20,
         "drupal/config_inspector": 10,
         "drupal/config_sync": 20,

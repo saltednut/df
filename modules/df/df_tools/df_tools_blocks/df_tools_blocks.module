@@ -61,6 +61,21 @@ function df_tools_blocks_block_content_view_alter(array &$build, EntityInterface
       }
     }
 
+    $text_alignment = $entity->get('field_text_align')->getString();
+    if (preg_match('/^[a-z_]+$/i', $hero_alignment)) {
+      switch ($text_alignment) {
+        case 'center':
+          $text_alignment = 'center';
+          break;
+        case 'right':
+          $text_alignment = 'right';
+          break;
+        default:
+          $text_alignment = 'left';
+          break;
+      }
+    }
+
     $hero_callout_width = $entity->get('field_callout_width')->getString();
     switch($hero_callout_width) {
       case '03':
@@ -131,7 +146,7 @@ function df_tools_blocks_block_content_view_alter(array &$build, EntityInterface
     // Attach styles.
     $alignment = $entity->get('field_hero_alignment')->getString();
     if (preg_match('/^[a-z_]+$/i', $alignment)) {
-      $wrapper['#attributes']['class'][] = Html::cleanCssIdentifier('hero-block-align-' . $alignment);
+      $wrapper['#attributes']['class'][] = Html::cleanCssIdentifier('text-align-' . $text_alignment);
     }
     $color_regex = '/^#[0-9a-f]{6}$/i';
     $callout_background_color = $entity->get('field_callout_background_color')->getString();
@@ -287,6 +302,7 @@ function _layout_builder_block_form_alter(array $element, FormStateInterface $fo
     $element['field_hero_link']['widget'][0]['title']['#suffix'] = '</div>';
     $style_fields = [
       'field_text_color',
+      'field_text_align',
       'field_first_line_size',
       'field_second_line_size',
       'field_gradient',

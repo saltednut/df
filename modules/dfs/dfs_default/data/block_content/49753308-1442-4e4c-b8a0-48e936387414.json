@@ -170,6 +170,11 @@
             "value": "h6"
         }
     ],
+    "field_text_align": [
+        {
+            "value": "center"
+        }
+    ],
     "field_text_color": [
         {
             "value": "#000000",

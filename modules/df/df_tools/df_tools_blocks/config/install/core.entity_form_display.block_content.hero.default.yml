@@ -19,6 +19,7 @@ dependencies:
     - field.field.block_content.hero.field_nested_block
     - field.field.block_content.hero.field_second_line
     - field.field.block_content.hero.field_second_line_size
+    - field.field.block_content.hero.field_text_align
     - field.field.block_content.hero.field_text_color
   module:
     - entity_browser
@@ -86,14 +87,14 @@ content:
     type: string_textfield
     region: content
   field_hero_alignment:
-    weight: 6
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_hero_background:
     type: entity_browser_entity_reference
-    weight: 2
+    weight: 1
     settings:
       entity_browser: media_browser_in_modal
       field_widget_display: rendered_entity
@@ -128,6 +129,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_text_align:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_text_color:
     weight: 7
     settings:
@@ -142,13 +149,6 @@ content:
     settings:
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-    region: content
-  langcode:
-    type: language_select
-    weight: 1
-    settings:
-      include_locked: true
     third_party_settings: {  }
     region: content
   moderation_state:
