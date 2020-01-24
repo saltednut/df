@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "15913b1db8973ecd1d9e8f54663c85a7",
+    "content-hash": "325c2ad0c4142478c36737e52f7635e6",
     "packages": [
         {
             "name": "acquia/acf",
@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-lift-samples.git",
-                "reference": "a5aa9f85ff1e1a0037b5c6b47b62611c77df2738"
+                "reference": "ea7e9f2a3d9873959f1286f355279430ea7e4fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/a5aa9f85ff1e1a0037b5c6b47b62611c77df2738",
-                "reference": "a5aa9f85ff1e1a0037b5c6b47b62611c77df2738",
+                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/ea7e9f2a3d9873959f1286f355279430ea7e4fdf",
+                "reference": "ea7e9f2a3d9873959f1286f355279430ea7e4fdf",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -65,7 +65,7 @@
                 "source": "https://github.com/acquia/acquia-lift-samples/tree/master",
                 "issues": "https://github.com/acquia/acquia-lift-samples/issues"
             },
-            "time": "2020-01-21T17:45:27+00:00"
+            "time": "2020-01-22T01:47:31+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -521,7 +521,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -792,16 +792,16 @@
         },
         {
             "name": "cohesion/dx8",
-            "version": "5.7.8",
+            "version": "5.7.10",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
-                "reference": "d0e7933fbd40ff8780a9ee9c59be2ab2e163abec"
+                "reference": "f6d6ddb7418f78a96b294b355ba6633778580090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/d0e7933fbd40ff8780a9ee9c59be2ab2e163abec.zip",
-                "reference": "d0e7933fbd40ff8780a9ee9c59be2ab2e163abec",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/f6d6ddb7418f78a96b294b355ba6633778580090.zip",
+                "reference": "f6d6ddb7418f78a96b294b355ba6633778580090",
                 "shasum": ""
             },
             "require": {
@@ -839,31 +839,31 @@
             "description": "DX8 module",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/d0e7933fbd40ff8780a9ee9c59be2ab2e163abec/?at=5.7.8"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/f6d6ddb7418f78a96b294b355ba6633778580090/?at=5.7.10"
             },
-            "time": "2019-12-16T15:23:00+00:00"
+            "time": "2020-01-22T14:00:25+00:00"
         },
         {
             "name": "cohesion/dx8-theme",
-            "version": "5.7.8",
+            "version": "5.7.10",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
-                "reference": "172824f45aba1c924aef8e4bd43bbee6a8534799"
+                "reference": "c1c9e2e616c17786051e0d7afd753035abc93e52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/172824f45aba1c924aef8e4bd43bbee6a8534799.zip",
-                "reference": "172824f45aba1c924aef8e4bd43bbee6a8534799",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/c1c9e2e616c17786051e0d7afd753035abc93e52.zip",
+                "reference": "c1c9e2e616c17786051e0d7afd753035abc93e52",
                 "shasum": ""
             },
             "type": "drupal-theme",
             "description": "DX8 base theme",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/172824f45aba1c924aef8e4bd43bbee6a8534799/?at=5.7.8"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/c1c9e2e616c17786051e0d7afd753035abc93e52/?at=5.7.10"
             },
-            "time": "2019-12-16T15:23:11+00:00"
+            "time": "2020-01-22T14:00:41+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -9192,7 +9192,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lightning_media.git",
-                "reference": "b5a3809b0de9d513c7a74f874967236e7032710e"
+                "reference": "4108f2c9d95f84a1333632cc798b604a7787e454"
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
@@ -9203,7 +9203,7 @@
                 "drupal/dropzonejs": "2.0.0-alpha5",
                 "drupal/embed": "^1.0",
                 "drupal/entity_browser": "^2.3",
-                "drupal/entity_embed": "1.0",
+                "drupal/entity_embed": "^1.0",
                 "drupal/image_widget_crop": "^2.1",
                 "drupal/inline_entity_form": "^1.0",
                 "drupal/libraries": "3.0-alpha1",
@@ -9239,8 +9239,8 @@
                     "dev-8.x-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15+4-dev",
-                    "datestamp": "1578959888",
+                    "version": "8.x-3.15+5-dev",
+                    "datestamp": "1579284783",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9333,7 +9333,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/lightning_media"
             },
-            "time": "2020-01-17T17:29:34+00:00"
+            "time": "2020-01-23T15:01:55+00:00"
         },
         {
             "name": "drupal/lightning_workflow",
@@ -19888,16 +19888,16 @@
         },
         {
             "name": "instaclick/php-webdriver",
-            "version": "1.4.6",
+            "version": "1.4.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/instaclick/php-webdriver.git",
-                "reference": "bd9405077ca04129a73059a06873bedb5e138402"
+                "reference": "b5f330e900e9b3edfc18024a5ec8c07136075712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/bd9405077ca04129a73059a06873bedb5e138402",
-                "reference": "bd9405077ca04129a73059a06873bedb5e138402",
+                "url": "https://api.github.com/repos/instaclick/php-webdriver/zipball/b5f330e900e9b3edfc18024a5ec8c07136075712",
+                "reference": "b5f330e900e9b3edfc18024a5ec8c07136075712",
                 "shasum": ""
             },
             "require": {
@@ -19943,7 +19943,7 @@
                 "webdriver",
                 "webtest"
             ],
-            "time": "2019-09-23T15:50:44+00:00"
+            "time": "2019-09-25T09:05:11+00:00"
         },
         {
             "name": "jcalderonzumba/gastonjs",
@@ -21390,21 +21390,21 @@
         },
         {
             "name": "stecman/symfony-console-completion",
-            "version": "0.10.1",
+            "version": "0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stecman/symfony-console-completion.git",
-                "reference": "7bfa9b93e216896419f2f8de659935d7e04fecd8"
+                "reference": "a9502dab59405e275a9f264536c4e1cb61fc3518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stecman/symfony-console-completion/zipball/7bfa9b93e216896419f2f8de659935d7e04fecd8",
-                "reference": "7bfa9b93e216896419f2f8de659935d7e04fecd8",
+                "url": "https://api.github.com/repos/stecman/symfony-console-completion/zipball/a9502dab59405e275a9f264536c4e1cb61fc3518",
+                "reference": "a9502dab59405e275a9f264536c4e1cb61fc3518",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "symfony/console": "~2.3 || ~3.0 || ~4.0"
+                "symfony/console": "~2.3 || ~3.0 || ~4.0 || ~5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.8.36 || ~5.7 || ~6.4"
@@ -21431,7 +21431,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2019-04-29T03:20:18+00:00"
+            "time": "2019-11-24T17:03:06+00:00"
         },
         {
             "name": "symfony/browser-kit",
