@@ -68,7 +68,6 @@ permissions:
   - 'hide more format tips link'
   - 'link to any page'
   - 'notify of path changes'
-  - 'replicate entities'
   - 'revert all revisions'
   - 'revert article revisions'
   - 'revert landing_page revisions'

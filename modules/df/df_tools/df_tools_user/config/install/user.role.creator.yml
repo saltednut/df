@@ -99,7 +99,6 @@ permissions:
   - 'edit terms in tags'
   - 'hide more format tips link'
   - 'post comments'
-  - 'replicate entities'
   - 'schedule editorial transition archive'
   - 'schedule editorial transition archived_published'
   - 'schedule editorial transition create_new_draft'

@@ -13,4 +13,5 @@ dependencies:
   - cohesion_elements
   - cohesion_style_helpers
   - cohesion_templates
+  - df_tools_blocks
   - lightning_layout

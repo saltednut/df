@@ -8,6 +8,7 @@ dependencies:
   - content_browser
   - entity_block
   - entity_browser_block
+  - entity_clone
   - df_core
   - df_tools_crop
   - df_tools_icons
@@ -22,5 +23,3 @@ dependencies:
   - text
   - user
   - responsive_image
-  - replicate
-  - replicate_ui

@@ -149,6 +149,10 @@
                 "Improve Field Widget UX for single-cardinality File/Image fields | http://drupal.org/node/2825555":
                 "https://www.drupal.org/files/issues/2018-06-16/entity_browser-single-value-widget-ux-2825555-20-D8.patch"
             },
+            "drupal/entity_clone": {
+                "Allow fields implementing EntityReferenceFieldItemListInterface to clone their referenced entities | https://drupal.org/node/3013286":
+                "https://www.drupal.org/files/issues/2019-02-22/3013286-8.patch"
+            },
             "drupal/gdpr": {
                 "Add icon to custom toolbar item | http://drupal.org/node/2972047":
                 "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch"
@@ -230,6 +234,7 @@
         "drupal/default_content_deploy": "1.0.0-alpha6",
         "drupal/dx8_addtoany": "^1.1",
         "drupal/entity_gallery": "1.x-dev",
+        "drupal/entity_clone": "1.0-beta3",
         "drupal/entity_usage": "2.0.0-beta1",
         "drupal/facets": "1.4.0",
         "drupal/field_formatter_class": "1.1.0",
@@ -261,8 +266,6 @@
         "drupal/page_manager": "4.0-beta4",
         "drupal/radix": "~4.6.0",
         "drupal/refreshless": "1.0.0-alpha3",
-        "drupal/replicate": "1.x-dev",
-        "drupal/replicate_ui": "1.x-dev",
         "drupal/responsive_preview": "1.0-beta1",
         "drupal/restui": "1.17.0",
         "drupal/revision_log_default": "1.0.0",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "325c2ad0c4142478c36737e52f7635e6",
+    "content-hash": "69955a8c0989b24840b126bfd12bf1db",
     "packages": [
         {
             "name": "acquia/acf",
@@ -6544,6 +6544,56 @@
             }
         },
         {
+            "name": "drupal/entity_clone",
+            "version": "1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_clone.git",
+                "reference": "8.x-1.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_clone-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "011ca7b8e2af77594f2d9df41954d5a950b0958c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1551868984",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                },
+                "patches_applied": {
+                    "Allow fields implementing EntityReferenceFieldItemListInterface to clone their referenced entities | https://drupal.org/node/3013286": "https://www.drupal.org/files/issues/2019-02-22/3013286-8.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "vpeltot",
+                    "homepage": "https://www.drupal.org/user/1361586"
+                }
+            ],
+            "description": "Add a clone action for all entities",
+            "homepage": "https://www.drupal.org/project/entity_clone",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_clone"
+            }
+        },
+        {
             "name": "drupal/entity_embed",
             "version": "1.0.0",
             "source": {
@@ -11543,123 +11593,6 @@
                 "issues": "https://www.drupal.org/project/issues/refreshless",
                 "irc": "irc://irc.freenode.org/drupal"
             }
-        },
-        {
-            "name": "drupal/replicate",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/replicate.git",
-                "reference": "77a694ab24797b15caa84b39dab2ac4fb467ca69"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc1+3-dev",
-                    "datestamp": "1576514586",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "geek-merlin",
-                    "homepage": "https://www.drupal.org/user/229048"
-                },
-                {
-                    "name": "jgalletta",
-                    "homepage": "https://www.drupal.org/user/1187850"
-                },
-                {
-                    "name": "vbouchet",
-                    "homepage": "https://www.drupal.org/user/1671428"
-                }
-            ],
-            "description": "Replicate provide an API to replicate (duplicate) entities. This modules also provide hooks to control exactly how parts of an entity are duplicated.",
-            "homepage": "https://www.drupal.org/project/replicate",
-            "support": {
-                "source": "https://git.drupalcode.org/project/replicate"
-            },
-            "time": "2019-12-16T16:42:23+00:00"
-        },
-        {
-            "name": "drupal/replicate_ui",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/replicate_ui.git",
-                "reference": "7ef1e609c52583f99b4f46604d17614561c68529"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9",
-                "drupal/replicate": "^1.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc1+1-dev",
-                    "datestamp": "1576516385",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "btopro",
-                    "homepage": "https://www.drupal.org/user/24286"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "dhruveshdtripathi",
-                    "homepage": "https://www.drupal.org/user/3083735"
-                },
-                {
-                    "name": "kbrinner",
-                    "homepage": "https://www.drupal.org/user/565800"
-                }
-            ],
-            "description": "Provides a UI for Replicate (local tasks, entity operations with a form)",
-            "homepage": "https://www.drupal.org/project/replicate_ui",
-            "support": {
-                "source": "https://git.drupalcode.org/project/replicate_ui"
-            },
-            "time": "2020-01-16T19:18:42+00:00"
         },
         {
             "name": "drupal/responsive_preview",
@@ -21881,8 +21814,6 @@
         "drupal/config_tools": 20,
         "drupal/entity_gallery": 20,
         "drupal/menu_item_extras": 20,
-        "drupal/replicate": 20,
-        "drupal/replicate_ui": 20,
         "drupal/scenarios": 20,
         "acquia/acf": 20,
         "drupal/basic_data": 20,

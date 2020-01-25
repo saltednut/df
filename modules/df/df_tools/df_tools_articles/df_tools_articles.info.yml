@@ -14,6 +14,7 @@ dependencies:
   - df_tools_layout
   - df_tools_workflow
   - content_browser
+  - entity_clone
   - image
   - language
   - link
@@ -22,7 +23,6 @@ dependencies:
   - metatag
   - node
   - pathauto
-  - replicate_ui
   - text
   - taxonomy
   - user
