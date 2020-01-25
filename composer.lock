@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "69955a8c0989b24840b126bfd12bf1db",
+    "content-hash": "bf1ed92083be874c866db0e29b2ff0c5",
     "packages": [
         {
             "name": "acquia/acf",
@@ -521,7 +521,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -8347,17 +8347,17 @@
         },
         {
             "name": "drupal/layout_builder_modal",
-            "version": "1.0.0-alpha2",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/layout_builder_modal.git",
-                "reference": "8.x-1.0-alpha2"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_builder_modal-8.x-1.0-alpha2.zip",
-                "reference": "8.x-1.0-alpha2",
-                "shasum": "241f5fea6639cd8dd4ed5c556b1e0ee05a96b589"
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_modal-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "d8680bd1cc203600db91545d2ee9eba4220f506f"
             },
             "require": {
                 "drupal/core": "^8.7.0"
@@ -8368,11 +8368,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha2",
+                    "version": "8.x-1.0",
                     "datestamp": "1579042983",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },

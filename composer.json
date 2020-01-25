@@ -247,7 +247,7 @@
         "drupal/image_effects": "2.3.0",
         "drupal/import": "2.0.0-beta2",
         "drupal/layout_builder_at": "2.10.0",
-        "drupal/layout_builder_modal": "1.0.0-alpha2",
+        "drupal/layout_builder_modal": "^1.0",
         "drupal/leaflet": "1.23.0",
         "drupal/link_class": "1.4.0",
         "drupal/linkit": "^4.3",
