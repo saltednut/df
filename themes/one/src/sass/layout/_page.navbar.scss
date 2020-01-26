@@ -1,9 +1,14 @@
 // Page: Navbar
 // -----------------------------------------------------------------------------
 
+.navbar .container {
+  align-items: stretch;
+}
+
 .navbar-brand {
   display: flex;
   align-items: center;
+  height: 100%;
 
   img {
     max-width: 130px;
@@ -22,6 +27,7 @@
 .navbar-left,
 .navbar-right {
   padding: $navbar-padding-y $navbar-padding-x;
+  height: 100%
 }
 
 @include media-breakpoint-up(lg) {
@@ -34,6 +40,23 @@
   }
 }
 
+.mr-auto {
+  height: 100%;
+}
 
+.navbar-left {
+  .block {
+    height: 100%;
+  }
 
+  .nav {
+    height: 100%;
+    align-items: center;
+  }
+}
 
+@include media-breakpoint-down(sm) {
+  .navbar-left .nav {
+    align-items: flex-start;
+  }
+}

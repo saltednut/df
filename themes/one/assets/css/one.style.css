@@ -11475,11 +11475,17 @@ article.node .card .img-thumbnail {
   width: 100%;
 }
 
+.navbar .container {
+  -webkit-box-align: stretch;
+          align-items: stretch;
+}
+
 .navbar-brand {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+  height: 100%;
 }
 
 .navbar-brand img {
@@ -11498,6 +11504,7 @@ article.node .card .img-thumbnail {
 .navbar-left,
 .navbar-right {
   padding: 0.5rem 1rem;
+  height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -11510,6 +11517,27 @@ article.node .card .img-thumbnail {
     display: flex;
     -webkit-box-align: center;
             align-items: center;
+  }
+}
+
+.mr-auto {
+  height: 100%;
+}
+
+.navbar-left .block {
+  height: 100%;
+}
+
+.navbar-left .nav {
+  height: 100%;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-left .nav {
+    -webkit-box-align: start;
+            align-items: flex-start;
   }
 }
 
