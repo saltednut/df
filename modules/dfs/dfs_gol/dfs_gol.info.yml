@@ -16,7 +16,6 @@ dependencies:
   - df_tools_landing_page
   - df_tools_layout
   - df_tools_media
-  - df_tools_menu
   - df_tools_workflow
   - responsive_preview
   - scenarios_contenthub

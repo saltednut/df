@@ -260,7 +260,6 @@
         "drupal/mautic": "1.1.0",
         "drupal/media_acquiadam": "1.37.0",
         "drupal/media_entity_video": "2.0.0-alpha1",
-        "drupal/menu_item_extras": "2.x-dev",
         "drupal/message": "1.0.0-rc2",
         "drupal/message_notify": "1.0.0-beta1",
         "drupal/moderation_note": "1.0-beta1",

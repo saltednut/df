@@ -1,7 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: mega-menu
-label: 'Mega Menu'
-description: 'A full-width dropdown menu.'
-locked: false

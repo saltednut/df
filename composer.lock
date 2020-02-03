@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "834151c1c7eb072657d8aef691278db8",
+    "content-hash": "acf908f38d2bffb5573ee554339c8f84",
     "packages": [
         {
             "name": "acquia/acf",
@@ -10030,74 +10030,6 @@
                 "source": "https://www.drupal.org/project/media_entity_video",
                 "issues": "https://www.drupal.org/project/issues/media_entity_video"
             }
-        },
-        {
-            "name": "drupal/menu_item_extras",
-            "version": "dev-2.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/menu_item_extras.git",
-                "reference": "0d0110a87f3e46074565b48b29e129d6f07bd3e7"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.9+2-dev",
-                    "datestamp": "1578676383",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Andriy Khomych",
-                    "homepage": "https://www.drupal.org/u/andriy-khomych",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Bogdan Hepting",
-                    "homepage": "https://www.drupal.org/u/bogdan-hepting",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Oleh Vehera",
-                    "homepage": "https://www.drupal.org/u/voleger",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Mykhailo Gurei",
-                    "homepage": "https://www.drupal.org/u/ozin",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Provide an additional custom fields which can be used on Menu link",
-            "homepage": "https://www.drupal.org/project/menu_item_extras",
-            "keywords": [
-                "Drupal",
-                "Mega Menu"
-            ],
-            "support": {
-                "source": "https://git.drupalcode.org/project/menu_item_extras",
-                "issues": "https://www.drupal.org/project/issues/menu_item_extras"
-            },
-            "time": "2020-01-10T17:11:36+00:00"
         },
         {
             "name": "drupal/message",
@@ -21822,7 +21754,6 @@
         "drupal/config_sync": 20,
         "drupal/config_tools": 20,
         "drupal/entity_gallery": 20,
-        "drupal/menu_item_extras": 20,
         "drupal/scenarios": 20,
         "acquia/acf": 20,
         "drupal/basic_data": 20,

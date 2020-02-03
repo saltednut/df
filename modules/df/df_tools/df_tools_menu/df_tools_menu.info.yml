@@ -1,8 +1,0 @@
-name: DF Tools Menu
-type: module
-description: Sets up a menu menu.
-core: 8.x
-package: Demo Framework Tools
-dependencies:
-  - layout_builder
-  - menu_item_extras
