@@ -1,6 +1,6 @@
 name: 'ACSF DF'
 type: profile
-description: 'Demo Framework configured to install on ACSF'
+description: 'Demo Framework configured to install on ACSF (Advanced Usage)'
 package: 'Demo Framework'
 core: 8.x
 base profile: df
