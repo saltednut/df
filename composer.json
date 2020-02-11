@@ -6,9 +6,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "drush/drush": "^9.0",
-        "drupal/console": "^1.9.0",
-        "acquia/lightning_dev": "dev-8.x-1.x"
+        "drupal/drupal-extension": "^3.4.0",
+        "se/selenium-server-standalone": "^2.53",
+        "drupal/devel": "*",
+        "drush/drush": "^9.4",
+        "consolidation/robo": "^1.2",
+        "drupal/console": "^1.8"
     },
     "repositories": {
         "drupal": {
@@ -18,10 +21,6 @@
         "assets": {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        "dev": {
-            "type": "vcs",
-            "url": "https://github.com/brantwynn/lightning-dev"
         },
         "lift": {
             "type": "vcs",
@@ -204,7 +203,7 @@
         }
     },
     "require": {
-        "acquia/lightning": "4.1.1",
+        "acquia/lightning": "4.1.2",
         "acquia/acquia-lift-samples": "dev-master",
         "acquia/content-hub-php": "2.x-dev",
         "acquia/lift-sdk-php": "dev-master",
@@ -239,6 +238,7 @@
         "drupal/default_content_deploy": "1.0.0-alpha6",
         "drupal/dx8_addtoany": "^1.1",
         "drupal/entity_gallery": "1.x-dev",
+        "drupal/entity_browser": "^2.4",
         "drupal/entity_clone": "1.0-beta3",
         "drupal/entity_usage": "2.0.0-beta1",
         "drupal/facets": "1.4.0",
