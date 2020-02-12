@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73d8b10c5de69e2e634591eb0e500f02",
+    "content-hash": "0d94459388c719f5b4eb259f0fdf57e2",
     "packages": [
         {
             "name": "acquia/acf",
@@ -1984,17 +1984,17 @@
         },
         {
             "name": "drupal/acquia_contenthub",
-            "version": "1.41.0",
+            "version": "1.45.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_contenthub.git",
-                "reference": "8.x-1.41"
+                "reference": "8.x-1.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-1.41.zip",
-                "reference": "8.x-1.41",
-                "shasum": "ac51d41639ddcaaf38ed3d58c55e30a74ef723bb"
+                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-1.45.zip",
+                "reference": "8.x-1.45",
+                "shasum": "51a207c749da5124618bfe2825e36f9f1da48f2d"
             },
             "require": {
                 "acquia/content-hub-php": "^1.3.2",
@@ -2010,8 +2010,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.41",
-                    "datestamp": "1571769187",
+                    "version": "8.x-1.45",
+                    "datestamp": "1579803486",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2162,17 +2162,17 @@
         },
         {
             "name": "drupal/acsf",
-            "version": "1.62.0",
+            "version": "1.63.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acsf.git",
-                "reference": "8.x-1.62"
+                "reference": "8.x-1.63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.62.zip",
-                "reference": "8.x-1.62",
-                "shasum": "75a274dcd0883fa720d6580fe5cac8957a7223d7"
+                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-1.63.zip",
+                "reference": "8.x-1.63",
+                "shasum": "92df8123fa6d3a76c02d84cd1eb3cabd356905f6"
             },
             "require": {
                 "drupal/acsf_duplication": "*",
@@ -2195,7 +2195,7 @@
                     "dev-8.x-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.62",
+                    "version": "8.x-1.63",
                     "datestamp": "1576067285",
                     "security-coverage": {
                         "status": "covered",
@@ -2263,7 +2263,7 @@
         },
         {
             "name": "drupal/acsf_duplication",
-            "version": "1.62.0",
+            "version": "1.63.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/core": "~8.0"
@@ -2274,7 +2274,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.62",
+                    "version": "8.x-1.63",
                     "datestamp": "1576067285",
                     "security-coverage": {
                         "status": "covered",
@@ -2336,7 +2336,7 @@
         },
         {
             "name": "drupal/acsf_theme",
-            "version": "1.62.0",
+            "version": "1.63.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/acsf_variables": "*",
@@ -2348,7 +2348,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.62",
+                    "version": "8.x-1.63",
                     "datestamp": "1576067285",
                     "security-coverage": {
                         "status": "covered",
@@ -2410,7 +2410,7 @@
         },
         {
             "name": "drupal/acsf_variables",
-            "version": "1.62.0",
+            "version": "1.63.0",
             "require": {
                 "drupal/acsf": "self.version",
                 "drupal/core": "~8.0"
@@ -2421,7 +2421,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.62",
+                    "version": "8.x-1.63",
                     "datestamp": "1576067285",
                     "security-coverage": {
                         "status": "covered",
@@ -7540,17 +7540,17 @@
         },
         {
             "name": "drupal/media_acquiadam",
-            "version": "1.36.0",
+            "version": "1.38.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_acquiadam.git",
-                "reference": "8.x-1.36"
+                "reference": "8.x-1.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.36.zip",
-                "reference": "8.x-1.36",
-                "shasum": "4335b72056bbad07814e2d5bfbbbcf5960bd4a10"
+                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.38.zip",
+                "reference": "8.x-1.38",
+                "shasum": "4ac4acda3ce417c4a76e278a5aaf359db678f2c2"
             },
             "require": {
                 "cweagans/php-webdam-client": "dev-master",
@@ -7565,7 +7565,6 @@
                 "drupal/fallback_formatter": "*",
                 "drupal/media": "*",
                 "drupal/media_acquiadam_example": "*",
-                "drupal/views-views": "*",
                 "phpunit/phpunit": "^6.5"
             },
             "type": "drupal-module",
@@ -7575,8 +7574,8 @@
                     "dev-8.x-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.36",
-                    "datestamp": "1574457487",
+                    "version": "8.x-1.38",
+                    "datestamp": "1580229697",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
