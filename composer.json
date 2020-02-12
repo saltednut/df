@@ -127,9 +127,12 @@
                 "Add UUID support. | http://drupal.org/node/2834377": "https://www.drupal.org/files/issues/2018-03-12/add-uuid-support-2834377-3.patch"
             },
             "drupal/entity_browser": {
-                "Fixed the issue of Call to a member function getConfigDependencyKey() on null | https://www.drupal.org/node/2845037": "https://www.drupal.org/files/issues/2845037-4.patch",
-                "Quick edit compatibility | https://www.drupal.org/node/2733605": "https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch",
-                "Combined patch | https://www.drupal.org/node/2825555 and https://www.drupal.org/node/2877751": "https://www.drupal.org/files/issues/2018-12-27/2877751-39_2825555-20_combined.patch"
+                "Fixed the issue of Call to a member function getConfigDependencyKey() on null | https://www.drupal.org/node/2845037":
+                "https://www.drupal.org/files/issues/2845037-4.patch",
+                "Quick edit compatibility | https://www.drupal.org/node/2733605":
+                "https://www.drupal.org/files/issues/entity-browser-quickedit-2733605.patch",
+                "Improve Field Widget UX for single-cardinality File/Image fields | http://drupal.org/node/2825555":
+                "https://www.drupal.org/files/issues/2018-06-16/entity_browser-single-value-widget-ux-2825555-20-D8.patch"
             },
             "drupal/material_admin": {
                 "3048894 - Update materialize library to v1.0.0":
@@ -196,6 +199,7 @@
         "drupal/config_tools": "1.x-dev",
         "drupal/content_browser": "1.0.0-alpha4",
         "drupal/custom_body_class": "1.2.0",
+        "drupal/entity_browser": "^2.4",
         "drupal/entity_browser_block": "1.x-dev",
         "drupal/entity_gallery": "1.x-dev",
         "drupal/entity_usage": "^2.0",
