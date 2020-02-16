@@ -304,6 +304,7 @@ projects[scenarios][download][type] = git
 projects[scenarios][download][url] = https://git.drupalcode.org/project/scenarios.git
 projects[scenarios][download][branch] = 4.x
 projects[scenarios][download][revision] = aedddd145fbb6d50e067fb8bf1da36c9d41475d1
+projects[scenarios][patch][] = https://www.drupal.org/files/issues/2020-02-16/3113974-update-dcd-importer-2.patch
 projects[schemata][type] = module
 projects[schemata][version] = 1.0-beta1
 projects[search_api][type] = module

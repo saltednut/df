@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b413253333d141755bdc739a941f0353",
+    "content-hash": "c8a8bc26e8c2df43912f38a78eb2206c",
     "packages": [
         {
             "name": "acquia/acf",
@@ -11856,6 +11856,9 @@
                     "services": {
                         "drush.services.yml": "^9"
                     }
+                },
+                "patches_applied": {
+                    "Update DCD importer for 1.0-alpha7 | http://drupal.org/node/3113974": "https://www.drupal.org/files/issues/2020-02-16/3113974-update-dcd-importer-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
