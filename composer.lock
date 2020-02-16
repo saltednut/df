@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e6becedbcddb58e9e8b99d49c2d62d1",
+    "content-hash": "bf2424573a581710d07fa812604affed",
     "packages": [
         {
             "name": "acquia/acf",
@@ -7135,20 +7135,20 @@
         },
         {
             "name": "drupal/field_group",
-            "version": "3.0.0-rc2",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/field_group.git",
-                "reference": "8.x-3.0-rc2"
+                "reference": "8.x-3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.0-rc2.zip",
-                "reference": "8.x-3.0-rc2",
-                "shasum": "53a9f55fa579b881a5fe12a3c84702e52a3d0737"
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "8d87cdc4abc417aa4d411bffcaeb0a3ef1afa497"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
@@ -7156,11 +7156,11 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-rc2",
+                    "version": "8.x-3.0",
                     "datestamp": "1580250787",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "RC releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -9742,17 +9742,17 @@
         },
         {
             "name": "drupal/media_acquiadam",
-            "version": "1.37.0",
+            "version": "1.38.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_acquiadam.git",
-                "reference": "8.x-1.37"
+                "reference": "8.x-1.38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.37.zip",
-                "reference": "8.x-1.37",
-                "shasum": "ad20b0711b52f0cfaa79bce1b0ee5c04bd467d54"
+                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.38.zip",
+                "reference": "8.x-1.38",
+                "shasum": "4ac4acda3ce417c4a76e278a5aaf359db678f2c2"
             },
             "require": {
                 "cweagans/php-webdam-client": "dev-master",
@@ -9776,7 +9776,7 @@
                     "dev-8.x-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.37",
+                    "version": "8.x-1.38",
                     "datestamp": "1580229697",
                     "security-coverage": {
                         "status": "covered",

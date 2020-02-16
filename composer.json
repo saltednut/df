@@ -243,7 +243,7 @@
         "drupal/entity_usage": "2.0.0-beta1",
         "drupal/facets": "1.4.0",
         "drupal/field_formatter_class": "1.1.0",
-        "drupal/field_group": "3.0-rc2",
+        "drupal/field_group": "3.0",
         "drupal/fontyourface": "3.2",
         "drupal/focal_point": "1.2.0",
         "drupal/geocoder": "2.7.0",
