@@ -128,13 +128,9 @@
                 "Error when trying to place a new block | http://drupal.org/node/3042028":
                 "https://www.drupal.org/files/issues/2019-03-21/runtime_exception_when_placing_block-3042028-2_0.patch"
             },
-            "drupal/default_content": {
-                "Do not reimport existing entities | https://drupal.org/node/2698425":
-                "https://www.drupal.org/files/issues/2018-12-11/default_content-dont-reimport-2698425-109.patch"
-            },
             "drupal/default_content_deploy": {
                 "Set content directory from the UI. | http://drupal.org/node/303830":
-                "https://www.drupal.org/files/issues/2019-03-07/set-content-directory-from-the-ui-3038303-2-dcd-1.0-alpha6.patch"
+                "https://www.drupal.org/files/issues/2020-01-15/contentdir-3038303-7.patch"
             },
             "drupal/entity_block": {
                 "Add UUID support. | http://drupal.org/node/2834377":
@@ -234,8 +230,8 @@
         "drupal/config_sync": "1.x-dev",
         "drupal/config_tools": "1.x-dev",
         "drupal/content_browser": "1.0.0-alpha4",
-        "drupal/default_content": "1.0.0-alpha7",
-        "drupal/default_content_deploy": "1.0.0-alpha6",
+        "drupal/default_content": "1.0.0-alpha8",
+        "drupal/default_content_deploy": "1.0.0-alpha7",
         "drupal/dx8_addtoany": "^1.1",
         "drupal/entity_gallery": "1.x-dev",
         "drupal/entity_browser": "^2.4",
