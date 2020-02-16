@@ -32,7 +32,7 @@
         },
         "cohesion": {
             "type": "vcs",
-            "url": "https://github.com/acquia/cohesion"
+            "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
         },
         "cohesion-theme": {
             "type": "vcs",
@@ -205,7 +205,7 @@
     "require": {
         "acquia/lightning": "4.1.2",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "6.0.0",
+        "cohesion/dx8": "6.0.0",
         "cohesion/dx8-theme": "6.0.0",
         "acquia/content-hub-php": "2.x-dev",
         "acquia/lift-sdk-php": "dev-master",
