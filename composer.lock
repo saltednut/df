@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2a3cc4f0acf9bb646f1ef5232442faf",
+    "content-hash": "89c9cc0478771cc23cdf7a5e4a09de09",
     "packages": [
         {
             "name": "acquia/acf",
@@ -11311,17 +11311,17 @@
         },
         {
             "name": "drupal/radix",
-            "version": "4.6.0",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/radix.git",
-                "reference": "8.x-4.6"
+                "reference": "8.x-4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.6.zip",
-                "reference": "8.x-4.6",
-                "shasum": "ba5b978bfc226ea4a86e330dc9c1b50f00c81b95"
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.7.zip",
+                "reference": "8.x-4.7",
+                "shasum": "05c5acdffe5004c04476e17fcf75ab22e4d8fb37"
             },
             "require": {
                 "drupal/components": "^1.0",
@@ -11333,7 +11333,7 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.6",
+                    "version": "8.x-4.7",
                     "datestamp": "1580057581",
                     "security-coverage": {
                         "status": "covered",
@@ -11346,7 +11346,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Integrate with OffCanvas (Layout Builder) | http://drupal.org/node/3053579": "https://www.drupal.org/files/issues/2019-05-14/integrate-with-offcanvas-3053579-3.patch"
+                    "Integrate with OffCanvas (Layout Builder) | http://drupal.org/node/3053579": "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch"
                 }
             },
             "autoload": {
