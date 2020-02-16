@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89c9cc0478771cc23cdf7a5e4a09de09",
+    "content-hash": "46890faae5986c02eae835a563467df0",
     "packages": [
         {
             "name": "acquia/acf",
@@ -121,28 +121,6 @@
                 "issues": "https://github.com/acquia/cohesion/issues"
             },
             "time": "2020-02-10T15:48:26+00:00"
-        },
-        {
-            "name": "acquia/cohesion-theme",
-            "version": "6.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:acquia/cohesion-theme.git",
-                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/019a02e0853e0c08a423303a0fb8c6461423ce8b",
-                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b",
-                "shasum": ""
-            },
-            "type": "drupal-theme",
-            "description": "Acquia Cohesion minimal theme",
-            "support": {
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.0.0",
-                "issues": "https://github.com/acquia/cohesion-theme/issues"
-            },
-            "time": "2020-02-10T15:48:48+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -862,6 +840,28 @@
             ],
             "description": "Drupal code generator",
             "time": "2019-12-07T16:54:31+00:00"
+        },
+        {
+            "name": "cohesion/dx8-theme",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
+                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/019a02e0853e0c08a423303a0fb8c6461423ce8b.zip",
+                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "description": "Acquia Cohesion minimal theme",
+            "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
+            "support": {
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/019a02e0853e0c08a423303a0fb8c6461423ce8b/?at=6.0.0"
+            },
+            "time": "2020-02-10T15:48:48+00:00"
         },
         {
             "name": "commerceguys/addressing",
