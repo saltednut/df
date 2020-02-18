@@ -1,3 +1,7 @@
+.ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-actions .moderation-sidebar-link {
+  letter-spacing: normal;
+}
+
 /* Create New Draft */
 .ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-actions #create_new_draft {
   background-color: #ef6c00;
@@ -37,8 +41,6 @@
 .ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-actions #publish:focus {
   background-color: #70ac3c;
 }
-
-
 
 /* Create New Draft (New UI)*/
 .ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-primary-tasks #create_new_draft {
