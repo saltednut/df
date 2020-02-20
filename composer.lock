@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf2424573a581710d07fa812604affed",
+    "content-hash": "17d88918484cf030188da2154f990fbf",
     "packages": [
         {
             "name": "acquia/acf",
@@ -73,32 +73,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/content-hub-php.git",
-                "reference": "825512a5f7933191b613317fafc6c3b8db9e7712"
+                "reference": "4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/825512a5f7933191b613317fafc6c3b8db9e7712",
-                "reference": "825512a5f7933191b613317fafc6c3b8db9e7712",
+                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445",
+                "reference": "4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445",
                 "shasum": ""
             },
             "require": {
                 "acquia/http-hmac-php": "~3.4|~4.0",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "~6.0",
-                "php": ">=5.6",
+                "php": ">=7.1",
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.7|^3.2",
                 "symfony/http-foundation": "~2.7|^3.2",
                 "symfony/serializer": "~2.7|^3.2"
             },
             "require-dev": {
+                "drupal/coder": "^8.3",
                 "mockery/mockery": "^1.2",
                 "pdepend/pdepend": "~1.0",
                 "phploc/phploc": "~2.0",
                 "phpmd/phpmd": "~1.0",
                 "phpunit/phpunit": "^7",
                 "scrutinizer/ocular": "~1.0",
-                "sebastian/phpcpd": "~2.0"
+                "sebastian/phpcpd": "~2.0",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "suggest": {
                 "ramsey/uuid": "A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID)"
@@ -121,7 +123,7 @@
             ],
             "description": "A PHP Client library to consume the Acquia Content Hub API.",
             "homepage": "https://github.com/acquia/content-hub-php",
-            "time": "2020-02-13T19:05:37+00:00"
+            "time": "2020-02-19T20:20:18+00:00"
         },
         {
             "name": "acquia/http-hmac-php",
@@ -792,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
-                "reference": "bf076c8a01dca261a829c29ebdd5d2d9abec5673"
+                "reference": "2896123b755e76b7fab09724bc133a16de907264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/bf076c8a01dca261a829c29ebdd5d2d9abec5673.zip",
-                "reference": "bf076c8a01dca261a829c29ebdd5d2d9abec5673",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/2896123b755e76b7fab09724bc133a16de907264.zip",
+                "reference": "2896123b755e76b7fab09724bc133a16de907264",
                 "shasum": ""
             },
             "require": {
@@ -837,9 +839,9 @@
             "description": "Acquia Cohesion",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/bf076c8a01dca261a829c29ebdd5d2d9abec5673/?at=6.0.0"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/2896123b755e76b7fab09724bc133a16de907264/?at=6.0.0"
             },
-            "time": "2020-02-10T15:48:26+00:00"
+            "time": "2020-02-17T10:09:21+00:00"
         },
         {
             "name": "cohesion/dx8-theme",
@@ -847,21 +849,21 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
-                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b"
+                "reference": "870ac6cf57f4e78ba47f3d22abe4dd96016abb41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/019a02e0853e0c08a423303a0fb8c6461423ce8b.zip",
-                "reference": "019a02e0853e0c08a423303a0fb8c6461423ce8b",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/870ac6cf57f4e78ba47f3d22abe4dd96016abb41.zip",
+                "reference": "870ac6cf57f4e78ba47f3d22abe4dd96016abb41",
                 "shasum": ""
             },
             "type": "drupal-theme",
             "description": "Acquia Cohesion minimal theme",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/019a02e0853e0c08a423303a0fb8c6461423ce8b/?at=6.0.0"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/870ac6cf57f4e78ba47f3d22abe4dd96016abb41/?at=6.0.0"
             },
-            "time": "2020-02-10T15:48:48+00:00"
+            "time": "2020-02-17T10:09:33+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -1544,26 +1546,26 @@
         },
         {
             "name": "consolidation/robo",
-            "version": "1.4.11",
+            "version": "1.4.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/Robo.git",
-                "reference": "5fa1d901776a628167a325baa9db95d8edf13a80"
+                "reference": "eb45606f498b3426b9a98b7c85e300666a968e51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/Robo/zipball/5fa1d901776a628167a325baa9db95d8edf13a80",
-                "reference": "5fa1d901776a628167a325baa9db95d8edf13a80",
+                "url": "https://api.github.com/repos/consolidation/Robo/zipball/eb45606f498b3426b9a98b7c85e300666a968e51",
+                "reference": "eb45606f498b3426b9a98b7c85e300666a968e51",
                 "shasum": ""
             },
             "require": {
-                "consolidation/annotated-command": "^2.11.0",
-                "consolidation/config": "^1.2",
-                "consolidation/log": "~1",
-                "consolidation/output-formatters": "^3.1.13",
-                "consolidation/self-update": "^1",
-                "grasmash/yaml-expander": "^1.3",
-                "league/container": "^2.2",
+                "consolidation/annotated-command": "^2.11.0|^4.1",
+                "consolidation/config": "^1.2.1",
+                "consolidation/log": "^1.1.1|^2",
+                "consolidation/output-formatters": "^3.1.13|^4.1",
+                "consolidation/self-update": "^1.1.5",
+                "grasmash/yaml-expander": "^1.4",
+                "league/container": "^2.4.1",
                 "php": ">=5.5.0",
                 "symfony/console": "^2.8|^3|^4",
                 "symfony/event-dispatcher": "^2.5|^3|^4",
@@ -1575,20 +1577,13 @@
                 "codegyre/robo": "< 1.0"
             },
             "require-dev": {
-                "codeception/aspect-mock": "^1|^2.1.1",
-                "codeception/base": "^2.3.7",
-                "codeception/verify": "^0.3.2",
                 "g1a/composer-test-scenarios": "^3",
-                "goaop/framework": "~2.1.2",
-                "goaop/parser-reflection": "^1.1.0",
                 "natxet/cssmin": "3.0.4",
-                "nikic/php-parser": "^3.1.5",
-                "patchwork/jsqueeze": "~2",
+                "patchwork/jsqueeze": "^2",
                 "pear/archive_tar": "^1.4.4",
                 "php-coveralls/php-coveralls": "^1",
-                "phpunit/php-code-coverage": "~2|~4",
-                "sebastian/comparator": "^1.2.4",
-                "squizlabs/php_codesniffer": "^2.8"
+                "phpunit/phpunit": "^5.7.27",
+                "squizlabs/php_codesniffer": "^3"
             },
             "suggest": {
                 "henrikbjorn/lurker": "For monitoring filesystem changes in taskWatch",
@@ -1616,8 +1611,11 @@
                         "require": {
                             "symfony/console": "^2.8"
                         },
+                        "require-dev": {
+                            "phpunit/phpunit": "^4.8.36"
+                        },
                         "remove": [
-                            "goaop/framework"
+                            "php-coveralls/php-coveralls"
                         ],
                         "config": {
                             "platform": {
@@ -1630,7 +1628,7 @@
                     }
                 },
                 "branch-alias": {
-                    "dev-master": "2.x-dev"
+                    "dev-master": "1.x-dev"
                 }
             },
             "autoload": {
@@ -1649,7 +1647,7 @@
                 }
             ],
             "description": "Modern task runner",
-            "time": "2019-10-29T15:50:02+00:00"
+            "time": "2020-02-18T17:31:26+00:00"
         },
         {
             "name": "consolidation/self-update",
@@ -7162,6 +7160,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Undefined property: stdClass::$region in field_group_form_process() | https://drupal.org/node/3059614": "https://www.drupal.org/files/issues/2019-09-08/undefined-property-region-3059614-16.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7583,7 +7584,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.7",
-                    "datestamp": "1580097184",
+                    "datestamp": "1582062548",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9252,7 +9253,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lightning_media.git",
-                "reference": "be85891aff32feb29c4e1e4812b2197573087a61"
+                "reference": "45df27a533a8eb81f3b83725b2f360fad6bb9525"
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
@@ -9270,6 +9271,7 @@
                 "drupal/lightning_core": "3.* || 4.* || 5.*",
                 "drupal/media_entity_instagram": "^2.0",
                 "drupal/media_entity_twitter": "^2.1",
+                "drupal/slick": "2.0",
                 "drupal/slick_entityreference": "^2.0",
                 "drupal/video_embed_field": "^2.0",
                 "drupal/views_infinite_scroll": "^1.6",
@@ -9299,8 +9301,8 @@
                     "dev-8.x-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.15+6-dev",
-                    "datestamp": "1579794181",
+                    "version": "8.x-3.15+7-dev",
+                    "datestamp": "1580415657",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -9393,7 +9395,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/lightning_media"
             },
-            "time": "2020-01-30T20:19:31+00:00"
+            "time": "2020-02-19T20:50:24+00:00"
         },
         {
             "name": "drupal/lightning_workflow",
@@ -12582,17 +12584,17 @@
         },
         {
             "name": "drupal/slick",
-            "version": "2.1.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/slick.git",
-                "reference": "8.x-2.1"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/slick-8.x-2.1.zip",
-                "reference": "8.x-2.1",
-                "shasum": "126dd674ee5b074b1893fd060caa437ecbd8b2bd"
+                "url": "https://ftp.drupal.org/files/projects/slick-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "62c5fb90670b66c0c1054e077352e8b5620d045c"
             },
             "require": {
                 "drupal/blazy": "~2.0",
@@ -12604,7 +12606,7 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.1",
+                    "version": "8.x-2.0",
                     "datestamp": "1581756259",
                     "security-coverage": {
                         "status": "covered",
