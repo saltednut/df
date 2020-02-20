@@ -282,6 +282,7 @@
         "drupal/search_api_autocomplete": "1.2.0",
         "drupal/search_api_solr": "1.2.0",
         "drupal/scenarios": "4.x-dev",
+        "drupal/slick" : "2.1.0 as 2.0.0",
         "drupal/swiftmailer": "1.0.0-beta2",
         "drupal/view_modes_display": "2.1.0",
         "drupal/webform": "5.8.0",
