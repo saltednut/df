@@ -211,7 +211,7 @@
         "acquia/acquia-lift-samples": "dev-master",
         "cohesion/dx8": "6.0.0",
         "cohesion/dx8-theme": "6.0.0",
-        "acquia/content-hub-php": "2.x-dev",
+        "acquia/content-hub-php": "2.x-dev#825512a5f7933191b613317fafc6c3b8db9e7712 as 2.x-dev",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",

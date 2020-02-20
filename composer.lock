@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17d88918484cf030188da2154f990fbf",
+    "content-hash": "43fcb0dfdfc02e238088ce3028ecc90b",
     "packages": [
         {
             "name": "acquia/acf",
@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/content-hub-php.git",
-                "reference": "4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445"
+                "reference": "825512a5f7933191b613317fafc6c3b8db9e7712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445",
-                "reference": "4704e6bdfe5a5c75ec8b01e2c62cbc2ce1552445",
+                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/825512a5f7933191b613317fafc6c3b8db9e7712",
+                "reference": "825512a5f7933191b613317fafc6c3b8db9e7712",
                 "shasum": ""
             },
             "require": {
@@ -123,7 +123,7 @@
             ],
             "description": "A PHP Client library to consume the Acquia Content Hub API.",
             "homepage": "https://github.com/acquia/content-hub-php",
-            "time": "2020-02-19T20:20:18+00:00"
+            "time": "2020-02-13T19:05:37+00:00"
         },
         {
             "name": "acquia/http-hmac-php",
@@ -519,7 +519,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -19756,7 +19756,14 @@
             "time": "2020-01-01T11:03:25+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "2.x-dev",
+            "alias_normalized": "2.9999999.9999999.9999999-dev",
+            "version": "2.9999999.9999999.9999999-dev",
+            "package": "acquia/content-hub-php"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "acquia/acquia-lift-samples": 20,
