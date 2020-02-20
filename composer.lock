@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-lift-samples.git",
-                "reference": "1e5be8edc628fcdc42afd4fb2d835f5860cd0e66"
+                "reference": "9d3d2fab155370869d8fc1fb2a5a6e1a90bf97d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/1e5be8edc628fcdc42afd4fb2d835f5860cd0e66",
-                "reference": "1e5be8edc628fcdc42afd4fb2d835f5860cd0e66",
+                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/9d3d2fab155370869d8fc1fb2a5a6e1a90bf97d6",
+                "reference": "9d3d2fab155370869d8fc1fb2a5a6e1a90bf97d6",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -65,7 +65,7 @@
                 "source": "https://github.com/acquia/acquia-lift-samples/tree/master",
                 "issues": "https://github.com/acquia/acquia-lift-samples/issues"
             },
-            "time": "2020-02-14T14:05:42+00:00"
+            "time": "2020-02-20T19:51:45+00:00"
         },
         {
             "name": "acquia/content-hub-php",
