@@ -188,11 +188,6 @@
             }
         },
         "patches-ignore": {
-            "acquia/lightning": {
-                "drupal/core": {
-                    "3096566 - Copy media library styles from Seven to Claro & 3096241 - Refactor image and file field widgets to improve contrib compatibility and to make their templates and preprocess functions DRY": "https://www.drupal.org/files/issues/2019-12-16/3096566-23-combined-3096241-3.patch"
-                }
-            },
             "drupal/lightning_layout": {
                 "drupal/core": {
                     "2955065 - Customized layout does not display for node with customizations enabled when using full content view mode": "https://www.drupal.org/files/issues/2019-03-25/2955065-25.patch"
