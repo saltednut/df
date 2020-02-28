@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2025ee0547c500a51e804d0fdb9da8b1",
+    "content-hash": "182e808e996c6d3265b998a0c1423f25",
     "packages": [
         {
             "name": "acquia/acf",
@@ -8190,20 +8190,20 @@
         },
         {
             "name": "drupal/jsonapi_hypermedia",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/jsonapi_hypermedia.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi_hypermedia-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "c2d1f20150e909645c198d288eec5e5077cfa024"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_hypermedia-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "10f9e9fdfe8ae465d277f13c1d98e9389b14dec1"
             },
             "require": {
-                "drupal/core": "^8.8"
+                "drupal/core": "^8.8 || ^9.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -8211,8 +8211,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1580498787",
+                    "version": "8.x-1.6",
+                    "datestamp": "1582916946",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8254,17 +8254,17 @@
         },
         {
             "name": "drupal/jsonapi_schema",
-            "version": "1.0.0-alpha7",
+            "version": "1.0.0-alpha8",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/jsonapi_schema.git",
-                "reference": "8.x-1.0-alpha7"
+                "reference": "8.x-1.0-alpha8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/jsonapi_schema-8.x-1.0-alpha7.zip",
-                "reference": "8.x-1.0-alpha7",
-                "shasum": "e8f5247fa208353ebf0888b24595486034e0b2cc"
+                "url": "https://ftp.drupal.org/files/projects/jsonapi_schema-8.x-1.0-alpha8.zip",
+                "reference": "8.x-1.0-alpha8",
+                "shasum": "05012839860c36a019b66ba4471dbfd96fd51e70"
             },
             "require": {
                 "drupal/core": "*"
@@ -8275,8 +8275,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha7",
-                    "datestamp": "1572640984",
+                    "version": "8.x-1.0-alpha8",
+                    "datestamp": "1582916778",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
