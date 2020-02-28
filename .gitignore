@@ -16,6 +16,9 @@ bin/
 docroot/
 vendor/
 
+# Drush local
+drush/
+
 # Drupal Console
 console/
 
