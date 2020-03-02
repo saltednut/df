@@ -186,13 +186,6 @@
               "Youtube looping | http://drupal.org/node/2866001":
               "https://www.drupal.org/files/issues/2019-04-26/video_embed_field-youtube_loop-2866001-12.patch"
             }
-        },
-        "patches-ignore": {
-            "drupal/lightning_layout": {
-                "drupal/core": {
-                    "2955065 - Customized layout does not display for node with customizations enabled when using full content view mode": "https://www.drupal.org/files/issues/2019-03-25/2955065-25.patch"
-                }
-            }
         }
     },
     "require": {
