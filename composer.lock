@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d79caa414a1c57d7fdb85809642a811",
+    "content-hash": "ade29457e8f51781ef77df2fd6a45b4d",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5851,10 +5851,10 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "9e38a18785fd4b786765a7356a983d549363b3cb"
+                "reference": "39e537e29dbe7e1f0a5171beb7a5021e62cdc574"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "require-dev": {
                 "drupal/entity_embed": "^1.0"
@@ -5893,7 +5893,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/depcalc"
             },
-            "time": "2020-02-24T22:25:06+00:00"
+            "time": "2020-03-02T17:46:48+00:00"
         },
         {
             "name": "drupal/devel",
