@@ -112,7 +112,9 @@
                 "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865":
                 "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                 "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906":
-                "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch"
+                "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
+                "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975":
+                "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch"
             },
             "drupal/acquia_contenthub": {
                 "Errors on inserting duplicate entries into acquia_contenthub_publisher_export_tracking table| http://drupal.org/node/3075535":

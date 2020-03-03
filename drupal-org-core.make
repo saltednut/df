@@ -20,6 +20,7 @@ projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-08-29/26421
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-07-07/jsonapi_routes_config_catching.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch
+projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch
