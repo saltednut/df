@@ -12,6 +12,7 @@ dependencies:
   - df_tools_crop
   - df_tools_comment
   - df_tools_layout
+  - df_tools_services
   - df_tools_workflow
   - content_browser
   - entity_clone
