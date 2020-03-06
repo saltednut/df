@@ -177,8 +177,8 @@
               "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch"
             },
             "drupal/scenarios": {
-              "Update DCD importer for 1.0-alpha7 | http://drupal.org/node/3113974":
-              "https://www.drupal.org/files/issues/2020-02-16/3113974-update-dcd-importer-2.patch"
+              "Update DCD importer | http://drupal.org/node/3113974":
+              "https://www.drupal.org/files/issues/2020-03-06/3113974-update-dcd-dev-importer-4.patch"
             },
             "drupal/video_embed_field": {
               "Youtube looping | http://drupal.org/node/2866001":
