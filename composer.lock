@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "51afdec57f308c80e06f70292a4a8bb6",
+    "content-hash": "467d7b319ed017d1f20345c0788041cb",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5844,7 +5844,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "6e5e481e06e338d8d44ac449d1dd249b9955749c"
+                "reference": "6fdcfe2c05dcac9e4d44968cb3e29871496bd7d8"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -5859,8 +5859,8 @@
                     "dev-8.x-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1+3-dev",
-                    "datestamp": "1583269084",
+                    "version": "8.x-1.0-beta1+4-dev",
+                    "datestamp": "1583352650",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5886,7 +5886,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/depcalc"
             },
-            "time": "2020-03-04T19:41:24+00:00"
+            "time": "2020-03-06T19:17:45+00:00"
         },
         {
             "name": "drupal/devel",
@@ -17807,6 +17807,49 @@
                 "geoip"
             ],
             "time": "2015-12-06T20:17:20+00:00"
+        },
+        {
+            "name": "zaporylie/composer-drupal-optimizations",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zaporylie/composer-drupal-optimizations.git",
+                "reference": "fb231d92adc862a2c9276bccbc90f684816dc75d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zaporylie/composer-drupal-optimizations/zipball/fb231d92adc862a2c9276bccbc90f684816dc75d",
+                "reference": "fb231d92adc862a2c9276bccbc90f684816dc75d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.6",
+                "phpunit/phpunit": "^6"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "zaporylie\\ComposerDrupalOptimizations\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "zaporylie\\ComposerDrupalOptimizations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Piasecki",
+                    "email": "jakub@piaseccy.pl"
+                }
+            ],
+            "description": "Composer plugin to improve composer performance for Drupal projects",
+            "time": "2019-10-02T17:01:11+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
