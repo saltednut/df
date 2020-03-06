@@ -131,8 +131,8 @@
                 "https://www.drupal.org/files/issues/2019-03-21/runtime_exception_when_placing_block-3042028-2_0.patch"
             },
             "drupal/default_content_deploy": {
-                "Set content directory from the UI. | http://drupal.org/node/303830":
-                "https://www.drupal.org/files/issues/2020-01-15/contentdir-3038303-7.patch"
+                "Add export form. | http://drupal.org/node/3116991":
+                "https://www.drupal.org/files/issues/2020-03-06/3116991_3070222_combined-01.patch"
             },
             "drupal/entity_block": {
                 "Add UUID support. | http://drupal.org/node/2834377":
