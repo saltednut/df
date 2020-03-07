@@ -59,7 +59,8 @@ class ArticleNodeEndpointBlock extends BlockBase implements ContainerFactoryPlug
     $json_output = (string) $this->httpClient->get($base_url . '/api/node/article')->getBody();
     $json_pretty = json_encode(json_decode($json_output), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
     $json_indented_by_2 = preg_replace('/^(  +?)\\1(?=[^ ])/m', '$1', $json_pretty);
-    $build['article_node_endpoint_block']['#markup'] = '<a data-toggle="language-json" class="button small">Expand Code</a> <div id="language-json" class="api-demo" data-toggler=".expanded"><pre><code class="language-json">' . $json_indented_by_2 . '</code></pre></div>';
+    $build['article_node_endpoint_block']['#markup'] = '<a class="btn btn-primary" data-toggle="collapse" href="#collapseCode" role="button" aria-expanded="false" aria-controls="collapseExample">Show/Hide API Response</a>
+    <div class="collapse.show" id="collapseCode"><pre><code class="language-json">' . $json_indented_by_2 . '</code></pre></div>';
     $build['article_node_endpoint_block']['#attached']['library'][] = 'df_tools_articles/main';
     return $build;
   }

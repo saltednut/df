@@ -5,7 +5,7 @@ dependencies: {  }
 id: api_demo
 label: 'API Demo'
 description: ''
-use_admin_theme: true
+use_admin_theme: false
 path: /api-demo
 access_logic: and
 access_conditions: {  }
