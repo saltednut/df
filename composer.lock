@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "467d7b319ed017d1f20345c0788041cb",
+    "content-hash": "73f2f93c2e3341c75fad1bd793bc05df",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5809,7 +5809,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Add export form. | http://drupal.org/node/3116991": "https://www.drupal.org/files/issues/2020-03-06/3116991_3070222_combined-01.patch"
+                    "Export to tar VIA GUI. | http://drupal.org/node/3070222": "https://www.drupal.org/files/issues/2020-03-09/3070222-8.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
