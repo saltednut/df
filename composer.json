@@ -120,10 +120,6 @@
                 "Errors on inserting duplicate entries into acquia_contenthub_publisher_export_tracking table| http://drupal.org/node/3075535":
                 "https://www.drupal.org/files/issues/2019-11-08/acquia_contenthub-3075535-publisher_tracking_table_merge-3.patch"
             },
-            "drupal/better_normalizers": {
-                "File import appends existing file names | http://drupal.org/node/2864407":
-                "https://www.drupal.org/files/issues/2020-01-07/2864407-file-replace-20.patch"
-            },
             "drupal/block_class": {
                 "Integration with Drupal core's new Layout Builder| http://drupal.org/node/2998114":
                 "https://www.drupal.org/files/issues/2019-11-30/2998114-67.patch"
