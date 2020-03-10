@@ -37,6 +37,7 @@ projects[basic_data][download][url] = https://git.drupalcode.org/project/basic_d
 projects[basic_data][download][branch] = 1.x
 projects[basic_data][download][revision] = 793d0a87e5480ce4094f0e45e74056206edaa4ec
 projects[better_normalizers][type] = module
+projects[better_normalizers][patch][] = https://www.drupal.org/files/issues/2020-01-07/2864407-file-replace-20.patch
 projects[better_normalizers][version] = 1.0-beta4
 projects[bg_image_formatter][type] = module
 projects[bg_image_formatter][version] = 1.12

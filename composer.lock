@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73f2f93c2e3341c75fad1bd793bc05df",
+    "content-hash": "8d33922b27692ab2dff3f06f266cdda8",
     "packages": [
         {
             "name": "acquia/acf",
@@ -4088,6 +4088,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "File import appends existing file names | http://drupal.org/node/2864407": "https://www.drupal.org/files/issues/2020-01-07/2864407-file-replace-20.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
