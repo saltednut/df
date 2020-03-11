@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e197b4c430a4df5b6cf20d5895364bb7",
+    "content-hash": "342b9c479324ecc6e86d1f167e051bdc",
     "packages": [
         {
             "name": "acquia/acf",
@@ -790,16 +790,16 @@
         },
         {
             "name": "cohesion/dx8",
-            "version": "6.0.0",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
-                "reference": "2896123b755e76b7fab09724bc133a16de907264"
+                "reference": "8781e40763bfc5e271fdfcded70f48fadf2c0a95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/2896123b755e76b7fab09724bc133a16de907264.zip",
-                "reference": "2896123b755e76b7fab09724bc133a16de907264",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/8781e40763bfc5e271fdfcded70f48fadf2c0a95.zip",
+                "reference": "8781e40763bfc5e271fdfcded70f48fadf2c0a95",
                 "shasum": ""
             },
             "require": {
@@ -839,31 +839,31 @@
             "description": "Acquia Cohesion",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/2896123b755e76b7fab09724bc133a16de907264/?at=6.0.0"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/8781e40763bfc5e271fdfcded70f48fadf2c0a95/?at=6.0.2"
             },
-            "time": "2020-02-17T10:09:21+00:00"
+            "time": "2020-03-10T12:31:22+00:00"
         },
         {
             "name": "cohesion/dx8-theme",
-            "version": "6.0.0",
+            "version": "6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
-                "reference": "870ac6cf57f4e78ba47f3d22abe4dd96016abb41"
+                "reference": "c6c7f10c6c5c6b05c19e1ba963da87c4f2145ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/870ac6cf57f4e78ba47f3d22abe4dd96016abb41.zip",
-                "reference": "870ac6cf57f4e78ba47f3d22abe4dd96016abb41",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/c6c7f10c6c5c6b05c19e1ba963da87c4f2145ed1.zip",
+                "reference": "c6c7f10c6c5c6b05c19e1ba963da87c4f2145ed1",
                 "shasum": ""
             },
             "type": "drupal-theme",
             "description": "Acquia Cohesion minimal theme",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/870ac6cf57f4e78ba47f3d22abe4dd96016abb41/?at=6.0.0"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/c6c7f10c6c5c6b05c19e1ba963da87c4f2145ed1/?at=6.0.2"
             },
-            "time": "2020-02-17T10:09:33+00:00"
+            "time": "2020-03-10T12:31:33+00:00"
         },
         {
             "name": "commerceguys/addressing",

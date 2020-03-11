@@ -189,8 +189,8 @@
     "require": {
         "acquia/lightning": "4.1.2",
         "acquia/acquia-lift-samples": "dev-master",
-        "cohesion/dx8": "6.0.0",
-        "cohesion/dx8-theme": "6.0.0",
+        "cohesion/dx8": "6.0.2",
+        "cohesion/dx8-theme": "6.0.2",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
