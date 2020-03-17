@@ -22,11 +22,7 @@ dependencies:
     - field.field.block_content.hero.field_text_align
     - field.field.block_content.hero.field_text_color
   module:
-    - layout_builder
     - link
-third_party_settings:
-  layout_builder:
-    sections: {  }
 id: block_content.hero.featured
 targetEntityType: block_content
 bundle: hero

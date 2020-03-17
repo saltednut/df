@@ -15,9 +15,6 @@ dependencies:
   - df_tools_media
   - node
   - image
-  - lightning_banner_block
-  - layout_builder_modal
-  - lightning_layout
   - link
   - inline_entity_form
   - text

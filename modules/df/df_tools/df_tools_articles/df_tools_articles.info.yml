@@ -9,9 +9,8 @@ dependencies:
   - datetime
   - df_core
   - df_tools_blocks
-  - df_tools_crop
   - df_tools_comment
-  - df_tools_layout
+  - df_tools_media
   - df_tools_workflow
   - content_browser
   - entity_clone

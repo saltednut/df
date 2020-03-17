@@ -4,10 +4,10 @@ dependencies:
   config:
     - entity_browser.browser.media_browser_in_modal
     - field.field.node.event.body
-    - field.field.node.event.field_event_end_time
-    - field.field.node.event.field_event_start_time
+    - field.field.node.event.field_end_time
     - field.field.node.event.field_image
     - field.field.node.event.field_location
+    - field.field.node.event.field_start_time
     - field.field.node.event.field_tags
     - field.field.node.event.field_type
     - node.type.event
@@ -44,6 +44,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_end_time:
+    weight: 126
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_timestamp
+    region: content
   field_event_end_time:
     weight: 16
     settings: {  }
@@ -79,13 +85,21 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
+  field_start_time:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_timestamp
+    region: content
   field_tags:
     weight: 13
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
@@ -95,6 +109,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
     type: entity_reference_autocomplete
     region: content
@@ -153,7 +168,12 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     region: content
     third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
 hidden: {  }
-

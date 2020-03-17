@@ -14,164 +14,10 @@ dependencies:
     - field.field.node.person.field_type
     - node.type.person
   module:
-    - df_tools_layout
-    - layout_builder
-    - layout_builder_restrictions
-    - layout_library
     - metatag
     - options
     - text
     - user
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: true
-    sections:
-      -
-        layout_id: layouts_12
-        layout_settings:
-          gap: gap-0
-          full_width: 1
-          class: ''
-        components:
-          3b6175ad-7621-4211-8e21-ba34fd4ed6da:
-            uuid: 3b6175ad-7621-4211-8e21-ba34fd4ed6da
-            region: content
-            configuration:
-              id: 'field_block:node:person:field_image'
-              label: Image
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: entity_reference_entity_view
-                settings:
-                  view_mode: hero
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 0
-            third_party_settings: {  }
-        third_party_settings: {  }
-      -
-        layout_id: layouts_8_4
-        layout_settings:
-          gap: gap-sm
-          full_width: 0
-          class: ''
-        components:
-          b13bcec6-a8b6-4c1f-bbad-0406a688ed19:
-            uuid: b13bcec6-a8b6-4c1f-bbad-0406a688ed19
-            region: second
-            configuration:
-              id: 'field_block:node:person:field_contact_info'
-              label: 'Contact information'
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: above
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 0
-            third_party_settings: {  }
-          918530b0-75bf-458a-9e9a-901b70af2631:
-            uuid: 918530b0-75bf-458a-9e9a-901b70af2631
-            region: first
-            configuration:
-              id: 'field_block:node:person:title'
-              label: Title
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: string
-                settings:
-                  link_to_entity: false
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 0
-            third_party_settings:
-              block_class:
-                classes: h2
-          bfadebca-cf7f-42e0-943b-bae7c2572c8a:
-            uuid: bfadebca-cf7f-42e0-943b-bae7c2572c8a
-            region: first
-            configuration:
-              id: 'field_block:node:person:field_job_title'
-              label: 'Job Title'
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: string
-                settings:
-                  link_to_entity: false
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 1
-            third_party_settings:
-              block_class:
-                classes: 'h3 text-muted'
-        third_party_settings: {  }
-      -
-        layout_id: layouts_12
-        layout_settings:
-          gap: gap-md
-          full_width: 0
-          class: ''
-        components:
-          ca26cd8a-8db4-4718-b04e-52476fe312fb:
-            uuid: ca26cd8a-8db4-4718-b04e-52476fe312fb
-            region: content
-            configuration:
-              id: 'field_block:node:person:body'
-              label: Body
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 0
-            third_party_settings: {  }
-          d97afa16-66f1-49f1-850d-0eb0ab37885a:
-            uuid: d97afa16-66f1-49f1-850d-0eb0ab37885a
-            region: content
-            configuration:
-              id: 'field_block:node:person:field_tags'
-              label: Tags
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: entity_reference_label
-                settings:
-                  link: false
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-            additional: {  }
-            weight: 1
-            third_party_settings: {  }
-        third_party_settings: {  }
-  layout_library:
-    enable: false
-  layout_builder_restrictions:
-    allowed_blocks: {  }
-    allowed_layouts: {  }
 id: node.person.default
 targetEntityType: node
 bundle: person
@@ -180,19 +26,19 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
   field_contact_info:
-    weight: 106
+    weight: 6
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_first_name:
-    weight: 102
+    weight: 2
     label: above
     settings:
       link_to_entity: false
@@ -200,14 +46,14 @@ content:
     type: string
     region: content
   field_greeting:
-    weight: 104
+    weight: 4
     label: above
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_image:
-    weight: 110
+    weight: 10
     label: above
     settings:
       link: true
@@ -215,7 +61,7 @@ content:
     type: entity_reference_label
     region: content
   field_job_title:
-    weight: 105
+    weight: 5
     label: above
     settings:
       link_to_entity: false
@@ -223,7 +69,7 @@ content:
     type: string
     region: content
   field_last_name:
-    weight: 103
+    weight: 3
     label: above
     settings:
       link_to_entity: false
@@ -231,14 +77,14 @@ content:
     type: string
     region: content
   field_meta_tags:
-    weight: 107
+    weight: 7
     label: above
     settings: {  }
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
   field_tags:
-    weight: 108
+    weight: 8
     label: above
     settings:
       link: true
@@ -246,7 +92,7 @@ content:
     type: entity_reference_label
     region: content
   field_type:
-    weight: 109
+    weight: 9
     label: above
     settings:
       link: true
@@ -254,7 +100,7 @@ content:
     type: entity_reference_label
     region: content
   links:
-    weight: 100
+    weight: 0
     settings: {  }
     third_party_settings: {  }
     region: content

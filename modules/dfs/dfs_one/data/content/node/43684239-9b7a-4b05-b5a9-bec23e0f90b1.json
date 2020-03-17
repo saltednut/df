@@ -41,7 +41,7 @@
     ],
     "vid": [
         {
-            "value": 18
+            "value": 21
         }
     ],
     "langcode": [
@@ -57,7 +57,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2020-03-03T14:21:19+00:00",
+            "value": "2020-03-17T17:53:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -74,7 +74,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ]
             }
@@ -91,7 +91,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ],
                 "lang": "en"
@@ -154,7 +154,7 @@
     ],
     "changed": [
         {
-            "value": "2020-03-03T14:21:19+00:00",
+            "value": "2020-03-17T17:53:15+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -183,6 +183,12 @@
             "lang": "en"
         }
     ],
+    "moderation_state": [
+        {
+            "value": "published",
+            "lang": "en"
+        }
+    ],
     "metatag": [
         {
             "value": {
@@ -195,7 +201,7 @@
     "path": [
         {
             "alias": "\/person\/tom-byram",
-            "pid": 11,
+            "pid": 27,
             "langcode": "en",
             "lang": "en"
         }

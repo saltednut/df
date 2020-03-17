@@ -9,7 +9,6 @@ dependencies:
   - block_class
   - df_tools_articles
   - df_tools_blocks
-  - df_tools_card
   - df_tools_color
   - df_tools_editor
   - df_tools_frontend

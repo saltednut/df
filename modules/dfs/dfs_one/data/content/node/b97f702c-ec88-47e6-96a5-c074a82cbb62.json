@@ -75,7 +75,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ]
             }
@@ -92,7 +92,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ],
                 "lang": "en"
@@ -203,7 +203,7 @@
     "path": [
         {
             "alias": "\/location\/cape-canaveral-air-force-station",
-            "pid": 7,
+            "pid": 30,
             "langcode": "en",
             "lang": "en"
         }
@@ -238,12 +238,12 @@
         {
             "value": "POINT(-80.526620 28.450770)",
             "geo_type": "Point",
-            "lat": 28.45077,
-            "lon": -80.52662,
-            "left": -80.52662,
-            "top": 28.45077,
-            "right": -80.52662,
-            "bottom": 28.45077,
+            "lat": 28.450769999999999,
+            "lon": -80.526619999999994,
+            "left": -80.526619999999994,
+            "top": 28.450769999999999,
+            "right": -80.526619999999994,
+            "bottom": 28.450769999999999,
             "geohash": "djn9ze639z",
             "latlon": "28.45077,-80.52662"
         }

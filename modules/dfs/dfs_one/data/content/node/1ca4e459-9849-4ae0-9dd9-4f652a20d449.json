@@ -75,7 +75,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ]
             }
@@ -92,7 +92,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "cccdcc07-07d9-41ba-afe1-5e2abcbad9f9"
+                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
                     }
                 ],
                 "lang": "en"
@@ -203,7 +203,7 @@
     "path": [
         {
             "alias": "\/location\/kennedy-space-center-visitor-complex",
-            "pid": 5,
+            "pid": 25,
             "langcode": "en",
             "lang": "en"
         }
@@ -238,12 +238,12 @@
         {
             "value": "POINT(-80.692935 28.524602)",
             "geo_type": "Point",
-            "lat": 28.524602,
-            "lon": -80.692935,
-            "left": -80.692935,
-            "top": 28.524602,
-            "right": -80.692935,
-            "bottom": 28.524602,
+            "lat": 28.524602000000002,
+            "lon": -80.692935000000006,
+            "left": -80.692935000000006,
+            "top": 28.524602000000002,
+            "right": -80.692935000000006,
+            "bottom": 28.524602000000002,
             "geohash": "djnd7b9py74w",
             "latlon": "28.524602,-80.692935"
         }
