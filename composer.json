@@ -156,7 +156,9 @@
             },
             "drupal/gdpr": {
                 "Add icon to custom toolbar item | http://drupal.org/node/2972047":
-                "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch"
+                "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch",
+                "ext-zip dependency fails composer install for macOS | http://drupal.org/node/3103098":
+                "https://www.drupal.org/files/issues/2020-03-19/3103098-10.patch"
             },
             "drupal/lightning_core": {
               "Tests using FixtureContext fail due to Content Hub 2.0 enabled | http://drupal.org/node/3055022":
@@ -187,7 +189,7 @@
         }
     },
     "require": {
-        "acquia/lightning": "4.1.2",
+        "acquia/lightning": "4.1.3",
         "acquia/acquia-lift-samples": "dev-master",
         "cohesion/dx8": "6.0.2",
         "cohesion/dx8-theme": "6.0.2",
