@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f05a093760fdf42b03d07a300daf0fb5",
+    "content-hash": "f110373d41ba9582bfba1c4809a26c0d",
     "packages": [
         {
             "name": "acquia/acf",
@@ -7400,7 +7400,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Add icon to custom toolbar item | http://drupal.org/node/2972047": "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch"
+                    "Add icon to custom toolbar item | http://drupal.org/node/2972047": "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch",
+                    "ext-zip dependency fails composer install for macOS | http://drupal.org/node/3103098": "https://www.drupal.org/files/issues/2020-03-19/3103098-10.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

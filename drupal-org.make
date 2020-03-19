@@ -158,6 +158,7 @@ projects[fontyourface][type] = module
 projects[fontyourface][version] = 3.2
 projects[gdpr][type] = module
 projects[gdpr][patch][] = https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch
+projects[gdpr][patch][] = https://www.drupal.org/files/issues/2020-03-19/3103098-10.patch
 projects[gdpr][version] = 2.0-alpha7
 projects[geocoder][type] = module
 projects[geocoder][version] = 2.7
