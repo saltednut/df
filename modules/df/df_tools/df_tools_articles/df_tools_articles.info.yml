@@ -15,7 +15,6 @@ dependencies:
   - content_browser
   - entity_clone
   - image
-  - language
   - link
   - inline_entity_form
   - menu_ui
