@@ -10,15 +10,13 @@ dependencies:
     - field.field.node.location.field_meta_tags
     - field.field.node.location.field_tags
     - field.field.node.location.field_type
-    - field.field.node.location.layout_builder__layout
     - node.type.location
   module:
     - address
     - df_tools_layout
-    - geofield
     - layout_builder
     - layout_library
-    - metatag
+    - leaflet
     - text
     - user
 third_party_settings:
@@ -33,8 +31,8 @@ third_party_settings:
           full_width: 0
           class: ''
         components:
-          e1273536-07d9-4947-b80d-9d3f9b0fccb1:
-            uuid: e1273536-07d9-4947-b80d-9d3f9b0fccb1
+          e22a6a43-2e7e-4139-b7a5-cabecfda138a:
+            uuid: e22a6a43-2e7e-4139-b7a5-cabecfda138a
             region: content
             configuration:
               id: 'field_block:node:location:title'
@@ -57,28 +55,12 @@ third_party_settings:
       -
         layout_id: layouts_6_6
         layout_settings:
-          gap: gap-md
+          gap: gap-0
           full_width: 0
           class: ''
         components:
-          eb8eda55-a012-4f86-9bfd-e925cb3ee67c:
-            uuid: eb8eda55-a012-4f86-9bfd-e925cb3ee67c
-            region: second
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:location:field_location_hours'
-              formatter:
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-                type: text_default
-            additional: {  }
-            weight: 2
-            third_party_settings: {  }
-          d81c48cd-2d19-4f0d-896d-daa096aa9a3c:
-            uuid: d81c48cd-2d19-4f0d-896d-daa096aa9a3c
+          10cf31b2-745f-4248-abc2-837b04044e59:
+            uuid: 10cf31b2-745f-4248-abc2-837b04044e59
             region: first
             configuration:
               label_display: '0'
@@ -93,8 +75,8 @@ third_party_settings:
             additional: {  }
             weight: 1
             third_party_settings: {  }
-          eaf736a3-aafb-47ce-86d0-90b6bd51b837:
-            uuid: eaf736a3-aafb-47ce-86d0-90b6bd51b837
+          30def28e-aa39-4fe1-b98d-e8e941bbcd4a:
+            uuid: 30def28e-aa39-4fe1-b98d-e8e941bbcd4a
             region: first
             configuration:
               id: 'field_block:node:location:field_location_geofield'
@@ -113,7 +95,7 @@ third_party_settings:
                   height_unit: px
                   hide_empty_map: 0
                   disable_wheel: 0
-                  fullscreen_control: 0
+                  fullscreen_control: 1
                   reset_map:
                     control: 0
                     position: topright
@@ -228,9 +210,30 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 0
+            third_party_settings:
+              block_class:
+                classes: mb-3
+          22f6fd78-34d7-405d-a1dd-caea1f483786:
+            uuid: 22f6fd78-34d7-405d-a1dd-caea1f483786
+            region: second
+            configuration:
+              id: 'field_block:node:location:field_location_hours'
+              label: Hours
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 2
             third_party_settings: {  }
-          4e5b0b16-6be6-43fe-89aa-f0ae36be4226:
-            uuid: 4e5b0b16-6be6-43fe-89aa-f0ae36be4226
+          f97769f0-5dd4-4623-84b6-0d7362edcb16:
+            uuid: f97769f0-5dd4-4623-84b6-0d7362edcb16
             region: second
             configuration:
               id: 'field_block:node:location:field_type'
@@ -251,8 +254,8 @@ third_party_settings:
             third_party_settings:
               block_class:
                 classes: 'badge badge-primary w-100 mt-2 mb-2'
-          50446bc0-fdfd-4df1-bb5f-ce75848a1e14:
-            uuid: 50446bc0-fdfd-4df1-bb5f-ce75848a1e14
+          69348665-4fba-4923-886f-98109327365e:
+            uuid: 69348665-4fba-4923-886f-98109327365e
             region: second
             configuration:
               id: 'field_block:node:location:field_image'
@@ -281,27 +284,24 @@ third_party_settings:
           full_width: 0
           class: ''
         components:
-          0a224612-3a87-477f-bba6-c86f990c11bc:
-            uuid: 0a224612-3a87-477f-bba6-c86f990c11bc
+          502bdf81-42ee-41f0-90e9-cb702fd7a19a:
+            uuid: 502bdf81-42ee-41f0-90e9-cb702fd7a19a
             region: content
             configuration:
-              id: 'field_block:node:location:body'
-              label: Description
-              provider: layout_builder
               label_display: '0'
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
-                view_mode: view_mode
+              id: 'field_block:node:location:body'
+              formatter:
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
             additional: {  }
-            weight: 2
+            weight: 1
             third_party_settings: {  }
-          57e15542-ea72-42b3-8302-8b54d9156340:
-            uuid: 57e15542-ea72-42b3-8302-8b54d9156340
+          9ed182b5-d78c-4849-b5a5-fda74ae0ee64:
+            uuid: 9ed182b5-d78c-4849-b5a5-fda74ae0ee64
             region: content
             configuration:
               label_display: '0'
@@ -315,7 +315,27 @@ third_party_settings:
                 third_party_settings: {  }
                 type: entity_reference_label
             additional: {  }
-            weight: 1
+            weight: 0
+            third_party_settings: {  }
+          780f4ba1-99a3-4f1c-91fe-56b565a89102:
+            uuid: 780f4ba1-99a3-4f1c-91fe-56b565a89102
+            region: content
+            configuration:
+              id: 'field_block:node:location:field_tags'
+              label: Tags
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: entity_reference_label
+                settings:
+                  link: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 2
             third_party_settings: {  }
         third_party_settings: {  }
   layout_library:
@@ -326,73 +346,111 @@ bundle: location
 mode: default
 content:
   body:
-    weight: 102
-    label: above
+    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_image:
-    weight: 107
-    label: above
+    weight: 0
+    label: hidden
     settings:
-      link: true
+      view_mode: hero
+      link: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: entity_reference_entity_view
     region: content
   field_location_address:
-    weight: 101
+    weight: 3
     label: above
     settings: {  }
     third_party_settings: {  }
     type: address_default
     region: content
   field_location_geofield:
-    weight: 106
-    label: above
+    weight: 4
+    label: hidden
     settings:
-      output_format: wkt
-      output_escape: true
+      multiple_map: 0
+      leaflet_map: 'OSM Mapnik'
+      height: 400
+      height_unit: px
+      hide_empty_map: 0
+      disable_wheel: 0
+      fullscreen_control: 1
+      reset_map:
+        control: 0
+        position: topright
+      popup: false
+      popup_content: ''
+      map_position:
+        force: 0
+        center:
+          lat: 0
+          lon: 0
+        zoom: 12
+        minZoom: 1
+        maxZoom: 18
+        zoomFiner: 0
+      icon:
+        iconType: marker
+        iconUrl: ''
+        iconSize:
+          x: null
+          'y': null
+        iconAnchor:
+          x: null
+          'y': null
+        shadowUrl: ''
+        shadowSize:
+          x: null
+          'y': null
+        shadowAnchor:
+          x: null
+          'y': null
+        popupAnchor:
+          x: null
+          'y': null
+        html: '<div></div>'
+        html_class: leaflet-map-divicon
+      leaflet_markercluster:
+        control: 0
+        options: '{"spiderfyOnMaxZoom":true,"showCoverageOnHover":true,"removeOutsideVisibleBounds": false}'
+      path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2"}'
+      geocoder:
+        control: 0
+        settings:
+          position: topright
+          input_size: 25
+          providers: {  }
+          min_terms: 4
+          delay: 800
+          zoom: 16
+          popup: 0
+          options: ''
     third_party_settings: {  }
-    type: geofield_default
+    type: leaflet_formatter_default
     region: content
   field_location_hours:
-    weight: 104
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_meta_tags:
-    weight: 109
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: metatag_empty_formatter
-    region: content
   field_tags:
-    weight: 110
+    weight: 5
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-    region: content
-  field_type:
-    weight: 108
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-    region: content
-  links:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
     region: content
 hidden:
   addtoany: true
   content_moderation_control: true
-  langcode: true
-  layout_builder__layout: true
+  field_meta_tags: true
+  field_type: true
+  links: true
+  search_api_excerpt: true

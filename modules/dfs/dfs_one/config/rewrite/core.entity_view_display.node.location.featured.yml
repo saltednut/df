@@ -11,7 +11,6 @@ dependencies:
     - field.field.node.location.field_meta_tags
     - field.field.node.location.field_tags
     - field.field.node.location.field_type
-    - field.field.node.location.layout_builder__layout
     - node.type.location
   module:
     - address
@@ -33,8 +32,8 @@ third_party_settings:
           full_width: 1
           class: featured-background
         components:
-          c20d57bd-35cf-442e-999e-6ea77f7155e9:
-            uuid: c20d57bd-35cf-442e-999e-6ea77f7155e9
+          a156de92-c8f4-4edc-a95e-4d8fee6673e0:
+            uuid: a156de92-c8f4-4edc-a95e-4d8fee6673e0
             region: content
             configuration:
               id: 'field_block:node:location:field_location_geofield'
@@ -177,8 +176,8 @@ third_party_settings:
           full_width: 0
           class: featured-overlay
         components:
-          4dc20f3b-6f9f-45ba-892e-fcf0d8eb070a:
-            uuid: 4dc20f3b-6f9f-45ba-892e-fcf0d8eb070a
+          005de75e-5b72-48c7-b96b-a9de914b49c2:
+            uuid: 005de75e-5b72-48c7-b96b-a9de914b49c2
             region: content
             configuration:
               id: 'field_block:node:location:title'
@@ -195,10 +194,10 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 3
+            weight: 1
             third_party_settings: {  }
-          9b5a7173-14f2-4359-b353-9e2eda47959f:
-            uuid: 9b5a7173-14f2-4359-b353-9e2eda47959f
+          314e4db3-9a39-4a50-b383-2a3a9f59b9b3:
+            uuid: 314e4db3-9a39-4a50-b383-2a3a9f59b9b3
             region: content
             configuration:
               label_display: '0'
@@ -253,9 +252,9 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   addtoany: true
   content_moderation_control: true
@@ -263,5 +262,4 @@ hidden:
   field_meta_tags: true
   field_tags: true
   field_type: true
-  langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

@@ -11,14 +11,13 @@ dependencies:
     - field.field.node.location.field_meta_tags
     - field.field.node.location.field_tags
     - field.field.node.location.field_type
-    - field.field.node.location.layout_builder__layout
     - node.type.location
   module:
     - address
     - df_tools_layout
-    - geofield
     - layout_builder
     - layout_library
+    - leaflet
     - text
     - user
 third_party_settings:
@@ -33,44 +32,8 @@ third_party_settings:
           full_width: 0
           class: ''
         components:
-          e17523d7-4971-43b3-b2db-7f33ca08f601:
-            uuid: e17523d7-4971-43b3-b2db-7f33ca08f601
-            region: first
-            configuration:
-              id: 'field_block:node:location:body'
-              label: Description
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: text_summary_or_trimmed
-                settings:
-                  trim_length: 300
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 1
-            third_party_settings: {  }
-          3af4311c-6d93-4be1-a5af-0a3886bc902c:
-            uuid: 3af4311c-6d93-4be1-a5af-0a3886bc902c
-            region: first
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:location:field_location_address'
-              formatter:
-                label: above
-                settings: {  }
-                third_party_settings: {  }
-                type: address_default
-            additional: {  }
-            weight: 2
-            third_party_settings: {  }
-          d86e5624-5989-4a6f-bc61-ef35a3bc9e94:
-            uuid: d86e5624-5989-4a6f-bc61-ef35a3bc9e94
+          177c86ac-b7a2-4e4c-b9f9-f2e55635b612:
+            uuid: 177c86ac-b7a2-4e4c-b9f9-f2e55635b612
             region: first
             configuration:
               id: 'field_block:node:location:title'
@@ -87,12 +50,12 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 0
+            weight: 2
             third_party_settings:
               block_class:
                 classes: h2
-          697dabaa-b516-4e90-87f7-9cb1c0e844c4:
-            uuid: 697dabaa-b516-4e90-87f7-9cb1c0e844c4
+          55ec30cf-262a-418a-a6e3-d93cb1851adb:
+            uuid: 55ec30cf-262a-418a-a6e3-d93cb1851adb
             region: second
             configuration:
               id: 'field_block:node:location:field_type'
@@ -113,8 +76,8 @@ third_party_settings:
             third_party_settings:
               block_class:
                 classes: 'badge badge-primary w-100 mt-2 mb-2'
-          66b2bc0f-a815-44db-93ec-9712afd255cc:
-            uuid: 66b2bc0f-a815-44db-93ec-9712afd255cc
+          c792aeb8-4c6d-4d99-97cc-b2132c5f48fe:
+            uuid: c792aeb8-4c6d-4d99-97cc-b2132c5f48fe
             region: second
             configuration:
               id: 'field_block:node:location:field_image'
@@ -132,6 +95,45 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 1
+            third_party_settings: {  }
+          2f9481cd-9916-44ba-91ba-6bdd714ad37e:
+            uuid: 2f9481cd-9916-44ba-91ba-6bdd714ad37e
+            region: first
+            configuration:
+              id: 'field_block:node:location:body'
+              label: Description
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: text_summary_or_trimmed
+                settings:
+                  trim_length: 300
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 3
+            third_party_settings: {  }
+          5702be80-2cdf-4689-9968-d55171220076:
+            uuid: 5702be80-2cdf-4689-9968-d55171220076
+            region: first
+            configuration:
+              id: 'field_block:node:location:field_location_address'
+              label: Address
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: address_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 4
             third_party_settings: {  }
         third_party_settings: {  }
   layout_library:
@@ -159,10 +161,65 @@ content:
     weight: 106
     label: above
     settings:
-      output_format: wkt
-      output_escape: true
+      multiple_map: 0
+      leaflet_map: 'OSM Mapnik'
+      height: 400
+      height_unit: px
+      hide_empty_map: 0
+      disable_wheel: 0
+      fullscreen_control: 1
+      reset_map:
+        control: 0
+        position: topright
+      popup: false
+      popup_content: ''
+      map_position:
+        force: 0
+        center:
+          lat: 0
+          lon: 0
+        zoom: 12
+        minZoom: 1
+        maxZoom: 18
+        zoomFiner: 0
+      icon:
+        iconType: marker
+        iconUrl: ''
+        iconSize:
+          x: null
+          'y': null
+        iconAnchor:
+          x: null
+          'y': null
+        shadowUrl: ''
+        shadowSize:
+          x: null
+          'y': null
+        shadowAnchor:
+          x: null
+          'y': null
+        popupAnchor:
+          x: null
+          'y': null
+        html: '<div></div>'
+        html_class: leaflet-map-divicon
+      leaflet_markercluster:
+        control: 0
+        options: '{"spiderfyOnMaxZoom":true,"showCoverageOnHover":true,"removeOutsideVisibleBounds": false}'
+      path: '{"color":"#3388ff","opacity":"1.0","stroke":true,"weight":3,"fill":"depends","fillColor":"*","fillOpacity":"0.2"}'
+      geocoder:
+        control: 0
+        settings:
+          position: topright
+          input_size: 25
+          providers: {  }
+          min_terms: 4
+          delay: 800
+          zoom: 16
+          popup: 0
+          options: ''
     third_party_settings: {  }
-    type: geofield_default
+    type: leaflet_formatter_default
     region: content
   field_location_hours:
     weight: 104
@@ -173,9 +230,9 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
 hidden:
   addtoany: true
   content_moderation_control: true
@@ -183,5 +240,4 @@ hidden:
   field_meta_tags: true
   field_tags: true
   field_type: true
-  langcode: true
-  layout_builder__layout: true
+  search_api_excerpt: true

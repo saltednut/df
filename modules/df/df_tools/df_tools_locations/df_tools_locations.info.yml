@@ -6,5 +6,4 @@ package: Demo Framework Tools
 dependencies:
   - df_tools_map
   - df_tools_media
-  - df_tools_layout
   - leaflet_views
