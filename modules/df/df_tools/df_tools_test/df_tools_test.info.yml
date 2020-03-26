@@ -19,6 +19,7 @@ dependencies:
 - df_tools_locations
 - df_tools_map
 - df_tools_media
+- df_tools_page
 - df_tools_person
 - df_tools_search
 - df_tools_seo
