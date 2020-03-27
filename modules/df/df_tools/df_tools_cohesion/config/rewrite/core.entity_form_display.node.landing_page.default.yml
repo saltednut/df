@@ -10,9 +10,6 @@ dependencies:
     - field.field.node.landing_page.layout_selection
     - node.type.landing_page
     - workflows.workflow.editorial
-  enforced:
-    module:
-      - dfs_inspace
   module:
     - cohesion_elements
     - cohesion_templates

@@ -13,9 +13,6 @@ dependencies:
     - cohesion_elements
     - text
     - user
-  enforced:
-    module:
-      - dfs_inspace
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
