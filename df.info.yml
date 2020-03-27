@@ -28,7 +28,7 @@ install:
   - google_analytics
   - pathauto
   - responsive_preview
-  - scenarios_contenthub
+  - scenarios
   - syslog
   - tour
   - view_modes_display
