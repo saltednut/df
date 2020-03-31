@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.reviewer
+id: draft_ready_for_review
+label: 'Draft ready for review'
+subject: '[[site:name]] "[node:title]" draft ready for review'
+recipient_types:
+  roles_with_access:
+    id: roles_with_access
+    provider: workbench_email
+    status: true
+    settings:
+      roles:
+        reviewer: reviewer
+bundles: {  }
+body:
+  value: '<p>Hello,</p><p>A draft of "[node:title]" has been sent for review by [node:latest_author], to view the draft please <a href="[node:latest_url]">click here</a>.</p>'
+  format: full_html

@@ -1,10 +1,18 @@
-uuid: 0b2f0332-1dbf-44e6-a99e-35bd0615eb9c
 langcode: en
 status: true
 dependencies:
   config: {}
   module:
     - content_moderation
+    - workbench_email
+  enforced:
+    config:
+      - workbench_email.workbench_email_template.draft_ready_for_review
+third_party_settings:
+  workbench_email:
+    workbench_email_templates:
+      review:
+        draft_ready_for_review: draft_ready_for_review
 id: editorial
 label: Editorial
 type: content_moderation
