@@ -11,3 +11,4 @@ dependencies:
   - moderation_dashboard
   - moderation_sidebar
   - workbench_email
+  - swiftmailer
