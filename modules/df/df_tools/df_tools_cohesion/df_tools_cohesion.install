@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Contains df_tools_cohesion.install.
+ */
+
+use Drupal\image\Entity\ImageStyle;
+
+/**
+ * Implements hook_install().
+ */
+function df_tools_cohesion_install() {
+  $module_handler = \Drupal::moduleHandler();
+
+  // DX8 component preview image style is optional config and doesn't always get installed with profiles.
+  $dx8_component_preview = \Drupal::config('image.style.dx8_component_preview')->getRawData();
+  if ($module_handler->moduleExists('cohesion_elements') && empty($dx8_component_preview)) {
+    // Create DX8 component preview image style
+    $dx8_component_preview = ImageStyle::create(array('name' => 'dx8_component_preview', 'label' => 'Component preview'));
+
+    // Create effect
+    $configuration = array(
+      'uuid' => NULL,
+      'id' => 'image_scale',
+      'weight' => 1,
+      'data' => array(
+        'width' => 250,
+        'height' => 250,
+        'upscale' => TRUE,
+      ),
+    );
+    $effect = \Drupal::service('plugin.manager.image.effect')->createInstance($configuration['id'], $configuration);
+
+    // Add effect to the image style and save.
+    $dx8_component_preview->addImageEffect($effect->getConfiguration());
+    $dx8_component_preview->save();
+  }
+
+}
