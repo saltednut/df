@@ -44,14 +44,23 @@ function df_core_menu_local_tasks_alter(&$data, $route_name) {
  * Implements hook_requirements().
  */
 function df_requirements($phase) {
+  $requirements = [];
   if (phpversion() < '7.1') {
-    $requirements = [];
     $requirements['df_requirements'] = [
-      'title' => t('DF REQUIREMENTS'),
+      'title' => t('DEMO FRAMEWORK REQUIREMENTS'),
       'value' => t("Your PHP installation is too old."),
       'description' => t("This build requires your cloud env to run PHP7.1+"),
       'severity' => REQUIREMENT_ERROR,
     ];
-    return $requirements;
   }
+  if ($phase == 'runtime') {
+    $requirements['df_version'] = [
+      'title' => t("Demo Framework"),
+      'value' => t("4.0.2+dev"),
+      'description' => 'Last Update: 2020-03-30',
+      'severity' => REQUIREMENT_INFO,
+    ];
+  }
+  return $requirements;
 }
+
