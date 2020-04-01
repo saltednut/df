@@ -8,11 +8,7 @@ dependencies:
     - field.field.media.video.field_media_video_embed_field
     - media.type.video
   module:
-    - layout_builder
     - video_embed_field
-third_party_settings:
-  layout_builder:
-    sections: {  }
 id: media.video.hero
 targetEntityType: media
 bundle: video
