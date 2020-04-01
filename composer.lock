@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2d3b5e0c9d8d03e63e409f562628194",
+    "content-hash": "f70a067bf4dbbe86848219828ab76d51",
     "packages": [
         {
             "name": "acquia/acf",
@@ -7474,17 +7474,17 @@
         },
         {
             "name": "drupal/geocoder",
-            "version": "2.7.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geocoder.git",
-                "reference": "8.x-2.7"
+                "reference": "8.x-2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.7.zip",
-                "reference": "8.x-2.7",
-                "shasum": "2880783910c4bbdc054fd3f8737e47ddf3211b70"
+                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.10.zip",
+                "reference": "8.x-2.10",
+                "shasum": "770ec22c07d9596f67d6db62d57bf25e10854474"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -7506,8 +7506,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.7",
-                    "datestamp": "1582062548",
+                    "version": "8.x-2.10",
+                    "datestamp": "1585432602",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7576,17 +7576,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.8.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.8"
+                "reference": "8.x-1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "e38c015a50d9eb7b156aab0a0a633068bd317dea"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.10.zip",
+                "reference": "8.x-1.10",
+                "shasum": "4d017d9dd4c27492c650ef8cae9ebdee9a20d191"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -7598,8 +7598,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.8",
-                    "datestamp": "1576963383",
+                    "version": "8.x-1.10",
+                    "datestamp": "1585432867",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8523,17 +8523,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "1.25.0",
+            "version": "1.31.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "8.x-1.25"
+                "reference": "8.x-1.31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.25.zip",
-                "reference": "8.x-1.25",
-                "shasum": "593eeee163b41fc9ae1d3c5d556899dfa1c3b01e"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.31.zip",
+                "reference": "8.x-1.31",
+                "shasum": "fef7a287c3e96644d0eb073ce360be172b4fb283"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -8545,8 +8545,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.25",
-                    "datestamp": "1578485587",
+                    "version": "8.x-1.31",
+                    "datestamp": "1585602761",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
