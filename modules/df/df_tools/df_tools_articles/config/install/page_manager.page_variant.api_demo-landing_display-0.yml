@@ -1,4 +1,3 @@
-uuid: 1bbd9347-4b54-402c-badf-0169f39944b9
 langcode: en
 status: true
 dependencies:
@@ -20,8 +19,8 @@ variant_settings:
       provider: df_tools_articles
       label_display: 0
       region: middle
-      weight: '0'
-      css_classes: ''
+      weight: '-10'
+      css_classes: col-md-6
       css_id: ''
       uuid: 06d8e131-8c80-49a5-bf9e-916bb57f9a65
       context_mapping: {  }
@@ -32,9 +31,9 @@ variant_settings:
       label_display: 0
       views_label: ''
       items_per_page: none
-      region: sidebar
-      weight: '0'
-      css_classes: ''
+      region: middle
+      weight: '-9'
+      css_classes: col-md-6
       css_id: ''
       uuid: 9db78bc7-f6c1-4ec9-bb09-2fc85800c50a
       context_mapping: {  }
@@ -43,10 +42,9 @@ variant_settings:
   label: null
   weight: 0
   page_title: 'API Demo'
-  page_class: ''
+  page_class: api-demo
 page: api_demo
 weight: 0
 selection_criteria: {  }
 selection_logic: and
 static_context: {  }
-

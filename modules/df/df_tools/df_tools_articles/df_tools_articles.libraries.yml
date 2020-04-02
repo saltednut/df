@@ -7,9 +7,10 @@ main:
     - core/drupal
     - df_tools_articles/addons
   css:
-    base:
+    theme:
       css/prism.css: {}
       css/highlight-override.css: {}
+      css/endpoint-block.css: { weight: 1 }
 
 addons:
   version: VERSION

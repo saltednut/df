@@ -1,0 +1,16 @@
+.landing-display-api-demo {
+  padding-top: 1.5em;
+}
+
+#apiModal {
+  z-index: 1201;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#apiModal .modal-dialog {
+  max-width: 98%;
+}
+
+#apiModal pre[class*="language-"] {
+  margin: 0;
+}
