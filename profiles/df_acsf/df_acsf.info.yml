@@ -14,12 +14,15 @@ themes:
   - cohesion_theme
 exclude:
   - image_widget_crop
+  - layout_builder_st
   - lightning_api
+  - lightning_layout
   - lightning_contact_form
-  - lightning_hero_block
-  - lightning_map_block
   - lightning_page
-  - lightning_preview
   - lightning_roles
+  - lightning_search
+  - lightning_landing_page
+  - lightning_banner_block
+  - lightning_map_block
   - bartik
   - seven

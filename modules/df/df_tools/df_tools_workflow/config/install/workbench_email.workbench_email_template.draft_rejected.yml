@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.administrator
+id: draft_rejected
+label: 'Draft rejected'
+subject: '[[site:name]] Your draft of "[node:title]" needs work'
+recipient_types:
+  roles_with_access:
+    id: roles_with_access
+    provider: workbench_email
+    status: true
+    settings:
+      roles:
+        administrator: administrator
+bundles: {  }
+body:
+  value: '<p>Hello,</p><p>Your draft of "[node:title]" has been moved out of review by [node:latest_author]. To revise the draft please <a href="[node:latest_url]">click here</a>.</p>'
+  format: full_html

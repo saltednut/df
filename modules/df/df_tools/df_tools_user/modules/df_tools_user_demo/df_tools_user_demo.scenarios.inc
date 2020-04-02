@@ -14,7 +14,8 @@ function df_tools_user_demo_scenarios_info() {
       'type' => 'module',
       'label' => t('DF Tools User Demo'),
       'description' => t('Demo Framework Scenario Generic Users'),
-      'cdf' => ['/cdf'],
+      //'cdf' => ['/cdf'],
+      'imports' => ['/data'],
     ],
   ];
 }

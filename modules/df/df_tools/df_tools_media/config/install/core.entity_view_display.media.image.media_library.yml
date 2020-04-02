@@ -11,11 +11,6 @@ dependencies:
     - media.type.image
   module:
     - image
-    - layout_builder
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: false
 id: media.image.media_library
 targetEntityType: media
 bundle: image

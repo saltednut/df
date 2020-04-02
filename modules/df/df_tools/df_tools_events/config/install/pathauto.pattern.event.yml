@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: event
+label: Event
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:field_type]/[node:created:custom:Y]/[node:created:custom:m]/[node:created:custom:d]/[node:title]'
+selection_criteria:
+  7b18b014-7bb5-4b01-9826-03a86366e274:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 7b18b014-7bb5-4b01-9826-03a86366e274
+selection_logic: and
+weight: 0
+relationships:
+  'node:langcode:language':
+    label: Language

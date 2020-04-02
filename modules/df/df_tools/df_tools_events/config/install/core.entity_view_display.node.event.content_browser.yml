@@ -5,18 +5,13 @@ dependencies:
     - core.entity_view_mode.node.content_browser
     - field.field.node.event.body
     - field.field.node.event.field_end_time
-    - field.field.node.event.field_start_time
     - field.field.node.event.field_image
+    - field.field.node.event.field_start_time
     - field.field.node.event.field_tags
     - field.field.node.event.field_type
     - node.type.event
   module:
-    - layout_builder
     - user
-third_party_settings:
-  layout_builder:
-    allow_custom: false
-    enabled: false
 id: node.event.content_browser
 targetEntityType: node
 bundle: event

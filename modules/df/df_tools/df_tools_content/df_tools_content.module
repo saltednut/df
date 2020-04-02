@@ -5,11 +5,23 @@
  * Contains df_tools_content.module.
  */
 
+
 /**
- * Implements hook_form_FORM_ID_alter().
+ * Implements hook_form_alter().
  */
-function df_tools_content_form_dcd_import_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  $form['force-update']['#title'] = t('Override existing entities (force-update)');
-  $form['force-update']['#description'] = t('The old entity will be deleted and a new entity with the same ID will be created from the imported JSON file.');
-  $form['force-update']['#default_value'] = FALSE;
+function df_tools_content_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  if ($form_id = 'dcd_import_form') {
+    $form['force-update']['#title'] = t('Override existing entities (force-update)');
+    $form['force-update']['#description'] = t('The old entity will be deleted and a new entity with the same ID will be created from the imported JSON file.');
+    $form['force-update']['#default_value'] = FALSE;
+  }
+
+  if ($form_id = 'dcd_export_form') {
+    $form['advanced']['tar']['#default_value'] = TRUE;
+  }
+
+  if ($form_id = 'dcd_export_entity_form') {
+    $form['tar']['#default_value'] = TRUE;
+  }
 }

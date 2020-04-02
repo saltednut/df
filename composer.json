@@ -112,7 +112,9 @@
                 "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865":
                 "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                 "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906":
-                "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch"
+                "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
+                "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975":
+                "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch"
             },
             "drupal/acquia_contenthub": {
                 "Errors on inserting duplicate entries into acquia_contenthub_publisher_export_tracking table| http://drupal.org/node/3075535":
@@ -129,8 +131,8 @@
                 "https://www.drupal.org/files/issues/2019-03-21/runtime_exception_when_placing_block-3042028-2_0.patch"
             },
             "drupal/default_content_deploy": {
-                "Set content directory from the UI. | http://drupal.org/node/303830":
-                "https://www.drupal.org/files/issues/2020-01-15/contentdir-3038303-7.patch"
+                "Export to tar VIA GUI. | http://drupal.org/node/3070222":
+                "https://www.drupal.org/files/issues/2020-04-01/3070222-8_3119056-03_combined.patch"
             },
             "drupal/entity_block": {
                 "Add UUID support. | http://drupal.org/node/2834377":
@@ -154,15 +156,13 @@
             },
             "drupal/gdpr": {
                 "Add icon to custom toolbar item | http://drupal.org/node/2972047":
-                "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch"
+                "https://www.drupal.org/files/issues/2019-12-03/add-icon-to-custom-toolbar-item-2972047-12.patch",
+                "ext-zip dependency fails composer install for macOS | http://drupal.org/node/3103098":
+                "https://www.drupal.org/files/issues/2020-03-19/3103098-10.patch"
             },
             "drupal/lightning_core": {
               "Tests using FixtureContext fail due to Content Hub 2.0 enabled | http://drupal.org/node/3055022":
               "https://www.drupal.org/files/issues/2019-05-15/lightning_core-ch-publisher-fixture-setup-0.patch"
-            },
-            "drupal/message_notify": {
-                "MessageNotifierBase calling assert()... | http://drupal.org/node/2966213":
-                "https://www.drupal.org/files/issues/2018-04-25/message_notify-8.x-1.x-MessageNotifierBase-send-assert-0.patch"
             },
             "drupal/object_log": {
                 "Change call to kprint_r() to kpr() to resolve PHP Fatal | http://drupal.org/node/2854348":
@@ -179,27 +179,20 @@
               "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch"
             },
             "drupal/scenarios": {
-              "Update DCD importer for 1.0-alpha7 | http://drupal.org/node/3113974":
-              "https://www.drupal.org/files/issues/2020-02-16/3113974-update-dcd-importer-2.patch"
+              "Update DCD importer | http://drupal.org/node/3113974":
+              "https://www.drupal.org/files/issues/2020-03-06/3113974-update-dcd-dev-importer-4.patch"
             },
             "drupal/video_embed_field": {
               "Youtube looping | http://drupal.org/node/2866001":
               "https://www.drupal.org/files/issues/2019-04-26/video_embed_field-youtube_loop-2866001-12.patch"
             }
-        },
-        "patches-ignore": {
-            "drupal/lightning_layout": {
-                "drupal/core": {
-                    "2955065 - Customized layout does not display for node with customizations enabled when using full content view mode": "https://www.drupal.org/files/issues/2019-03-25/2955065-25.patch"
-                }
-            }
         }
     },
     "require": {
-        "acquia/lightning": "4.1.2",
+        "acquia/lightning": "4.1.3",
         "acquia/acquia-lift-samples": "dev-master",
-        "cohesion/dx8": "6.0.0",
-        "cohesion/dx8-theme": "6.0.0",
+        "cohesion/dx8": "6.0.3",
+        "cohesion/dx8-theme": "6.0.3",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
@@ -209,10 +202,10 @@
         "drupal/acquia_contenthub": "2.11",
         "drupal/acquia_lift": "~4",
         "drupal/acsf": "2.63.0",
-        "drupal/address": "1.7.0",
+        "drupal/address": "1.8.0",
         "drupal/addtoany": "1.12.0",
         "drupal/admin_login_path": "1.0.0",
-        "drupal/admin_toolbar": "2.0.0",
+        "drupal/admin_toolbar": "2.2.0",
         "drupal/adminimal_admin_toolbar": "1.10.0",
         "drupal/allowed_formats": "1.2.0",
         "drupal/asset_injector": "2.6.0",
@@ -227,7 +220,7 @@
         "drupal/config_tools": "1.x-dev",
         "drupal/content_browser": "1.0.0-alpha4",
         "drupal/default_content": "1.0.0-alpha8",
-        "drupal/default_content_deploy": "1.0.0-alpha7",
+        "drupal/default_content_deploy": "1.x-dev#97ea1ae as 1.x-dev",
         "drupal/dx8_addtoany": "^1.1",
         "drupal/entity_gallery": "1.x-dev",
         "drupal/entity_browser": "^2.4",
@@ -237,30 +230,26 @@
         "drupal/field_formatter_class": "1.1.0",
         "drupal/field_group": "3.0",
         "drupal/fontyourface": "3.2",
-        "drupal/focal_point": "1.2.0",
-        "drupal/geocoder": "2.7.0",
-        "drupal/geofield": "1.8.0",
+        "drupal/focal_point": "1.3.0",
+        "drupal/geocoder": "2.10.0",
+        "drupal/geofield": "1.10.0",
         "drupal/google_analytics": "^3.0",
-        "drupal/image_effects": "2.3.0",
         "drupal/import": "2.0.0-beta2",
         "drupal/layout_builder_at": "2.10.0",
         "drupal/layout_builder_modal": "^1.0",
-        "drupal/leaflet": "1.25.0",
+        "drupal/leaflet": "1.31.0",
         "drupal/link_class": "1.4.0",
         "drupal/linkit": "^4.3",
-        "drupal/mailsystem": "4.1.0",
         "drupal/mautic": "1.1.0",
-        "drupal/media_acquiadam": "1.38.0",
+        "drupal/media_acquiadam": "1.40.0",
         "drupal/media_entity_video": "2.0.0-alpha1",
-        "drupal/message": "1.0.0-rc2",
-        "drupal/message_notify": "1.0.0-beta1",
         "drupal/moderation_note": "1.0-beta1",
         "drupal/migrate_plus": "4.1.0",
         "drupal/migrate_source_csv": "2.0.0",
         "drupal/migrate_tools": "4.1.0",
         "drupal/oauth": "2.1.0",
-        "drupal/page_manager": "4.0-beta4",
-        "drupal/radix": "~4.7.0",
+        "drupal/page_manager": "4.0-beta5",
+        "drupal/radix": "~4.8.0",
         "drupal/refreshless": "1.0.0-alpha3",
         "drupal/responsive_preview": "1.0-beta1",
         "drupal/restui": "1.17.0",
@@ -275,14 +264,14 @@
         "drupal/view_modes_display": "2.1.0",
         "drupal/webform": "5.8.0",
         "drupal/webform_views": "5.0.0-alpha7",
-        "drupal/workbench_email": "1.3",
+        "drupal/workbench_email": "1.6",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.6.6",
         "onelogin/php-saml": "3.1.1",
         "oomphinc/composer-installers-extender": "^1.1",
         "phing/phing": "^2.14",
         "acquia/acf": "dev-master",
-        "drupal/basic_data": "1.x-dev",
+        "drupal/basic_data": "^1.1",
         "drupal/connection": "1.x-dev",
         "drupal/react_block": "^1.0@alpha",
         "drupal/simple_api": "1.x-dev",
@@ -298,7 +287,8 @@
         "drupal/entity_reference_revisions": "^1.6",
         "drupal/depcalc": "1.x-dev",
         "mautic/api-library": "^2.15",
-        "drupal/object_log": "1.x-dev"
+        "drupal/object_log": "1.x-dev",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "autoload": {
         "psr-4": {

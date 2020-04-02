@@ -41,7 +41,6 @@ a:hover {
 
 @media (min-width: 992px) {
   .page__navbar .navbar {
-    background: #__header-bg-left__ -webkit-gradient(linear, right top, left top, color-stop(50%, #__header-bg-right__), color-stop(50%, #__header-bg-left__));
     background: #__header-bg-left__ linear-gradient(to left, #__header-bg-right__ 50%, #__header-bg-left__ 50%);
   }
 

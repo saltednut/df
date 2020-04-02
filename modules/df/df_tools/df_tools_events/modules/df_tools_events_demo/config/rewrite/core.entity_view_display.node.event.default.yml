@@ -1,21 +1,18 @@
-uuid: 7b87e97f-a8d5-477c-977b-68104bfa11f6
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.event.body
-    - field.field.node.event.field_event_end_time
-    - field.field.node.event.field_event_start_time
+    - field.field.node.event.field_end_time
     - field.field.node.event.field_image
     - field.field.node.event.field_location
+    - field.field.node.event.field_start_time
     - field.field.node.event.field_tags
     - field.field.node.event.field_type
     - node.type.event
   module:
     - text
     - user
-_core:
-  default_config_hash: 8CrXE5UhY_RdyvxvzzgnlkuZ6xTnwkn6UyfMiR2dpwE
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -27,6 +24,16 @@ content:
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_end_time:
+    weight: 106
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
     region: content
   field_event_end_time:
     weight: 6
@@ -72,6 +79,16 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+  field_start_time:
+    weight: 105
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
   field_tags:
     weight: 3
     label: above
@@ -96,4 +113,3 @@ content:
 hidden:
   addtoany: true
   langcode: true
-
