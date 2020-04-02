@@ -19,8 +19,8 @@ settings:
   handler_settings:
     target_bundles:
       hero: hero
-      map: map
-      slideshow: slideshow
     sort:
       field: _none
+    auto_create: false
+    auto_create_bundle: hero
 field_type: entity_reference
