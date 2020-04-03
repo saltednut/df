@@ -20,7 +20,7 @@ variant_settings:
       label_display: 0
       region: middle
       weight: '-10'
-      css_classes: col-md-6
+      css_classes: 'col-md-6 mt-4'
       css_id: ''
       uuid: 06d8e131-8c80-49a5-bf9e-916bb57f9a65
       context_mapping: {  }
@@ -33,7 +33,7 @@ variant_settings:
       items_per_page: none
       region: middle
       weight: '-9'
-      css_classes: col-md-6
+      css_classes: 'col-md-6 mt-4'
       css_id: ''
       uuid: 9db78bc7-f6c1-4ec9-bb09-2fc85800c50a
       context_mapping: {  }
