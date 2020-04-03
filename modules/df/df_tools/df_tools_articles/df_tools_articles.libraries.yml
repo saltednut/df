@@ -2,6 +2,7 @@ main:
   version: VERSION
   js:
     js/prism.js: {}
+    js/endpoint-block.js: {}
   dependencies:
     - core/jquery
     - core/drupal
