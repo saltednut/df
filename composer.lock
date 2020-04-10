@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73fa9c721a4f3fc50f045ed253feb8a0",
+    "content-hash": "691510e894a7c88ccdae800037830635",
     "packages": [
         {
             "name": "acquia/acf",
@@ -7456,20 +7456,20 @@
         },
         {
             "name": "drupal/geocoder",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geocoder.git",
-                "reference": "8.x-2.10"
+                "reference": "8.x-2.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.10.zip",
-                "reference": "8.x-2.10",
-                "shasum": "770ec22c07d9596f67d6db62d57bf25e10854474"
+                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.11.zip",
+                "reference": "8.x-2.11",
+                "shasum": "37a170dfc688b610f0fffe66dd49c80cceabbd61"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8 || ^9",
                 "willdurand/geocoder": "^3.3"
             },
             "require-dev": {
@@ -7485,8 +7485,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.10",
-                    "datestamp": "1585432602",
+                    "version": "8.x-2.11",
+                    "datestamp": "1586209851",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7555,27 +7555,27 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.10"
+                "reference": "8.x-1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.10.zip",
-                "reference": "8.x-1.10",
-                "shasum": "4d017d9dd4c27492c650ef8cae9ebdee9a20d191"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "f1628a08b115e07782930848da1bd34fff9e4f4a"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8 || ^9",
                 "phayes/geophp": "^1.2"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.10",
-                    "datestamp": "1585432867",
+                    "version": "8.x-1.11",
+                    "datestamp": "1586208210",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8496,27 +8496,27 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "1.31.0",
+            "version": "1.33.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "8.x-1.31"
+                "reference": "8.x-1.33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.31.zip",
-                "reference": "8.x-1.31",
-                "shasum": "fef7a287c3e96644d0eb073ce360be172b4fb283"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.33.zip",
+                "reference": "8.x-1.33",
+                "shasum": "4b1f566dc82710a7fcd06a5b9115ceefbce12745"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8 || ^9",
                 "drupal/geofield": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.31",
-                    "datestamp": "1585602761",
+                    "version": "8.x-1.33",
+                    "datestamp": "1586209401",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -12046,9 +12046,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.2",
                     "datestamp": "1552333980",
