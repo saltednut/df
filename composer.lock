@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0551ad43cf049d8d70edd053ae0a9968",
+    "content-hash": "bfaccd96d0f7ff1ae0a770d8f01ab138",
     "packages": [
         {
             "name": "acquia/acf",
@@ -10261,17 +10261,17 @@
         },
         {
             "name": "drupal/moderation_note",
-            "version": "1.0.0-beta1",
+            "version": "1.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/moderation_note.git",
-                "reference": "8.x-1.0-beta1"
+                "reference": "8.x-1.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/moderation_note-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "4dd3c62e18c06c101514f6eba0c9ed14f2b800a2"
+                "url": "https://ftp.drupal.org/files/projects/moderation_note-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "1ce07f44a768e8dcfa0f3c0abf0883c36acefe2f"
             },
             "require": {
                 "drupal/core": "^8.5"
@@ -10282,7 +10282,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
+                    "version": "8.x-1.0-beta2",
                     "datestamp": "1581289929",
                     "security-coverage": {
                         "status": "not-covered",
