@@ -12,7 +12,7 @@ class DefaultConfigLayout extends LayoutDefault implements PluginFormInterface {
    * {@inheritdoc}
    */
   public function defaultConfiguration() {
-    return [
+    return parent::defaultConfiguration() + [
       'gap' => 'gap-md',
       'full_width' => FALSE,
       'class' => '',
@@ -31,6 +31,7 @@ class DefaultConfigLayout extends LayoutDefault implements PluginFormInterface {
    * {@inheritdoc}
    */
   public function buildConfigurationForm(array $form, FormStateInterface $form_state) {
+    $form = parent::buildConfigurationForm($form, $form_state);
     $form['gap'] = [
       '#type' => 'select',
       '#title' => $this->t('Space between rows'),
@@ -72,6 +73,7 @@ class DefaultConfigLayout extends LayoutDefault implements PluginFormInterface {
    * {@inheritdoc}
    */
   public function submitConfigurationForm(array &$form, FormStateInterface $form_state) {
+    parent::submitConfigurationForm($form, $form_state);
     $this->configuration['gap'] = $form_state->getValue('gap');
     $this->configuration['full_width'] = $form_state->getValue('full_width');
     $this->configuration['class'] = $form_state->getValue('class');
