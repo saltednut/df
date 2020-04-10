@@ -4,20 +4,20 @@ dependencies:
   module:
     - node
 id: person
-label: Person
+label: 'Content - person'
 type: 'canonical_entities:node'
-pattern: '/[node:content-type]/[node:field_type]/[node:title]'
+pattern: '/person/[node:field_type]/[node:title]'
 selection_criteria:
-  6f7d65c8-13be-4b47-a561-6cf65c03d59c:
+  4e04761f-c829-4ea2-838c-54a2b9432b9b:
     id: node_type
     bundles:
       person: person
     negate: false
     context_mapping:
       node: node
-    uuid: 6f7d65c8-13be-4b47-a561-6cf65c03d59c
+    uuid: 4e04761f-c829-4ea2-838c-54a2b9432b9b
 selection_logic: and
-weight: 0
+weight: -5
 relationships:
   'node:langcode:language':
     label: Language

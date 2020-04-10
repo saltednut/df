@@ -4,18 +4,18 @@ dependencies:
   module:
     - node
 id: page
-label: 'Basic page'
+label: 'Content - basic page'
 type: 'canonical_entities:node'
 pattern: '/[node:field_type]/[node:title]'
 selection_criteria:
-  ed3341e3-256e-425f-a551-c64e0f442343:
+  d400ace7-f972-4801-945d-ebcf6a9e2043:
     id: node_type
     bundles:
       page: page
     negate: false
     context_mapping:
       node: node
-    uuid: ed3341e3-256e-425f-a551-c64e0f442343
+    uuid: d400ace7-f972-4801-945d-ebcf6a9e2043
 selection_logic: and
-weight: 0
+weight: -5
 relationships: {  }
