@@ -2,17 +2,20 @@ langcode: en
 status: true
 dependencies:
   config: {}
+  enforced:
+    config:
+      0: workbench_email.workbench_email_template.draft_ready_for_review
+      2: workbench_email.workbench_email_template.draft_rejected
   module:
     - content_moderation
     - workbench_email
-  enforced:
-    config:
-      - workbench_email.workbench_email_template.draft_ready_for_review
 third_party_settings:
   workbench_email:
     workbench_email_templates:
       review:
         draft_ready_for_review: draft_ready_for_review
+      create_new_draft:
+        draft_rejected: draft_rejected
 id: editorial
 label: Editorial
 type: content_moderation
