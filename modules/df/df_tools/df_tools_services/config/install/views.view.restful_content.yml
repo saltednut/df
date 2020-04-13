@@ -5,12 +5,13 @@ dependencies:
     - field.storage.node.body
   module:
     - file
+    - hal
+    - media
     - node
     - rest
+    - serialization
     - text
     - user
-_core:
-  default_config_hash: ctMiRrMe-fqnKmyjuMr7E8CRuUOc69AC_bGAs-K1K7o
 id: restful_content
 label: 'Restful Content'
 module: views
@@ -18,7 +19,6 @@ description: ''
 tag: ''
 base_table: node_field_data
 base_field: nid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -217,7 +217,7 @@ display:
           id: uri
           table: file_managed
           field: uri
-          relationship: field_image_target_id
+          relationship: image_target_id
           group_type: group
           admin_label: ''
           label: Image
@@ -497,6 +497,8 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -532,13 +534,22 @@ display:
       footer: {  }
       empty: {  }
       relationships:
-        field_image_target_id:
-          id: field_image_target_id
+        field_image:
+          id: field_image
           table: node__field_image
-          field: field_image_target_id
+          field: field_image
           relationship: none
           group_type: group
-          admin_label: 'image from field_image'
+          admin_label: 'field_image: Media'
+          required: false
+          plugin_id: standard
+        image_target_id:
+          id: image_target_id
+          table: media__image
+          field: image_target_id
+          relationship: field_image
+          group_type: group
+          admin_label: 'image from image'
           required: false
           plugin_id: standard
       arguments:
@@ -638,8 +649,7 @@ display:
             status:
               alias: status
               raw_output: false
-      auth:
-        basic_auth: basic_auth
+      auth: {  }
     cache_metadata:
       contexts:
         - 'languages:language_content'
