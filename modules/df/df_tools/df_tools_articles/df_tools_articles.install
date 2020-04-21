@@ -29,4 +29,13 @@ function df_tools_articles_install() {
     'link' => array('uri' => 'internal:/node/add/article'),
   ));
   $shortcut->save();
+
+  // Add API Demo to the default shortcut set.
+  $shortcut = Shortcut::create(array(
+    'shortcut_set' => 'default',
+    'title' => t('API Demo'),
+    'weight' => 0,
+    'link' => array('uri' => 'internal:/api-demo'),
+  ));
+  $shortcut->save();
 }
