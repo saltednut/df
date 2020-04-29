@@ -51,7 +51,8 @@
         "package": "Acquia\\DF\\Composer\\Package::execute",
         "push": "./vendor/bin/phing push",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "nuke": "rm -r -f docroot vendor modules/contrib themes/contrib"
+        "nuke": "rm -r -f docroot vendor modules/contrib themes/contrib",
+        "degit": "find * -type d -name \"*.git*\" -exec rm -rf {} +"
     },
     "extra": {
         "installer-types": [
