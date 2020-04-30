@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-lift-samples.git",
-                "reference": "59c9ac620bee2d5efb4d4537c939b52c6a1b8234"
+                "reference": "1b41f7827d03e79fa2087470086c0475912212fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/59c9ac620bee2d5efb4d4537c939b52c6a1b8234",
-                "reference": "59c9ac620bee2d5efb4d4537c939b52c6a1b8234",
+                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/1b41f7827d03e79fa2087470086c0475912212fd",
+                "reference": "1b41f7827d03e79fa2087470086c0475912212fd",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -65,7 +65,7 @@
                 "source": "https://github.com/acquia/acquia-lift-samples/tree/master",
                 "issues": "https://github.com/acquia/acquia-lift-samples/issues"
             },
-            "time": "2020-04-30T13:03:51+00:00"
+            "time": "2020-04-30T17:17:18+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -5525,10 +5525,10 @@
                     "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865": "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
