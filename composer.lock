@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64ec220763cdf5ec883337f7d10fd53e",
+    "content-hash": "398444effa591e5075a34a04af28385f",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5797,9 +5797,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.0-alpha8",
                     "datestamp": "1556924587",
@@ -7480,17 +7477,17 @@
         },
         {
             "name": "drupal/geocoder",
-            "version": "2.11.0",
+            "version": "2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geocoder.git",
-                "reference": "8.x-2.11"
+                "reference": "8.x-2.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.11.zip",
-                "reference": "8.x-2.11",
-                "shasum": "37a170dfc688b610f0fffe66dd49c80cceabbd61"
+                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-2.12.zip",
+                "reference": "8.x-2.12",
+                "shasum": "19bfb1f590a8bc394f1c556e4c9d4822f2ffc48a"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -7509,8 +7506,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.11",
-                    "datestamp": "1586209851",
+                    "version": "8.x-2.12",
+                    "datestamp": "1586899591",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7579,17 +7576,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.11.0",
+            "version": "1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.11"
+                "reference": "8.x-1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.11.zip",
-                "reference": "8.x-1.11",
-                "shasum": "f1628a08b115e07782930848da1bd34fff9e4f4a"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.13.zip",
+                "reference": "8.x-1.13",
+                "shasum": "e08c1d8aeb95d2ad1babb7c5a019202f02023d65"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -7598,8 +7595,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.11",
-                    "datestamp": "1586208210",
+                    "version": "8.x-1.13",
+                    "datestamp": "1588276833",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7654,72 +7651,6 @@
                 "issues": "https://www.drupal.org/project/issues/geofield",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             }
-        },
-        {
-            "name": "drupal/git_deploy",
-            "version": "dev-2.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/git_deploy.git",
-                "reference": "9a636c96aad1a14a4c8a73b4c320eb771b7d4101"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.0+10-dev",
-                    "datestamp": "1587700088",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Darren Oh",
-                    "homepage": "https://www.drupal.org/user/30772"
-                },
-                {
-                    "name": "Freso",
-                    "homepage": "https://www.drupal.org/user/27504"
-                },
-                {
-                    "name": "Gábor Hojtsy",
-                    "homepage": "https://www.drupal.org/user/4166"
-                },
-                {
-                    "name": "chx",
-                    "homepage": "https://www.drupal.org/user/9446"
-                },
-                {
-                    "name": "halstead",
-                    "homepage": "https://www.drupal.org/user/301087"
-                },
-                {
-                    "name": "mikey_p",
-                    "homepage": "https://www.drupal.org/user/62496"
-                },
-                {
-                    "name": "sdboyer",
-                    "homepage": "https://www.drupal.org/user/146719"
-                }
-            ],
-            "description": "Helps sites that are deployed directly from Git repositories.",
-            "homepage": "https://www.drupal.org/project/git_deploy",
-            "support": {
-                "source": "https://git.drupalcode.org/project/git_deploy"
-            },
-            "time": "2020-04-24T03:47:32+00:00"
         },
         {
             "name": "drupal/google_analytics",
@@ -8591,17 +8522,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "1.33.0",
+            "version": "1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "8.x-1.33"
+                "reference": "8.x-1.36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.33.zip",
-                "reference": "8.x-1.33",
-                "shasum": "4b1f566dc82710a7fcd06a5b9115ceefbce12745"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-8.x-1.36.zip",
+                "reference": "8.x-1.36",
+                "shasum": "e214cda64e7141709010ecb80c83ada747345e0d"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -8610,8 +8541,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.33",
-                    "datestamp": "1586209401",
+                    "version": "8.x-1.36",
+                    "datestamp": "1587388724",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -12819,21 +12750,20 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "8.x-2.4"
+                "reference": "8.x-2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-2.4.zip",
-                "reference": "8.x-2.4",
-                "shasum": "4f17ebc28d4cf6cc6d279a403481bda711f788b7"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "3d7377df94f28733beee469065d98c5f6a6fb419"
             },
             "require": {
                 "drupal/core": "^8.7",
-                "drupal/git_deploy": "2.x-dev",
                 "mathieuviossat/arraytotexttable": "~1.0.0",
                 "mglaman/phpstan-drupal": "^0.12.0",
                 "nikic/php-parser": "^4.0.0",
@@ -12842,8 +12772,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.4",
-                    "datestamp": "1587562706",
+                    "version": "8.x-2.5",
+                    "datestamp": "1588278231",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
