@@ -52,7 +52,7 @@
         "push": "./vendor/bin/phing push",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "nuke": "rm -r -f docroot vendor modules/contrib themes/contrib",
-        "degit": "find * -type d -name \"*.git*\" -exec rm -rf {} +"
+        "remove-git-submodules" : "find . -mindepth 2 -type d -name .git | xargs rm -rf"
     },
     "extra": {
         "installer-types": [
