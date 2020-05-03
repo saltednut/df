@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e05ccd908d9afda1048fc58b22835f46",
+    "content-hash": "10cba75f1c01dfebbc39a3e2a88c8c07",
     "packages": [
         {
             "name": "acquia/acf",
@@ -829,16 +829,16 @@
         },
         {
             "name": "cohesion/dx8",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
-                "reference": "c93f17e6cfc388b4365319be72a3b06dde0dfe47"
+                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/c93f17e6cfc388b4365319be72a3b06dde0dfe47.zip",
-                "reference": "c93f17e6cfc388b4365319be72a3b06dde0dfe47",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/0ffab8c9ddbbca74110a2275d66075a004b686f0.zip",
+                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0",
                 "shasum": ""
             },
             "require": {
@@ -878,31 +878,31 @@
             "description": "Acquia Cohesion",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/c93f17e6cfc388b4365319be72a3b06dde0dfe47/?at=6.0.3"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/0ffab8c9ddbbca74110a2275d66075a004b686f0/?at=6.1.0"
             },
-            "time": "2020-03-30T15:57:12+00:00"
+            "time": "2020-05-01T10:16:13+00:00"
         },
         {
             "name": "cohesion/dx8-theme",
-            "version": "6.0.3",
+            "version": "6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
-                "reference": "ed2037cd233c1f71689fbe0fc3de4282a28a6a26"
+                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/ed2037cd233c1f71689fbe0fc3de4282a28a6a26.zip",
-                "reference": "ed2037cd233c1f71689fbe0fc3de4282a28a6a26",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/37bd73b667f0c7b0548ac9535cba17b71a451b4f.zip",
+                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f",
                 "shasum": ""
             },
             "type": "drupal-theme",
             "description": "Acquia Cohesion minimal theme",
             "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
             "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/ed2037cd233c1f71689fbe0fc3de4282a28a6a26/?at=6.0.3"
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/37bd73b667f0c7b0548ac9535cba17b71a451b4f/?at=6.1.0"
             },
-            "time": "2020-03-30T15:57:23+00:00"
+            "time": "2020-05-01T10:16:24+00:00"
         },
         {
             "name": "commerceguys/addressing",
@@ -5526,10 +5526,10 @@
                     "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865": "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
