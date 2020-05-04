@@ -7,5 +7,4 @@ dependencies:
   - config_translation
   - content_translation
   - df_core
-  - layout_builder_at
   - menu_link_content
