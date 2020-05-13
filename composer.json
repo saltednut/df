@@ -32,11 +32,11 @@
         },
         "cohesion": {
             "type": "vcs",
-            "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
+            "url": "https://github.com/acquia/cohesion"
         },
         "cohesion-theme": {
             "type": "vcs",
-            "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git"
+            "url": "https://github.com/acquia/cohesion-theme"
         }
     },
     "scripts": {
@@ -181,7 +181,7 @@
               "Youtube looping | http://drupal.org/node/2866001":
               "https://www.drupal.org/files/issues/2019-04-26/video_embed_field-youtube_loop-2866001-12.patch"
             },
-            "cohesion/dx8": {
+            "acquia/cohesion": {
               "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files":
               "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch"
             }
@@ -190,8 +190,8 @@
     "require": {
         "acquia/lightning": "4.1.3",
         "acquia/acquia-lift-samples": "dev-master",
-        "cohesion/dx8": "6.1.0",
-        "cohesion/dx8-theme": "6.1.0",
+        "acquia/cohesion": "6.1.0",
+        "acquia/cohesion-theme": "6.1.0",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",

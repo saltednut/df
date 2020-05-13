@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9391a888b39785122093d85479ce99e2",
+    "content-hash": "a9543ae662116457f3e2e3400dff7939",
     "packages": [
         {
             "name": "acquia/acf",
@@ -66,6 +66,86 @@
                 "issues": "https://github.com/acquia/acquia-lift-samples/issues"
             },
             "time": "2020-04-30T17:17:18+00:00"
+        },
+        {
+            "name": "acquia/cohesion",
+            "version": "6.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/cohesion.git",
+                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/0ffab8c9ddbbca74110a2275d66075a004b686f0",
+                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0",
+                "shasum": ""
+            },
+            "require": {
+                "cweagans/composer-patches": "^1.6",
+                "drupal/entity_reference_revisions": "^1.7",
+                "drupal/imce": "^1.7",
+                "drupal/token": "^1.5",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "acquia/coding-standards": "^0.4.1",
+                "behat/mink": "^1.7",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpunit/phpunit": "^6.5",
+                "symfony/phpunit-bridge": "^4.3"
+            },
+            "suggest": {
+                "drupal/admin_toolbar": "Provides a better UX for the standard admin toolbar",
+                "drupal/context": "Provides a UI for contexts.",
+                "drupal/google_analytics": "Provides integration with Google Analytics",
+                "drupal/menu_item_extras": "Make the Menu Link Content entity fully fieldable.",
+                "drupal/menu_link_attributes": "This module allows you to add attributes to your menu links or their wrapping <li> elements.",
+                "drupal/request_data_conditions": "Defines a set of conditions via the Drupal 8 Conditions Plugin API for use with the context module",
+                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.",
+                "drupal/views_infinite_scroll": "Provides infinite scroll functionality to Views",
+                "drupal/webform": "This module allows you to use webforms."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                },
+                "enable-patching": true,
+                "patches_applied": {
+                    "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch"
+                }
+            },
+            "description": "Acquia Cohesion",
+            "support": {
+                "source": "https://github.com/acquia/cohesion/tree/6.1.0",
+                "issues": "https://github.com/acquia/cohesion/issues"
+            },
+            "time": "2020-05-01T10:16:13+00:00"
+        },
+        {
+            "name": "acquia/cohesion-theme",
+            "version": "6.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:acquia/cohesion-theme.git",
+                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/37bd73b667f0c7b0548ac9535cba17b71a451b4f",
+                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "description": "Acquia Cohesion minimal theme",
+            "support": {
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.1.0",
+                "issues": "https://github.com/acquia/cohesion-theme/issues"
+            },
+            "time": "2020-05-01T10:16:24+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -826,86 +906,6 @@
             ],
             "description": "Drupal code generator",
             "time": "2020-04-16T06:45:06+00:00"
-        },
-        {
-            "name": "cohesion/dx8",
-            "version": "6.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
-                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/0ffab8c9ddbbca74110a2275d66075a004b686f0.zip",
-                "reference": "0ffab8c9ddbbca74110a2275d66075a004b686f0",
-                "shasum": ""
-            },
-            "require": {
-                "cweagans/composer-patches": "^1.6",
-                "drupal/entity_reference_revisions": "^1.7",
-                "drupal/imce": "^1.7",
-                "drupal/token": "^1.5",
-                "ext-json": "*"
-            },
-            "require-dev": {
-                "acquia/coding-standards": "^0.4.1",
-                "behat/mink": "^1.7",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-                "phpunit/phpunit": "^6.5",
-                "symfony/phpunit-bridge": "^4.3"
-            },
-            "suggest": {
-                "drupal/admin_toolbar": "Provides a better UX for the standard admin toolbar",
-                "drupal/context": "Provides a UI for contexts.",
-                "drupal/google_analytics": "Provides integration with Google Analytics",
-                "drupal/menu_item_extras": "Make the Menu Link Content entity fully fieldable.",
-                "drupal/menu_link_attributes": "This module allows you to add attributes to your menu links or their wrapping <li> elements.",
-                "drupal/request_data_conditions": "Defines a set of conditions via the Drupal 8 Conditions Plugin API for use with the context module",
-                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.",
-                "drupal/views_infinite_scroll": "Provides infinite scroll functionality to Views",
-                "drupal/webform": "This module allows you to use webforms."
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                },
-                "enable-patching": true,
-                "patches_applied": {
-                    "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch"
-                }
-            },
-            "description": "Acquia Cohesion",
-            "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
-            "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/0ffab8c9ddbbca74110a2275d66075a004b686f0/?at=6.1.0"
-            },
-            "time": "2020-05-01T10:16:13+00:00"
-        },
-        {
-            "name": "cohesion/dx8-theme",
-            "version": "6.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
-                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/37bd73b667f0c7b0548ac9535cba17b71a451b4f.zip",
-                "reference": "37bd73b667f0c7b0548ac9535cba17b71a451b4f",
-                "shasum": ""
-            },
-            "type": "drupal-theme",
-            "description": "Acquia Cohesion minimal theme",
-            "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
-            "support": {
-                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/37bd73b667f0c7b0548ac9535cba17b71a451b4f/?at=6.1.0"
-            },
-            "time": "2020-05-01T10:16:24+00:00"
         },
         {
             "name": "commerceguys/addressing",
