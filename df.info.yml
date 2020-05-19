@@ -7,7 +7,6 @@ distribution:
 core: 8.x
 base profile: lightning
 install:
-  - admin_login_path
   - admin_toolbar
   - admin_toolbar_tools
   - adminimal_admin_toolbar
