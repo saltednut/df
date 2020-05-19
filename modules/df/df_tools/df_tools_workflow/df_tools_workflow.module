@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Url;
@@ -185,4 +186,15 @@ function df_tools_workflow_library_info_alter(&$libraries, $extension) {
   if ($extension === 'moderation_note') {
     unset($libraries['main']['dependencies']);
   }
+}
+
+/**
+ * Implements hook_moderation_sidebar_alter().
+ */
+function df_tools_workflow_moderation_sidebar_alter(array &$build, EntityInterface $entity) {
+    $build['actions']['primary']['view_latest']['#attributes']['class'][]
+      = 'view-latest';
+    $build['actions']['primary']['view_default']['#attributes']['class'][]
+      = 'view-default';
+    $build['actions']['primary']['edit']['#attributes']['class'][] = 'edit';
 }

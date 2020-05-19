@@ -5,32 +5,7 @@
  * Contains df_tools_translation.module.
  */
 
-use Drupal\migrate_source_csv\CSVFileObject;
 use Drupal\Core\Entity\FieldableEntityInterface;
-
-/**
- * Performs minimum steps necessary to load a CSV from a file.
- *
- * @param string $filename The filename of a CSV
- *
- * @return \Drupal\migrate_source_csv\CSVFileObject The prepared CSV object
- */
-function df_tools_translation_initialize_csv($filename) {
-  // Grab the processed CSV file using existing CSV methods.
-  $file = new CSVFileObject($filename);
-  $file->setHeaderRowCount(1);
-
-  // Map the column names (first row) to values.
-  $row = $file->current();
-  $column_names = [];
-  foreach ($row as $header) {
-    $header = trim($header);
-    $column_names[] = [$header => $header];
-  }
-  $file->setColumnNames($column_names);
-
-  return $file;
-}
 
 /**
  * Enables translation for the given entity bundles and all their fields.

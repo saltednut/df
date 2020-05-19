@@ -13,7 +13,7 @@ bundle: hero
 label: 'Second Line size'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     value: h6
