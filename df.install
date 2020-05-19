@@ -33,3 +33,11 @@ function df_install() {
   \Drupal::service('entity.definition_update_manager')->applyUpdates();
 }
 
+/**
+ * Uninstall admin_login_path and remove permissions it set to use admin theme.
+ */
+function df_update_8401() {
+  \Drupal::service('module_installer')->uninstall(['admin_login_path']);
+  user_role_revoke_permissions(DRUPAL_ANONYMOUS_RID, ['view the administration theme']);
+  user_role_revoke_permissions(DRUPAL_AUTHENTICATED_RID, ['view the administration theme']);
+}
