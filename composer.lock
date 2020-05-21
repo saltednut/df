@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f58d3f1de5bd04fbf744e462db98d7c0",
+    "content-hash": "23b54c92aca93e5e10e9cf95e89af7f2",
     "packages": [
         {
             "name": "acquia/acf",
@@ -9692,20 +9692,20 @@
         },
         {
             "name": "drupal/media_acquiadam",
-            "version": "1.41.0",
+            "version": "1.42.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_acquiadam.git",
-                "reference": "8.x-1.41"
+                "reference": "8.x-1.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.41.zip",
-                "reference": "8.x-1.41",
-                "shasum": "c0e25a137c451535c46fc5e52a6914263eafdd39"
+                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.42.zip",
+                "reference": "8.x-1.42",
+                "shasum": "77d15c9d70c8accf6281733228e5a6e10e87c31b"
             },
             "require": {
-                "cweagans/php-webdam-client": "^1",
+                "cweagans/php-webdam-client": "^1.0.1",
                 "drupal/core": "^8.7 || ^9",
                 "drupal/fallback_formatter": "1.x-dev"
             },
@@ -9723,17 +9723,16 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev",
-                    "dev-8.x-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.41",
-                    "datestamp": "1585663888",
+                    "version": "8.x-1.42",
+                    "datestamp": "1590083389",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "branch-alias": {
+                    "dev-8.x-1.x": "1.x-dev"
                 },
                 "hooks": {
                     "pre-commit": "vendor/bin/phpcs",
