@@ -10,6 +10,7 @@ dependencies:
   - df_tools_articles
   - df_tools_blocks
   - df_tools_color
+  - df_tools_content
   - df_tools_editor
   - df_tools_events_demo
   - df_tools_frontend
@@ -22,5 +23,4 @@ dependencies:
   - df_tools_search
   - df_tools_workflow
   - responsive_preview
-  - scenarios_contenthub
   - view_modes_display
