@@ -28,6 +28,7 @@ install:
   - pathauto
   - responsive_preview
   - scenarios
+  - scenarios_ui
   - syslog
   - tour
   - view_modes_display
