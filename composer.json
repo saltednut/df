@@ -185,7 +185,9 @@
               "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files":
               "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch",
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
-              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
+              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
+              "Creating an existing select of Drupal blocks causes a Server error | ACO-270":
+              "https://www.drupal.org/files/issues/2020-05-21/cohesion-drupal-blocks-server-error.patch"
             }
         }
     },

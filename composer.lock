@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26c975e70c1b28410b5b871c76c7e817",
+    "content-hash": "79ee9efa269185f041dbbfcadde22f3a",
     "packages": [
         {
             "name": "acquia/acf",
@@ -116,7 +116,8 @@
                 "enable-patching": true,
                 "patches_applied": {
                     "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch",
-                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
+                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
+                    "Creating an existing select of Drupal blocks causes a Server error | ACO-270": "https://www.drupal.org/files/issues/2020-05-21/cohesion-drupal-blocks-server-error.patch"
                 }
             },
             "license": [
@@ -5534,10 +5535,10 @@
                     "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865": "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
