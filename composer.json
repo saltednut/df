@@ -122,8 +122,6 @@
                 "https://www.drupal.org/files/issues/2019-11-30/2998114-67.patch"
             },
             "drupal/content_browser": {
-                "Combined Content Browser patch | http://drupal.org/node/2851687":
-                "https://www.drupal.org/files/issues/content-browser-2851687-2903529-combined-3.patch",
                 "Error when trying to place a new block | http://drupal.org/node/3042028":
                 "https://www.drupal.org/files/issues/2019-03-21/runtime_exception_when_placing_block-3042028-2_0.patch"
             },
@@ -219,7 +217,7 @@
         "drupal/config_rewrite": "^1.0",
         "drupal/config_sync": "1.x-dev",
         "drupal/config_tools": "1.x-dev",
-        "drupal/content_browser": "1.0.0-alpha4",
+        "drupal/content_browser": "1.0.0",
         "drupal/default_content": "1.0.0-alpha8",
         "drupal/default_content_deploy": "1.x-dev#97ea1ae as 1.x-dev",
         "drupal/dx8_addtoany": "^1.1",
