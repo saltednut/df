@@ -223,7 +223,7 @@
         "drupal/dx8_addtoany": "^1.1",
         "drupal/entity_gallery": "1.x-dev",
         "drupal/entity_browser": "2.4",
-        "drupal/entity_clone": "1.0-beta3",
+        "drupal/entity_clone": "1.0-beta4",
         "drupal/entity_usage": "2.0.0-beta3",
         "drupal/facets": "1.4.0",
         "drupal/field_formatter_class": "1.3.0",
