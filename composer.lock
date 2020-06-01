@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c6d92f908ef3f436c76da36abcd4ecd",
+    "content-hash": "a4271f921d5c92790d960a7913a1e794",
     "packages": [
         {
             "name": "acquia/acf",
@@ -69,16 +69,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.1.1",
+            "version": "6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "b25be0e74ebdf2a4fad951671f5eda9b698f713b"
+                "reference": "f109e22df4e03c5af608c4a6da1e1d4c8194d549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/b25be0e74ebdf2a4fad951671f5eda9b698f713b",
-                "reference": "b25be0e74ebdf2a4fad951671f5eda9b698f713b",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/f109e22df4e03c5af608c4a6da1e1d4c8194d549",
+                "reference": "f109e22df4e03c5af608c4a6da1e1d4c8194d549",
                 "shasum": ""
             },
             "require": {
@@ -131,23 +131,23 @@
             ],
             "description": "Acquia Cohesion",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.1.1",
+                "source": "https://github.com/acquia/cohesion/tree/6.1.2",
                 "issues": "https://github.com/acquia/cohesion/issues"
             },
-            "time": "2020-05-23T08:25:34+00:00"
+            "time": "2020-06-01T08:42:40+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.1.1",
+            "version": "6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "a42ca35d2922a0fe0cf13e81c872f8aa707df4bd"
+                "reference": "dda13c686550cac360163129be70dc3995349eec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/a42ca35d2922a0fe0cf13e81c872f8aa707df4bd",
-                "reference": "a42ca35d2922a0fe0cf13e81c872f8aa707df4bd",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/dda13c686550cac360163129be70dc3995349eec",
+                "reference": "dda13c686550cac360163129be70dc3995349eec",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -163,10 +163,10 @@
             ],
             "description": "Acquia Cohesion minimal theme",
             "support": {
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.1.1",
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.1.2",
                 "issues": "https://github.com/acquia/cohesion-theme/issues"
             },
-            "time": "2020-05-23T08:25:45+00:00"
+            "time": "2020-06-01T08:42:53+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -659,7 +659,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -5562,10 +5562,10 @@
                     "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865": "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
