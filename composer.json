@@ -98,8 +98,6 @@
                 "https://www.drupal.org/files/issues/member-function-url-fix-2565247-4.patch",
                 "Support third party settings for components within a section | http://drupal.org/node/2998114":
                 "https://www.drupal.org/files/issues/2019-02-26/3015152-tps-5.patch",
-                "Form blocks rendered inside layout builder break save | http://drupal.org/node/3045171":
-                "https://www.drupal.org/files/issues/2019-11-15/drupal-layout_builder_unable_to_save-3045171-103.patch",
                 "Improve block listing in Layout Builder... | https://drupal.org/node/2977587":
                 "https://www.drupal.org/files/issues/2019-07-19/2977587-140-DO-NOT-TEST.patch",
                 "Layout builder's \"Add Block\" sidebar menu UX improvements | http://drupal.org/node/3069446":
@@ -107,7 +105,7 @@
                 "Blocks added by Layout Builder should have 'Display title' unchecked | http://drupal.org/node/3074435":
                 "https://www.drupal.org/files/issues/2019-08-12/layout_builder_add_block-label-0.patch",
                 "Overriding already overridden libraries-override requires knowledge of previous libraries-overrides | http://drupal.org/node/2642122":
-                "https://www.drupal.org/files/issues/2019-08-29/2642122-107.patch",
+                "https://www.drupal.org/files/issues/2020-06-04/2642122-120.patch",
                 "Argument 2 passed... | http://drupal.org/node/2996114":
                 "https://www.drupal.org/files/issues/2019-07-07/jsonapi_routes_config_catching.patch",
                 "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865":
@@ -115,7 +113,7 @@
                 "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906":
                 "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                 "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975":
-                "https://www.drupal.org/files/issues/2019-11-21/layout_builder-export-content-2942975-67.patch"
+                "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch"
             },
             "drupal/block_class": {
                 "Integration with Drupal core's new Layout Builder| http://drupal.org/node/2998114":
