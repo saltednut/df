@@ -5,7 +5,6 @@
  * Set up the Demo user base install routines.
  */
 
-use Drupal\shortcut\Entity\Shortcut;
 use Drupal\user\Entity\User;
 
 /**
@@ -32,25 +31,6 @@ function df_tools_user_install() {
 
   // Allow authenticated users to use shortcuts.
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access shortcuts'));
-
-  if (!\Drupal::service('config.installer')->isSyncing()) {
-    // Populate the default shortcut set.
-    $shortcut = Shortcut::create(array(
-      'shortcut_set' => 'default',
-      'title' => t('All content'),
-      'weight' => -20,
-      'link' => array('uri' => 'internal:/admin/content'),
-    ));
-    $shortcut->save();
-
-    $shortcut = Shortcut::create(array(
-      'shortcut_set' => 'default',
-      'title' => t('All files'),
-      'weight' => -19,
-      'link' => array('uri' => 'internal:/admin/content/files'),
-    ));
-    $shortcut->save();
-  }
 
   // Add the First and Last Name fields to the user entity form display.
   entity_get_form_display('user', 'user', 'default')
