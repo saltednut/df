@@ -6,14 +6,15 @@
  */
 
 use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
 
 /**
  * Implements hook_install().
  */
 function df_tools_user_install() {
   // Enable default permissions for system roles.
-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access comments', 'access user profiles'));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access comments', 'post comments', 'skip comment approval', 'access user profiles'));
+  user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, array('access comments', 'access user profiles'));
+  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, array('access comments', 'post comments', 'skip comment approval', 'access user profiles'));
 
   // Assign user 1 the "administrator" role.
   if ($user = User::load(1)) {
@@ -26,14 +27,14 @@ function df_tools_user_install() {
   $menu_link_manager = \Drupal::service('plugin.manager.menu.link');
   $menu_link_manager->updateDefinition('contact.site_page', array('enabled' => 1));
 
-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access site-wide contact form'));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access site-wide contact form'));
+  user_role_grant_permissions(RoleInterface::ANONYMOUS_ID, array('access site-wide contact form'));
+  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, array('access site-wide contact form'));
 
   // Allow authenticated users to use shortcuts.
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access shortcuts'));
+  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, array('access shortcuts'));
 
   // Add the First and Last Name fields to the user entity form display.
-  entity_get_form_display('user', 'user', 'default')
+  \Drupal::service('entity_display.repository')->getFormDisplay('user', 'user', 'default')
     ->setComponent('field_first_name', array(
       'type' => 'string_textfield',
     ))
