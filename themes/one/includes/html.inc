@@ -4,6 +4,8 @@
  * Theme and preprocess functions for html.
  */
 
+use Drupal\Component\Utility\Html;
+
 /**
  * Implements template_preprocess_html().
  *
@@ -33,7 +35,7 @@ function one_preprocess_html(&$variables) {
         $section = 'node-' . $arg[2];
       }
     }
-    $variables['attributes']['class'][] = \Drupal\Component\Utility\Html::getClass('section-' . $section);
+    $variables['attributes']['class'][] = Html::getClass('section-' . $section);
   }
 
   // Store the menu item since it has some useful information.
