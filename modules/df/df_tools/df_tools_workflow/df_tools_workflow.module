@@ -8,6 +8,7 @@
 use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\BubbleableMetadata;
 use Drupal\Core\Render\Element;
 use Drupal\Core\Url;
 use Drupal\node\Entity\Node;
@@ -57,7 +58,7 @@ function df_tools_workflow_modules_installed(array $modules) {
  *
  * We auto-populate and hide the Revision log message on node/add/* forms.
  */
-function df_tools_workflow_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function df_tools_workflow_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   if (\Drupal::routeMatch()->getRouteName() == 'node.add') {
     $replace = [
       '@user' => \Drupal::currentUser()->getDisplayName(),
@@ -76,7 +77,7 @@ function df_tools_workflow_form_alter(&$form, \Drupal\Core\Form\FormStateInterfa
  * moderation form in order to redirect users to the latest version of the
  * content when creating a new draft.
  */
-function df_tools_workflow_form_content_moderation_entity_moderation_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function df_tools_workflow_form_content_moderation_entity_moderation_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   $form['#submit'][] = 'df_tools_workflow_content_moderation_entity_moderation_form_submit';
 }
 
@@ -125,7 +126,7 @@ function df_tools_workflow_menu_local_tasks_alter(&$data, $route_name) {
 /**
  * Implements hook_tokens().
  */
-function df_tools_workflow_tokens($type, $tokens, array $data, array $options, \Drupal\Core\Render\BubbleableMetadata $bubbleable_metadata) {
+function df_tools_workflow_tokens($type, $tokens, array $data, array $options, BubbleableMetadata $bubbleable_metadata) {
   $replacements = [];
 
   if ($type == 'node' && !empty($data['node'])) {
@@ -140,11 +141,11 @@ function df_tools_workflow_tokens($type, $tokens, array $data, array $options, \
       $langcode = NULL;
     }
 
-    /** @var \Drupal\content_moderation\ModerationInformation $moderation_information */
-    $moderation_information = \Drupal::service('content_moderation.moderation_information');
+    $node_storage = \Drupal::service('entity_type.manager')->getStorage('node');
+    $latest_revision_id = $node_storage->getLatestRevisionId($node->id());
 
     /** @var \Drupal\node\NodeInterface $latest */
-    if (!($latest = $moderation_information->getLatestRevision('node', $node->id()))) {
+    if (!($latest = $node_storage->loadRevision($latest_revision_id))) {
       $latest = $node;
     }
 
