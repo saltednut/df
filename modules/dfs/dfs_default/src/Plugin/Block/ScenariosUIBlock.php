@@ -3,7 +3,7 @@
 namespace Drupal\dfs_default\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
-use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Session\AccountInterface;
 
 /**
  * Provides a 'ScenariosUIBlock' block.
@@ -19,7 +19,7 @@ class ScenariosUIBlock extends BlockBase {
   /**
    * {@inheritdoc}
    */
-  public function blockAccess($account) {
+  public function blockAccess(AccountInterface $account) {
     if ($account->hasPermission('view scenarios block')) {
       return AccessResult::allowed();
     }
