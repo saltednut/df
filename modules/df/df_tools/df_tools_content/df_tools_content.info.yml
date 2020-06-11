@@ -1,7 +1,7 @@
 name: DF Tools Content
 type: module
 description: Provides default configuration for importing content.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - better_normalizers

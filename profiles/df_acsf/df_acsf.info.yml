@@ -2,11 +2,11 @@ name: 'ACSF DF'
 type: profile
 description: 'Demo Framework configured to install on ACSF (Advanced Usage)'
 package: 'Demo Framework'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 base profile: df
 install:
   - acsf
-  - acsf_sso 
+  - acsf_sso
   - acsf_duplication
 themes:
   - acquia_claro

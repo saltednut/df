@@ -1,7 +1,7 @@
 name: DF Tools Translation Migrate
 type: module
 description: Enables entity translation after scenario import.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - df_tools_translation

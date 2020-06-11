@@ -1,7 +1,7 @@
 name: 'DF Tools Map'
-description: 'Provides tools relat.'
+description: 'Provides tools related to maps.'
 type: module
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - address

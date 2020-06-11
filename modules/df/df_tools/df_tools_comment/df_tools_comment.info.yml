@@ -1,7 +1,7 @@
 name: DF Tools Comment
 type: module
 description: Provide a default comment type for Demo Framework.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - comment

@@ -1,7 +1,7 @@
 name: DF Tools Cohesion
 type: module
 description: Contains configuration for an Acquia Cohesion demo.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - cohesion

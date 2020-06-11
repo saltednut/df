@@ -1,6 +1,6 @@
 name: Acquia Claro
 description: "Claro plus awesomesauce."
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 type: theme
 base theme: claro
 
