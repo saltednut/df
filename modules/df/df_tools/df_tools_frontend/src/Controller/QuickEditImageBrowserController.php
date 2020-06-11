@@ -93,7 +93,7 @@ class QuickEditImageBrowserController extends QuickEditImageController {
       $entity->$field_name->setValue($value);
 
       // Render the new image using the correct formatter settings.
-      $entity_view_mode_ids = array_keys($this->entityManager()->getViewModes($entity->getEntityTypeId()));
+      $entity_view_mode_ids = array_keys(\Drupal::entityTypeManager()->getViewModes($entity->getEntityTypeId()));
       if (in_array($view_mode_id, $entity_view_mode_ids)) {
         $output = $entity->$field_name->view($view_mode_id);
       }
