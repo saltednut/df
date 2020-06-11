@@ -3,6 +3,7 @@
 namespace Drupal\dfs_default\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Session\AccountInterface;
 
 /**
