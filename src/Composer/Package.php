@@ -2,7 +2,7 @@
 
 namespace Acquia\DF\Composer;
 
-use Acquia\Lightning\IniEncoder;
+use Acquia\DF\IniEncoder;
 use Composer\Package\Locker;
 use Composer\Package\RootPackageInterface;
 use Composer\Script\Event;
