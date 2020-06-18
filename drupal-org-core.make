@@ -20,6 +20,7 @@ projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-07-07/jsona
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch
+projects[drupal][patch][] = https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch
 projects[drupal][patch][] = https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch

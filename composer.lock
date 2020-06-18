@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a881a7bca3512ac7db831e3c44ec38d1",
+    "content-hash": "c7f68250fc26e571db7664b49df532eb",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5574,6 +5574,7 @@
                     "Do not create a new file entity to overwrite an existing entity | http://drupal.org/node/2241865": "https://www.drupal.org/files/issues/2019-12-05/2241865-8.8.patch",
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
+                    "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
                     "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
@@ -12853,17 +12854,17 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "8.x-2.7"
+                "reference": "8.x-2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-2.7.zip",
-                "reference": "8.x-2.7",
-                "shasum": "b9f9db38ae276695b2bc83f2b9877c93fa83a879"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-2.8.zip",
+                "reference": "8.x-2.8",
+                "shasum": "aefff211ddf9ab586d7c61a9f98cbbe8cf26e691"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9",
@@ -12876,8 +12877,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.7",
-                    "datestamp": "1591126346",
+                    "version": "8.x-2.8",
+                    "datestamp": "1592489911",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
