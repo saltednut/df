@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb7d5b8d664d751c670886baa965a9b3",
+    "content-hash": "c9f6475a245a1d565713b953006ece86",
     "packages": [
         {
             "name": "acquia/acf",
@@ -3170,17 +3170,17 @@
         },
         {
             "name": "drupal/acquia_contenthub",
-            "version": "2.14.0",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_contenthub.git",
-                "reference": "8.x-2.14"
+                "reference": "8.x-2.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-2.14.zip",
-                "reference": "8.x-2.14",
-                "shasum": "bd80b024650a64475395df8550b2dcc7f84d0b7f"
+                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-2.15.zip",
+                "reference": "8.x-2.15",
+                "shasum": "ddc80381c0549a51d4ad47c7187d3322e83483bc"
             },
             "require": {
                 "acquia/content-hub-php": "^2.0.1",
@@ -3201,8 +3201,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.14",
-                    "datestamp": "1591216808",
+                    "version": "8.x-2.15",
+                    "datestamp": "1592490400",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
