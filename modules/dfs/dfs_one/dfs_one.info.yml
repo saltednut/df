@@ -18,6 +18,7 @@ dependencies:
   - df_tools_layout
   - df_tools_locations
   - df_tools_map
+  - df_tools_page
   - df_tools_media
   - df_tools_person_demo
   - df_tools_search
