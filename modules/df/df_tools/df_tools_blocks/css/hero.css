@@ -1,31 +1,5 @@
 .hero-block {
   position: relative;
-  min-height: 20rem;
-  overflow: hidden;
-}
-.hero-block .container {
-  position: relative;
-}
-
-.hero-block .hero-block-fields {
-  border-radius: 0.15rem;
-  position: absolute;
-  padding: 2rem;
-  width: 100%;
-  z-index: 1;
-
-}
-
-.hero-block .hero-block-fields.text-align-right {
-  text-align: right;
-}
-
-.hero-block .hero-block-fields.text-align-left {
-  text-align: left;
-}
-
-.hero-block .hero-block-fields.text-align-center {
-  text-align: center;
 }
 
 .hero-block .field--name-field-first-line.size-h1 {font-size: 2.5rem;}
@@ -50,6 +24,7 @@
   transition: .2s filter;
   margin-top: 1rem;
   display: inline-block;
+  text-decoration: none;
 }
 
 .hero-block .field--name-field-hero-link a.hero-link-light-bg:hover {
@@ -60,9 +35,6 @@
   filter: brightness(115%);
 }
 
-.hero-block .field--name-field-hero-background  {
-  position: relative;
-}
 
 .hero-block .field--name-field-hero-background img {
   min-height: 400px;
@@ -93,4 +65,143 @@
 .hero-block iframe {
   min-height: 400px;
   min-width: 100%;
+}
+
+.hero-block .fields {
+  border-radius: 0.15rem;
+  padding: 2rem;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.hero-block .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+}
+
+.hero-block .fields-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.hero-block .fields-container.left {
+  justify-content: flex-start;
+}
+
+.hero-block .fields-container.right {
+  justify-content: flex-end;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero-block .fields-container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-block .fields-container {
+    max-width: 720px;
+  }
+
+ .hero-block .fields.col-03 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+ .hero-block .fields.col-04 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+  .hero-block .fields.col-05 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+
+  .hero-block .fields.col-06 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+
+  .hero-block .fields.col-07 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+ }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hero-block .fields-container {
+    max-width: 960px;
+  }
+
+ .hero-block .fields.col-03 {
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+
+ .hero-block .fields.col-04 {
+    max-width: 33.3333%;
+    flex-basis: 33.3333%;
+  }
+
+  .hero-block .fields.col-05 {
+    max-width: 41.6667%;
+    flex-basis: 41.6667%;
+  }
+
+  .hero-block .fields.col-06 {
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+
+ .hero-block .fields.col-07 {
+    max-width: 58.3333%;
+    flex-basis: 58.3333%;
+  }
+
+ .hero-block .fields.col-08 {
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+  }
+
+ .hero-block .fields.col-09 {
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+
+ .hero-block .fields.col-10 {
+    max-width: 83.3333%;
+    flex-basis: 83.3333%;
+  }
+
+ .hero-block .fields.col-11 {
+    max-width: 91.6667%;
+    flex-basis: 91.6667%;
+  }
+
+ .hero-block .fields.col-12 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .hero-block .fields-container {
+    max-width: 1140px;
+  }
 }

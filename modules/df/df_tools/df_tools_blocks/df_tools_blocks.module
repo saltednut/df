@@ -47,76 +47,18 @@ function df_tools_blocks_block_content_view_alter(array &$build, EntityInterface
   if ($entity->bundle() === 'hero') {
 
     $hero_alignment = $entity->get('field_hero_alignment')->getString();
-    if (preg_match('/^[a-z_]+$/i', $hero_alignment)) {
-      switch ($hero_alignment) {
-        case 'center':
-          $hero_alignment = 'justify-content-center';
-          break;
-        case 'right':
-          $hero_alignment = 'justify-content-end';
-          break;
-        default:
-          $hero_alignment = 'justify-content-start';
-          break;
-      }
-    }
 
     $text_alignment = $entity->get('field_text_align')->getString();
-    if (preg_match('/^[a-z_]+$/i', $hero_alignment)) {
-      switch ($text_alignment) {
-        case 'center':
-          $text_alignment = 'center';
-          break;
-        case 'right':
-          $text_alignment = 'right';
-          break;
-        default:
-          $text_alignment = 'left';
-          break;
-      }
-    }
 
     $hero_callout_width = $entity->get('field_callout_width')->getString();
-    switch($hero_callout_width) {
-      case '03':
-        $hero_callout_width = 'col col-md-5 col-lg-3';
-        break;
-      case '04':
-        $hero_callout_width = 'col col-md-6 col-lg-4';
-        break;
-      case '05':
-        $hero_callout_width = 'col col-md-7 col-lg-5';
-        break;
-      case '06':
-        $hero_callout_width = 'col col-md-8 col-lg-6';
-        break;
-      case '07':
-        $hero_callout_width = 'col col-md-9 col-lg-7';
-        break;
-      case '08':
-        $hero_callout_width = 'col col-md-10 col-lg-8';
-        break;
-      case '09':
-        $hero_callout_width = 'col col-md-11 col-lg-9';
-        break;
-      case '10':
-        $hero_callout_width = 'col col-md-12 col-lg-10';
-        break;
-      case '11':
-        $hero_callout_width = 'col col-md-12 col-lg-11';
-        break;
-      case '12':
-        $hero_callout_width = 'col-12';
-        break;
-    }
 
     $wrapper = [
-      '#prefix' => '<div class="container"><div class="col-12"><div class="row ' . $hero_alignment . '">',
-      '#suffix' => '</div></div></div>',
+      '#prefix' => '<div class="content"><div class="fields-container ' . $hero_alignment . '">',
+      '#suffix' => '</div></div>',
       '#type' => 'container',
       '#weight' => -1,
       '#attributes' => [
-        'class' => ['hero-block-fields', $hero_callout_width ],
+        'class' => ['fields', 'col-' . $hero_callout_width, $text_alignment ],
       ],
       '#children' => [],
     ];
