@@ -129,10 +129,6 @@
                 "Export to tar VIA GUI. | http://drupal.org/node/3070222":
                 "https://www.drupal.org/files/issues/2020-04-01/3070222-8_3119056-03_combined.patch"
             },
-            "drupal/entity_block": {
-                "Add UUID support. | http://drupal.org/node/2834377":
-                "https://www.drupal.org/files/issues/2018-03-12/add-uuid-support-2834377-3.patch"
-            },
             "drupal/entity_browser": {
                 "Fixed the issue of Call to a member function getConfigDependencyKey() on null | http://drupal.org/node/2845037":
                 "https://www.drupal.org/files/issues/2845037-4.patch",
