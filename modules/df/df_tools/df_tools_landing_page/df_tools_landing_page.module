@@ -17,7 +17,7 @@ use Drupal\Core\Form\FormStateInterface;
 function df_tools_landing_page_form_node_landing_page_form_alter(array &$form, FormStateInterface $form_state) {
   if (\Drupal::routeMatch()->getRouteName() == 'node.add') {
     $lb_settings = EntityViewDisplay::load('node.landing_page.default')->getThirdPartySettings('layout_builder');
-    if ($lb_settings['enabled']) {
+    if (isset($lb_settings['enabled'])) {
       foreach (array_keys($form['actions']) as $action) {
         if ($action != 'preview' && isset($form['actions'][$action]['#type']) && $form['actions'][$action]['#type'] === 'submit') {
           $form['actions'][$action]['#submit'][] = '_df_tools_landing_page_init';
