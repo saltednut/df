@@ -127,9 +127,13 @@ function df_tools_translation_import_translations($type, $name) {
 function df_tools_translation_preprocess_page(&$variables) {
   // Add a new page variable with the current link.
   if (!isset($variables['language_current_link']) && isset($variables['language'])) {
-    $variables['language_current_link'] = [
-      '#markup' => t($variables['language']->getName())
-    ];
+    $path = \Drupal::service('path.current')->getPath();
+    $language = $variables['language']->getId();
+    $alias = \Drupal::service('path_alias.manager')->getAliasByPath($path, $language);
+    $url = Url::fromUri('internal:/' . $alias);
+    $name = t($variables['language']->getName());
+    $link = Link::fromTextAndUrl($name, $url)->toString();
+    $variables['language_current_link'] = $link;
   }
 
   // Add the rest of the language links  as well, with links to switch to the
@@ -155,12 +159,8 @@ function df_tools_translation_preprocess_page(&$variables) {
         $langcode = '';
       }
       $url = Url::fromUri('base:/' . $langcode . $alias);
-
-      $current_name = [
-        '#markup' => t($language->getName())
-      ];
-
-      $links[] = Link::fromTextAndUrl($current_name, $url);
+      $current_name = t($language->getName());
+      $links[] = Link::fromTextAndUrl($current_name, $url)->toString();
     }
 
     $variables['language_links'] = $links;
