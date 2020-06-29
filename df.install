@@ -4,6 +4,8 @@
  * Install, update and uninstall functions for the DF installation profile.
  */
 
+use Drupal\user\RoleInterface;
+
 /**
  * Implements hook_install().
  *
@@ -38,6 +40,6 @@ function df_install() {
  */
 function df_update_8401() {
   \Drupal::service('module_installer')->uninstall(['admin_login_path']);
-  user_role_revoke_permissions(DRUPAL_ANONYMOUS_RID, ['view the administration theme']);
-  user_role_revoke_permissions(DRUPAL_AUTHENTICATED_RID, ['view the administration theme']);
+  user_role_revoke_permissions(RoleInterface::ANONYMOUS_ID, ['view the administration theme']);
+  user_role_revoke_permissions(RoleInterface::AUTHENTICATED_ID, ['view the administration theme']);
 }

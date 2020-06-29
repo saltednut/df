@@ -1,7 +1,7 @@
 name: DF Tools Articles
 type: module
 description: Provide a base Article node type configuration for Demo Framework.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - addtoany

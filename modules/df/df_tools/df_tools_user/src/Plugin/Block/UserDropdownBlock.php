@@ -2,6 +2,7 @@
 
 namespace Drupal\df_tools_user\Plugin\Block;
 
+use Drupal\user\Entity\User;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Form\FormBuilder;
@@ -84,7 +85,7 @@ class UserDropdownBlock extends BlockBase implements ContainerFactoryPluginInter
       ],
       '#cache' => [
         'context' => ['user'],
-        'tags' => \Drupal\user\Entity\User::load($current_user->id())->getCacheTags(),
+        'tags' => User::load($current_user->id())->getCacheTags(),
       ],
     ];
   }

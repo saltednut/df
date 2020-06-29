@@ -5,11 +5,12 @@
  * Contains df_tools_content.module.
  */
 
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Implements hook_form_alter().
  */
-function df_tools_content_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function df_tools_content_form_alter(&$form, FormStateInterface $form_state, $form_id) {
 
   if ($form_id = 'dcd_import_form') {
     $form['force-update']['#title'] = t('Override existing entities (force-update)');

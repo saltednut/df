@@ -5,6 +5,8 @@
  * Contains df_tools_translation.module.
  */
 
+use Drupal\Core\Url;
+use Drupal\Core\Link;
 use Drupal\Core\Entity\FieldableEntityInterface;
 
 /**
@@ -28,7 +30,7 @@ function df_tools_translation_enable_translation($entity_info) {
       }
       // Make every field translatable as well.
       $entity_type = $type_manager->getDefinition($entity_type_id);
-      if ($entity_type && $entity_type->isSubclassOf(FieldableEntityInterface::class)) {
+      if ($entity_type && $entity_type->entityClassImplements(FieldableEntityInterface::class)) {
         $fields = $field_manager->getFieldDefinitions($entity_type_id, $bundle);
         foreach ($fields as $field) {
           $field_config = $field->getConfig($bundle);
@@ -147,21 +149,20 @@ function df_tools_translation_preprocess_page(&$variables) {
 
       // Get the path to the current node, translated.
       $current_path = \Drupal::service('path.current')->getPath();
-      $alias = \Drupal::service('path.alias_manager')->getAliasByPath($current_path, $langcode);
+      $alias = \Drupal::service('path_alias.manager')->getAliasByPath($current_path, $langcode);
       // We don't need to alias English links.
       if ($langcode == 'en') {
         $langcode = '';
       }
-      $url = \Drupal\Core\Url::fromUri('base:/' . $langcode . $alias);
+      $url = Url::fromUri('base:/' . $langcode . $alias);
 
       $current_name = [
         '#markup' => t($language->getName())
       ];
 
-      $links[] = \Drupal::l($current_name, $url);
+      $links[] = Link::fromTextAndUrl($current_name, $url);
     }
 
     $variables['language_links'] = $links;
   }
 }
-

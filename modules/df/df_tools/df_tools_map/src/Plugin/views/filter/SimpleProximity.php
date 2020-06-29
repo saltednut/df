@@ -145,6 +145,7 @@ class SimpleProximity extends FilterPluginBase {
    * @return mixed|string
    */
   protected function haversine($options) {
+    $connection = \Drupal::database();
     $formula = '( :earth_radius * ACOS( COS( RADIANS(:origin_latitude) ) * COS( RADIANS(:destination_latitude) ) * COS( RADIANS(:destination_longitude) - RADIANS(:origin_longitude) ) + SIN( RADIANS(:origin_latitude) ) * SIN( RADIANS(:destination_latitude) ) ) )';
 
     foreach ($options as $key => $option) {
@@ -152,7 +153,7 @@ class SimpleProximity extends FilterPluginBase {
         $formula = str_replace(':' . $key, $option, $formula);
       }
       else {
-        $formula = str_replace(':' . $key, db_escape_field($option), $formula);
+        $formula = str_replace(':' . $key, $connection->escapeField($option), $formula);
       }
     }
 

@@ -5,8 +5,8 @@
  */
 function df_tools_map_views_data_alter(array &$data) {
   // Provide a integration for each entity type except comment.
-  $entity_manager = \Drupal::entityManager();
-  $geofield_map = $entity_manager->getFieldMapByFieldType('geofield');
+  $entity_field_manager = \Drupal::service('entity_field.manager');
+  $geofield_map = $entity_field_manager->getFieldMapByFieldType('geofield');
   foreach ($geofield_map as $entity_type_id => $fields) {
     foreach ($fields as $field_name => $info) {
       $args = array('@field_name' => $field_name);

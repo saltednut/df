@@ -5,10 +5,12 @@
  * Contains the DF Tools Slideshow module.
  */
 
+use Drupal\Core\Form\FormStateInterface;
+
 /**
  * Implements hook_form_FORM_ID_alter().
  */
-function df_tools_slideshow_form_block_content_slideshow_panels_ipe_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function df_tools_slideshow_form_block_content_slideshow_panels_ipe_form_alter(&$form, FormStateInterface $form_state, $form_id) {
   $form['#attributes']['class'][] = 'df-tools-slideshow-form';
   // Remove unneeded title added to field.
   $form['field_block']['widget']['#title'] = '';

@@ -1,7 +1,7 @@
 name: 'DF Tools Basic Page'
 description: 'Provides a "Basic Page" content type that is, indeed, very basic.'
 type: module
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - df_core

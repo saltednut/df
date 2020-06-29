@@ -1,7 +1,7 @@
 name: DF Tools Media
 type: module
 description: Extends the Lightning Media module to provide media handling capabilities.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - df_core

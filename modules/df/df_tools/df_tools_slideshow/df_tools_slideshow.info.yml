@@ -1,7 +1,7 @@
 name: DF Tools Block Slideshow
 type: module
 description: Provides a Slideshow block that displays other blocks in a slideshow.
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
   - df_core

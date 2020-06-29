@@ -1,5 +1,5 @@
 name: 'DF Tools Events'
 type: module
 description: 'Defines Event content type for use in demos.'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: 'Demo Framework Tools'

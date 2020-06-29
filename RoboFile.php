@@ -1,10 +1,11 @@
 <?php
 
+use Robo\Tasks;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Yaml\Yaml;
 use Drupal\Component\Utility\NestedArray;
 
-class RoboFile extends \Robo\Tasks {
+class RoboFile extends Tasks {
 
   /**
    * The default URL of the Drupal site.

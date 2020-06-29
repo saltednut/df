@@ -1,7 +1,7 @@
 name: 'DF Tools Events Demo'
 type: module
 description: 'Adds Location integration with Event content type demo.'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 package: 'Demo Framework Tools Demos'
 dependencies:
   - df_tools_events

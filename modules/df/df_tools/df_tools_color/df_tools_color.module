@@ -10,6 +10,7 @@ use Drupal\Component\Utility\Bytes;
 use Drupal\Component\Utility\Environment;
 use Drupal\Component\Utility\Html;
 use Drupal\Component\Utility\Unicode;
+use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
@@ -107,7 +108,7 @@ function df_tools_color_color_scheme_form_submit($form, FormStateInterface $form
   $paths['color'] = 'public://color';
   $paths['target'] = $paths['color'] . '/' . $id;
   foreach ($paths as $path) {
-    file_prepare_directory($path, FILE_CREATE_DIRECTORY);
+    \Drupal::service('file_system')->prepareDirectory($path, FileSystemInterface::CREATE_DIRECTORY);
   }
   $paths['target'] = $paths['target'] . '/';
   $paths['id'] = $id;
@@ -237,7 +238,7 @@ function _df_tools_color_color_rewrite_stylesheet($theme, &$info, &$paths, $pale
   // Prepare color conversion table.
   $conversion = $palette;
   foreach ($conversion as $k => $v) {
-    $conversion[$k] = Unicode::strtolower($v);
+    $conversion[$k] = mb_strtolower($v);
   }
   $default_color_mapping = color_get_color_value_templates($theme);
 
@@ -256,7 +257,7 @@ function _df_tools_color_color_rewrite_stylesheet($theme, &$info, &$paths, $pale
   // Iterate over all the parts.
   foreach ($style as $chunk) {
     if ($is_color) {
-      $chunk = Unicode::strtolower($chunk);
+      $chunk = mb_strtolower($chunk);
       // Check if this is one of the colors in the default palette.
       if ($key = array_search($chunk, $default_color_mapping)) {
         $chunk = $conversion[$key];

@@ -22,7 +22,7 @@ function df_core_install() {
   if (!file_exists($rebuild_path)) {
     // Write the rebuild file.
     if (file_exists('public://') && is_writable('public://') && file_put_contents($rebuild_path, 'typhonius')) {
-      drupal_chmod($rebuild_path, 0644);
+      \Drupal::service('file_system')->chmod($rebuild_path, 0644);
     }
     else {
       $message = t("The rebuild.dat file could not be written. Please manually create a rebuild.dat file in the %directory directory or clear the website cache.", ['%directory' => 'public://']);

@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Installer\InstallerKernel;
 use Drupal\views\ViewEntityInterface;
 use Drupal\Core\Template\Attribute;
 use Drupal\Core\File\FileSystemInterface;
@@ -25,7 +26,7 @@ function df_tools_media_views_insert(ViewEntityInterface $view) {
   if (\Drupal::isConfigSyncing()) {
     return;
   }
-  elseif (drupal_installation_attempted() && $view->id() == 'media') {
+  elseif (InstallerKernel::installationAttempted() && $view->id() == 'media') {
     $display1 = &$view->getDisplay('entity_browser_1');
     $display2 = &$view->getDisplay('entity_browser_2');
     $display1['display_options']['filters']['field_tags_target_id'] = $display2['display_options']['filters']['field_tags_target_id'] = [
@@ -189,4 +190,3 @@ function df_tools_media_form_media_image_add_form_alter(array &$form, FormStateI
 function df_tools_media_form_media_image_edit_form_alter(array &$form, FormStateInterface $form_state) {
   $form['#attached']['library'][] = 'df_tools_media/main';
 }
-
