@@ -1,6 +1,6 @@
-name: DF Tools Cohesion
+name: DF Tools Site Studio
 type: module
-description: Contains configuration for an Acquia Cohesion demo.
+description: Contains configuration for an Acquia Site Studio demo.
 core_version_requirement: ^8.8 || ^9
 package: Demo Framework Tools
 dependencies:
