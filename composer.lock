@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea40419009dd274972a463d6c4e23c9b",
+    "content-hash": "da906afebb6e8cb474b85e9699d0f339",
     "packages": [
         {
             "name": "acquia/acf",
@@ -115,6 +115,7 @@
                 },
                 "enable-patching": true,
                 "patches_applied": {
+                    "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch",
                     "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
                 }
             },
