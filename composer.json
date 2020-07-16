@@ -258,7 +258,7 @@
         "drupal/view_modes_display": "2.3.0",
         "drupal/webform": "5.19.0",
         "drupal/webform_views": "5.0.0-alpha7",
-        "drupal/workbench_email": "1.6",
+        "drupal/workbench_email": "1.7",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "1.6.6",
         "oomphinc/composer-installers-extender": "^1.1",
