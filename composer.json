@@ -127,7 +127,7 @@
             },
             "drupal/default_content_deploy": {
                 "Export to tar VIA GUI. | http://drupal.org/node/3070222":
-                "https://www.drupal.org/files/issues/2020-04-01/3070222-8_3119056-03_combined.patch"
+                "https://www.drupal.org/files/issues/2020-07-22/3070222-8_3119056-04_combined.patch"
             },
             "drupal/entity_browser": {
                 "Fixed the issue of Call to a member function getConfigDependencyKey() on null | http://drupal.org/node/2845037":
