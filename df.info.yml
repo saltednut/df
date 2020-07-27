@@ -2,8 +2,6 @@ name: 'Demo Framework'
 type: profile
 description: 'Architects start here.'
 package: 'Demo Framework'
-distribution:
-  name: df
 core_version_requirement: ^8.8 || ^9
 base profile: lightning
 install:
