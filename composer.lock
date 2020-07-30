@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "479622f5dc2f1a253c2eba6b1e9a3d6b",
+    "content-hash": "6f975d305217643423a18fc24d96a3f1",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5554,10 +5554,10 @@
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
@@ -9760,17 +9760,17 @@
         },
         {
             "name": "drupal/media_acquiadam",
-            "version": "1.44.0",
+            "version": "1.45.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_acquiadam.git",
-                "reference": "8.x-1.44"
+                "reference": "8.x-1.45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.44.zip",
-                "reference": "8.x-1.44",
-                "shasum": "5cbf522d3841bfa2bad05f21f33a8b7f0018e4b9"
+                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.45.zip",
+                "reference": "8.x-1.45",
+                "shasum": "3691d4ab110496f0867f871362ade26c4bbfcf5b"
             },
             "require": {
                 "cweagans/php-webdam-client": "^1.0.1",
@@ -9792,8 +9792,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.44",
-                    "datestamp": "1592425598",
+                    "version": "8.x-1.45",
+                    "datestamp": "1595856668",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
