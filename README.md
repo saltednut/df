@@ -19,7 +19,7 @@ Once you have a docroot built, you can use DDev, Acquia Developer Studio or any 
 
 Now use the ``site-install`` command to install Drupal with the DF installation profile.
 
-  ``drush si``
+  ``drush si df``
 
 You may now login to your site.
 
