@@ -25,6 +25,7 @@ install:
   - google_analytics
   - pathauto
   - responsive_preview
+  - revision_log_default
   - scenarios
   - scenarios_ui
   - syslog
