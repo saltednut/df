@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e46320d315f71bea4b5daf1224a4bca",
+    "content-hash": "34d43002cb9d1a95218cd9b660aa55ad",
     "packages": [
         {
             "name": "acquia/acf",
@@ -69,16 +69,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "70bf082382cb55f49a18d32990ba82246739e229"
+                "reference": "2e343a57e330d4c50312c374d2fec42ec42feaae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/70bf082382cb55f49a18d32990ba82246739e229",
-                "reference": "70bf082382cb55f49a18d32990ba82246739e229",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/2e343a57e330d4c50312c374d2fec42ec42feaae",
+                "reference": "2e343a57e330d4c50312c374d2fec42ec42feaae",
                 "shasum": ""
             },
             "require": {
@@ -131,23 +131,23 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.2.0",
+                "source": "https://github.com/acquia/cohesion/tree/6.2.1",
                 "issues": "https://github.com/acquia/cohesion/issues"
             },
-            "time": "2020-07-15T12:27:03+00:00"
+            "time": "2020-08-12T09:47:13+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "dc4ec09dace2752b5e193eb1076794350a0e4ac6"
+                "reference": "414f406bbfb5b62433bcbf5dc97c11db680a379e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/dc4ec09dace2752b5e193eb1076794350a0e4ac6",
-                "reference": "dc4ec09dace2752b5e193eb1076794350a0e4ac6",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/414f406bbfb5b62433bcbf5dc97c11db680a379e",
+                "reference": "414f406bbfb5b62433bcbf5dc97c11db680a379e",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -163,10 +163,10 @@
             ],
             "description": "Site Studio minimal theme",
             "support": {
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.2.0",
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.2.1",
                 "issues": "https://github.com/acquia/cohesion-theme/issues"
             },
-            "time": "2020-07-15T12:27:22+00:00"
+            "time": "2020-08-12T09:47:24+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -665,7 +665,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -2255,16 +2255,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.10.3",
+            "version": "1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "5db60a4969eba0e0c197a19c077780aadbc43c5d"
+                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/5db60a4969eba0e0c197a19c077780aadbc43c5d",
-                "reference": "5db60a4969eba0e0c197a19c077780aadbc43c5d",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bfe91e31984e2ba76df1c1339681770401ec262f",
+                "reference": "bfe91e31984e2ba76df1c1339681770401ec262f",
                 "shasum": ""
             },
             "require": {
@@ -2274,7 +2274,8 @@
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
-                "phpunit/phpunit": "^7.5"
+                "phpstan/phpstan": "^0.12.20",
+                "phpunit/phpunit": "^7.5 || ^9.1.5"
             },
             "type": "library",
             "extra": {
@@ -2320,7 +2321,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2020-05-25T17:24:27+00:00"
+            "time": "2020-08-10T19:35:50+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -5616,10 +5617,10 @@
                     "Don't show the revision log message on creation of content, media, etc. | https://www.drupal.org/project/drupal/issues/3096906": "https://www.drupal.org/files/issues/2019-12-07/3096906-10.patch",
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
@@ -5948,7 +5949,7 @@
                 "reference": "97ea1ae"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8 || ^9",
                 "drupal/default_content": "~1.0@alpha",
                 "php": ">=5.6.0"
             },
@@ -5958,8 +5959,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1+10-dev",
-                    "datestamp": "1586896327",
+                    "version": "8.x-1.0-beta2+1-dev",
+                    "datestamp": "1597129348",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -7471,6 +7472,14 @@
                 {
                     "name": "BTMash",
                     "homepage": "https://www.drupal.org/user/60422"
+                },
+                {
+                    "name": "BarisW",
+                    "homepage": "https://www.drupal.org/user/107229"
+                },
+                {
+                    "name": "Drave Robber",
+                    "homepage": "https://www.drupal.org/user/984338"
                 },
                 {
                     "name": "Neslee Canil Pinto",
@@ -10189,17 +10198,17 @@
         },
         {
             "name": "drupal/metatag",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/metatag.git",
-                "reference": "8.x-1.13"
+                "reference": "8.x-1.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.13.zip",
-                "reference": "8.x-1.13",
-                "shasum": "c471d9982a6540fd7baccc94572947923634fb6b"
+                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.14.zip",
+                "reference": "8.x-1.14",
+                "shasum": "9bf9f1517ad015d0c93ca1460e284c557624aa90"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -10209,13 +10218,14 @@
                 "drupal/metatag_dc": "*",
                 "drupal/metatag_open_graph": "*",
                 "drupal/page_manager": "4.x-dev",
+                "drupal/panelizer": "4.x-dev",
                 "drupal/redirect": "1.x-dev"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.13",
-                    "datestamp": "1587550202",
+                    "version": "8.x-1.14",
+                    "datestamp": "1597183852",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10224,7 +10234,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
