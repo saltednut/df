@@ -115,7 +115,10 @@
                 "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975":
                 "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                 "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895":
-                "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch"
+                "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
+                "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467":
+                "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch"
+
             },
             "drupal/block_class": {
                 "Integration with Drupal core's new Layout Builder| http://drupal.org/node/2998114":
