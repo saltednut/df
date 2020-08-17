@@ -255,7 +255,7 @@
         "drupal/search_api_autocomplete": "1.3.0",
         "drupal/search_api_solr": "1.2.0",
         "drupal/scenarios": "4.x-dev",
-        "drupal/swiftmailer": "1.0.0-beta2",
+        "drupal/swiftmailer": "2.0.0-beta1",
         "drupal/upgrade_status": "^2.0",
         "drupal/view_modes_display": "2.3.0",
         "drupal/webform": "5.19.0",
