@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "793b7bc13656ebe4c8d038cab375e6d0",
+    "content-hash": "949438932cfcf6962f5736f7c360900a",
     "packages": [
         {
             "name": "acquia/acf",
@@ -8795,9 +8795,6 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "2882709 - Misnamed interface causes \"Fatal error: Cannot declare interface Drupal\\libraries\\ExternalLibrary\\Utility\\LibraryAccessorIdInterface\"": "https://www.drupal.org/files/issues/2882709-2-interface-libraryidaccessorinterface-misnamed.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -13019,9 +13016,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Youtube looping | http://drupal.org/node/2866001": "https://www.drupal.org/files/issues/2019-04-26/video_embed_field-youtube_loop-2866001-12.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
