@@ -28,7 +28,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/image": [
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
                 "href": ""
             }
@@ -147,7 +147,7 @@
                 "lang": "en"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/media\/image\/image": [
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
                 "_links": {
                     "self": {

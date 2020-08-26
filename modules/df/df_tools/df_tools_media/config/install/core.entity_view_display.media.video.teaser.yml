@@ -4,29 +4,32 @@ dependencies:
   config:
     - core.entity_view_mode.media.teaser
     - field.field.media.video.field_media_in_library
-    - field.field.media.video.field_media_video_embed_field
-    - image.style.thumbnail
+    - field.field.media.video.field_media_video_file
     - media.type.video
   module:
-    - video_embed_field
+    - file
 id: media.video.teaser
 targetEntityType: media
 bundle: video
 mode: teaser
 content:
-  field_media_video_embed_field:
-    type: video_embed_field_thumbnail
+  field_media_video_file:
+    type: file_video
     weight: 0
     label: hidden
     settings:
-      image_style: thumbnail
-      link_image_to: ''
+      muted: false
+      width: 640
+      height: 480
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
     third_party_settings: {  }
     region: content
 hidden:
   created: true
   field_media_in_library: true
-  langcode: true
   name: true
   thumbnail: true
   uid: true

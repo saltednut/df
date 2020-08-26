@@ -7,6 +7,7 @@ dependencies:
   - df_core
   - df_tools_crop
   - entity_browser
+  - image
   - lightning_media
   - lightning_media_audio
   - lightning_media_document
@@ -15,5 +16,7 @@ dependencies:
   - lightning_media_twitter
   - lightning_media_slideshow
   - lightning_media_video
+  - media
   - media_entity_video
   - unsplash_stream
+  - views_infinite_scroll

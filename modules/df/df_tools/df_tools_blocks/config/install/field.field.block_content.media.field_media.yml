@@ -1,4 +1,3 @@
-uuid: 44817103-0f37-4769-9f00-fb53adeeb7ff
 langcode: en
 status: true
 dependencies:
@@ -8,7 +7,7 @@ dependencies:
     - media.type.document
     - media.type.image
     - media.type.instagram
-    - media.type.video_file
+    - media.type.remote_video
     - media.type.tweet
     - media.type.video
 id: block_content.media.field_media
@@ -28,7 +27,7 @@ settings:
       document: document
       image: image
       instagram: instagram
-      video_file: video_file
+      remote_video: remote_video
       tweet: tweet
       video: video
     sort:

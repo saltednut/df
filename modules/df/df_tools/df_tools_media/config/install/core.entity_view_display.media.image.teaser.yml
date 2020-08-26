@@ -1,24 +1,30 @@
-uuid: 5235a014-cd5b-4fbd-a234-c19a7d27de26
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.media.teaser
+    - field.field.media.image.field_media_image
     - field.field.media.image.field_media_in_library
     - field.field.media.image.field_tags
     - field.field.media.image.field_unsplash_image_id
-    - field.field.media.image.image
     - image.style.medium
     - media.type.image
   module:
     - image
-_core:
-  default_config_hash: GtQeelP1II1kwZ9E6SGDzesdPFxj-tX0HVmOEuUXcF8
 id: media.image.teaser
 targetEntityType: media
 bundle: image
 mode: teaser
 content:
+  field_media_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
   image:
     type: image
     weight: 0
@@ -34,8 +40,6 @@ hidden:
   field_media_in_library: true
   field_tags: true
   field_unsplash_image_id: true
-  langcode: true
   name: true
   thumbnail: true
   uid: true
-
