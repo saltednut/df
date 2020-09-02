@@ -94,8 +94,6 @@
                 "https://www.drupal.org/files/issues/core-post-site-install-hook.patch",
                 "Dispatch events for changing content moderation states | http://drupal.org/node/2873287":
                 "https://www.drupal.org/files/issues/2018-11-06/2873287-50.patch",
-                "Fatal error: Call to a member function url() on null | http://drupal.org/project/drupal/issues/2565247":
-                "https://www.drupal.org/files/issues/member-function-url-fix-2565247-4.patch",
                 "Support third party settings for components within a section | http://drupal.org/node/2998114":
                 "https://www.drupal.org/files/issues/2019-02-26/3015152-tps-5.patch",
                 "Improve block listing in Layout Builder... | https://drupal.org/node/2977587":
