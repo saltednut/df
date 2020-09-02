@@ -171,7 +171,6 @@
               "https://www.drupal.org/files/issues/2020-03-06/3113974-update-dcd-dev-importer-4.patch"
             },
             "acquia/cohesion": {
-              "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch",
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
               "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
             }
@@ -180,8 +179,8 @@
     "require": {
         "acquia/lightning": "4.1.6",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "6.2.1",
-        "acquia/cohesion-theme": "6.2.1",
+        "acquia/cohesion": "6.3.0",
+        "acquia/cohesion-theme": "6.3.0",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",

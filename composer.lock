@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "094ae6146702a810d1c58d537c09560e",
+    "content-hash": "e67c97e4b5fdba787f9b2544d8843a25",
     "packages": [
         {
             "name": "acquia/acf",
@@ -69,16 +69,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.2.1",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "2e343a57e330d4c50312c374d2fec42ec42feaae"
+                "reference": "e039088ce82630bfb11333e0d1b123d72f25ece8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/2e343a57e330d4c50312c374d2fec42ec42feaae",
-                "reference": "2e343a57e330d4c50312c374d2fec42ec42feaae",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/e039088ce82630bfb11333e0d1b123d72f25ece8",
+                "reference": "e039088ce82630bfb11333e0d1b123d72f25ece8",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,6 @@
                 },
                 "enable-patching": true,
                 "patches_applied": {
-                    "Cohesion Focal Point Fix | https://github.com/brantwynn/cohesion/pull/1/files": "https://www.drupal.org/files/issues/2020-05-06/dx-module-cohesion_elements-focal_point-1.patch",
                     "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
                 }
             },
@@ -131,23 +130,23 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.2.1",
+                "source": "https://github.com/acquia/cohesion/tree/6.3.0",
                 "issues": "https://github.com/acquia/cohesion/issues"
             },
-            "time": "2020-08-12T09:47:13+00:00"
+            "time": "2020-09-01T09:38:37+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.2.1",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "414f406bbfb5b62433bcbf5dc97c11db680a379e"
+                "reference": "61a0cf8da873d81ecf8b5e90ce92ab9e94ca9933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/414f406bbfb5b62433bcbf5dc97c11db680a379e",
-                "reference": "414f406bbfb5b62433bcbf5dc97c11db680a379e",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/61a0cf8da873d81ecf8b5e90ce92ab9e94ca9933",
+                "reference": "61a0cf8da873d81ecf8b5e90ce92ab9e94ca9933",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -163,10 +162,10 @@
             ],
             "description": "Site Studio minimal theme",
             "support": {
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.2.1",
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.3.0",
                 "issues": "https://github.com/acquia/cohesion-theme/issues"
             },
-            "time": "2020-08-12T09:47:24+00:00"
+            "time": "2020-09-01T09:38:47+00:00"
         },
         {
             "name": "acquia/content-hub-php",
