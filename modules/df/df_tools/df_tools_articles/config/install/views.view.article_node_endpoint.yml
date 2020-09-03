@@ -1,4 +1,3 @@
-uuid: 07c870ad-b9b1-4d44-8158-afc0b8cfbb1c
 langcode: en
 status: true
 dependencies:
@@ -13,8 +12,6 @@ dependencies:
     - rest
     - serialization
     - text
-_core:
-  default_config_hash: WGVs9j72MMlMZqe73bZ09uyGGUSK-Jn1T8qFbtQi9uM
 id: article_node_endpoint
 label: 'Article Node Endpoint'
 module: views
@@ -214,7 +211,7 @@ display:
           id: uri
           table: file_managed
           field: uri
-          relationship: image_target_id
+          relationship: field_media_image_target_id
           group_type: group
           admin_label: image
           label: Image
@@ -486,13 +483,13 @@ display:
           admin_label: Image
           required: false
           plugin_id: standard
-        image_target_id:
-          id: image_target_id
-          table: media__image
-          field: image_target_id
+        field_media_image_target_id:
+          id: field_media_image_target_id
+          table: media__field_media_image
+          field: field_media_image_target_id
           relationship: field_image
           group_type: group
-          admin_label: 'image from image'
+          admin_label: 'image from field_media_image'
           required: false
           plugin_id: standard
       arguments: {  }
@@ -551,4 +548,3 @@ display:
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_tags'
-
