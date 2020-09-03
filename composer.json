@@ -199,6 +199,7 @@
         "drupal/asset_injector": "2.7.0",
         "drupal/better_normalizers": "1.0-beta4",
         "drupal/block_class": "1.2.0",
+        "drupal/component": "^1.0@beta",
         "drupal/components": "1.1.0",
         "drupal/contact_message_rest": "1.0.0-alpha1",
         "drupal/config_devel": "1.0.0-alpha3",
