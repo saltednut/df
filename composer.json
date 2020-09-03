@@ -259,7 +259,7 @@
         "cweagans/composer-patches": "1.6.6",
         "oomphinc/composer-installers-extender": "^1.1",
         "phing/phing": "^2.14",
-        "acquia/acf": "dev-master",
+        "acquia/acf": "2.x-dev",
         "drupal/basic_data": "^1.1",
         "drupal/connection": "1.x-dev",
         "drupal/react_block": "^1.0@alpha",
