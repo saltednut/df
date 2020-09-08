@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "c95c94755d953b7b4d702d9220ed6ac04f1d0a47"
+                "reference": "934079fa886ecf1bff95776bff06b369b99c2bfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/c95c94755d953b7b4d702d9220ed6ac04f1d0a47",
-                "reference": "c95c94755d953b7b4d702d9220ed6ac04f1d0a47",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/934079fa886ecf1bff95776bff06b369b99c2bfd",
+                "reference": "934079fa886ecf1bff95776bff06b369b99c2bfd",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -33,7 +33,7 @@
                 }
             ],
             "description": "a lightweight framework for headless e-commerce with Drupal. Starter connectors for major e-commerce engines",
-            "time": "2020-09-08T03:32:16+00:00"
+            "time": "2020-09-08T13:48:01+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -1132,16 +1132,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de"
+                "reference": "610045d2a33b8e368abebc789f6f4180b4f88ab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
-                "reference": "c6bea70230ef4dd483e6bbcab6005f682ed3a8de",
+                "url": "https://api.github.com/repos/composer/semver/zipball/610045d2a33b8e368abebc789f6f4180b4f88ab6",
+                "reference": "610045d2a33b8e368abebc789f6f4180b4f88ab6",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1189,21 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2020-01-13T12:06:48+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-09-08T14:18:25+00:00"
         },
         {
             "name": "consolidation/annotated-command",
