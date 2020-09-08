@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d78499d8f5198bdd5bac2160f58b87d",
+    "content-hash": "7b047b96f86d21e0a7ff6ce9eaccd354",
     "packages": [
         {
             "name": "acquia/acf",
@@ -9944,26 +9944,26 @@
         },
         {
             "name": "drupal/mautic",
-            "version": "1.4.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/mautic.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mautic-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "6225b052566c98fafc4e8c881a916fec00be05be"
+                "url": "https://ftp.drupal.org/files/projects/mautic-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "aeae21623d0f869b754882f4807da32c6813e37f"
             },
             "require": {
-                "drupal/core": "^8 || ^9"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1597906825",
+                    "version": "8.x-1.6",
+                    "datestamp": "1599585162",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
