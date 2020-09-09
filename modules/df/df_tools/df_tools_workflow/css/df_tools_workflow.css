@@ -1,3 +1,9 @@
+.ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-container input[type="checkbox"] {
+  height: auto;
+  margin-right: 5px;
+  transform: none;
+}
+
 .ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-link {
   font-weight: normal !important;
   font-size: 14px !important;
