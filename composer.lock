@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "b7f16019ca9fd1bc8f7856952db95d004aaa6cb7"
+                "reference": "4941b88e9e0c85f86d8bff229e39f78323a5eb93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/b7f16019ca9fd1bc8f7856952db95d004aaa6cb7",
-                "reference": "b7f16019ca9fd1bc8f7856952db95d004aaa6cb7",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/4941b88e9e0c85f86d8bff229e39f78323a5eb93",
+                "reference": "4941b88e9e0c85f86d8bff229e39f78323a5eb93",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -33,7 +33,7 @@
                 }
             ],
             "description": "a lightweight framework for headless e-commerce with Drupal. Starter connectors for major e-commerce engines",
-            "time": "2020-09-09T18:27:58+00:00"
+            "time": "2020-09-10T17:47:12+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
