@@ -1,7 +1,8 @@
 langcode: en
 status: true
 dependencies:
-  - cohesion
+  module:
+    - cohesion
 id: layout_canvas
 label: 'Layout canvas'
 revision: 0
