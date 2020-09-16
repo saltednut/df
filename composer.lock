@@ -810,12 +810,12 @@
             "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
-                "url": "https://github.com/brantwynn/unsplash_stream.git",
+                "url": "https://github.com/saltednut/unsplash_stream.git",
                 "reference": "01d70f6f0c9b8b9e6d9b3314213014fd6597ac52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brantwynn/unsplash_stream/zipball/01d70f6f0c9b8b9e6d9b3314213014fd6597ac52",
+                "url": "https://api.github.com/repos/saltednut/unsplash_stream/zipball/01d70f6f0c9b8b9e6d9b3314213014fd6597ac52",
                 "reference": "01d70f6f0c9b8b9e6d9b3314213014fd6597ac52",
                 "shasum": ""
             },
@@ -5577,16 +5577,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.5",
+            "version": "8.9.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339"
+                "reference": "caf4e756d31dfb0c2e52cd0748e900efe4b57766"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/c9b9643663b80f02c038f9dea15b8717a22c3339",
-                "reference": "c9b9643663b80f02c038f9dea15b8717a22c3339",
+                "url": "https://api.github.com/repos/drupal/core/zipball/caf4e756d31dfb0c2e52cd0748e900efe4b57766",
+                "reference": "caf4e756d31dfb0c2e52cd0748e900efe4b57766",
                 "shasum": ""
             },
             "require": {
@@ -5826,7 +5826,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-09-03T21:07:45+00:00"
+            "time": "2020-09-16T11:22:21+00:00"
         },
         {
             "name": "drupal/crop",
@@ -6463,32 +6463,32 @@
         },
         {
             "name": "drupal/dropzonejs",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/dropzonejs.git",
-                "reference": "8.x-2.1"
+                "reference": "8.x-2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-2.1.zip",
-                "reference": "8.x-2.1",
-                "shasum": "a165b70070c320933fdce0c02be3577abce5e938"
+                "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "5853f57293823c71cee6f53a01c94807529c3732"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
             },
             "require-dev": {
-                "drupal/entity_browser": "*"
+                "drupal/entity_browser": "^2.5"
             },
             "suggest": {
-                "enyo/dropzone": "Required to user drupal/dropzonejs. Dropzone is an easy to use drag'n'drop library."
+                "enyo/dropzone": "Required to use drupal/dropzonejs. DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews."
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.1",
-                    "datestamp": "1585662324",
+                    "version": "8.x-2.2",
+                    "datestamp": "1600192553",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6497,7 +6497,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -6516,13 +6516,14 @@
                     "role": "Maintainer"
                 },
                 {
+                    "name": "Qiangjun Ran",
+                    "homepage": "https://drupal.org/u/jungle",
+                    "role": "Maintainer"
+                },
+                {
                     "name": "See other contributors",
                     "homepage": "https://www.drupal.org/node/1998478/committers",
                     "role": "contributor"
-                },
-                {
-                    "name": "jungle",
-                    "homepage": "https://www.drupal.org/user/2919723"
                 },
                 {
                     "name": "slashrsm",
@@ -6546,7 +6547,7 @@
             "support": {
                 "source": "https://www.drupal.org/project/dropzonejs",
                 "issues": "https://www.drupal.org/project/issues/dropzonejs",
-                "irc": "irc://irc.freenode.org/drupal-contribute"
+                "#media": "http://drupal.slack.com"
             }
         },
         {
