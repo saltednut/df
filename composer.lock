@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b821a71ebc23dc150b5174c0d74ca0dc",
+    "content-hash": "23154f23e06b816d104c5bf074601fb6",
     "packages": [
         {
             "name": "acquia/acf",
@@ -4655,29 +4655,29 @@
         },
         {
             "name": "drupal/components",
-            "version": "1.1.0",
+            "version": "2.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/components.git",
-                "reference": "8.x-1.1"
+                "reference": "8.x-2.0-beta3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/components-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "72af8ff1ca842556ee4b95335595c24703acdb75"
+                "url": "https://ftp.drupal.org/files/projects/components-8.x-2.0-beta3.zip",
+                "reference": "8.x-2.0-beta3",
+                "shasum": "5883c8b6dd358d29127a3c49d1459814c061b566"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1556870881",
+                    "version": "8.x-2.0-beta3",
+                    "datestamp": "1594633703",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -4688,15 +4688,16 @@
             "authors": [
                 {
                     "name": "JohnAlbin",
-                    "homepage": "https://www.drupal.org/user/32095"
+                    "homepage": "https://www.drupal.org/user/32095",
+                    "email": "virtually.johnalbin@gmail.com"
                 },
                 {
                     "name": "RobLoach",
                     "homepage": "https://www.drupal.org/user/61114"
                 }
             ],
-            "description": "Registers “component libraries” defined in modules and themes with the Twig system",
-            "homepage": "https://www.drupal.org/project/components",
+            "description": "Sets up folders of components defined by your theme or module",
+            "homepage": "https://drupal.org/project/components",
             "support": {
                 "source": "https://git.drupalcode.org/project/components"
             }
@@ -11839,27 +11840,27 @@
         },
         {
             "name": "drupal/radix",
-            "version": "4.8.0",
+            "version": "4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/radix.git",
-                "reference": "8.x-4.8"
+                "reference": "8.x-4.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.8.zip",
-                "reference": "8.x-4.8",
-                "shasum": "1f909ca5e5d90ef80d06fb99403e8deba7efdcd1"
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.9.zip",
+                "reference": "8.x-4.9",
+                "shasum": "e9b244cc5e5defaa1128505cab63ec83e251d275"
             },
             "require": {
-                "drupal/components": "^1.0",
-                "drupal/core": "~8.0"
+                "drupal/components": "~2.0@beta",
+                "drupal/core": "^8.7.7 || ^9.0"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.8",
-                    "datestamp": "1584430785",
+                    "version": "8.x-4.9",
+                    "datestamp": "1601290195",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
