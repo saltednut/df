@@ -257,7 +257,7 @@
         "drupal/swiftmailer": "2.0.0-beta1",
         "drupal/upgrade_status": "^2.0",
         "drupal/view_modes_display": "2.3.0",
-        "drupal/webform": "5.20.0",
+        "drupal/webform": "5.21.0",
         "drupal/webform_views": "5.0.0-alpha7",
         "drupal/workbench_email": "1.7",
         "drupal-composer/drupal-scaffold": "^2.0.0",
