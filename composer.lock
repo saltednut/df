@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87aee0a017a9ef5fca5568b9ada68d92",
+    "content-hash": "879f6ed7ed096c3a7aaea8841f0e042e",
     "packages": [
         {
             "name": "acquia/acf",
@@ -11836,17 +11836,17 @@
         },
         {
             "name": "drupal/radix",
-            "version": "4.9.0",
+            "version": "4.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/radix.git",
-                "reference": "8.x-4.9"
+                "reference": "8.x-4.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.9.zip",
-                "reference": "8.x-4.9",
-                "shasum": "e9b244cc5e5defaa1128505cab63ec83e251d275"
+                "url": "https://ftp.drupal.org/files/projects/radix-8.x-4.10.zip",
+                "reference": "8.x-4.10",
+                "shasum": "b9fd9c0f12be58fc39c06318d3fe081550f5cbf7"
             },
             "require": {
                 "drupal/components": "~2.0@beta",
@@ -11855,8 +11855,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.9",
-                    "datestamp": "1601290195",
+                    "version": "8.x-4.10",
+                    "datestamp": "1601449009",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
