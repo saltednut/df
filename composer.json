@@ -181,7 +181,7 @@
         }
     },
     "require": {
-        "acquia/lightning": "4.1.6",
+        "acquia/lightning": "4.1.7",
         "acquia/acquia-lift-samples": "dev-master",
         "acquia/cohesion": "6.3.1",
         "acquia/cohesion-theme": "6.3.1",
