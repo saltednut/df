@@ -223,7 +223,7 @@
         "drupal/field_formatter_class": "1.4.0",
         "drupal/field_group": "3.1",
         "drupal/fontyourface": "3.2",
-        "drupal/focal_point": "1.4.0",
+        "drupal/focal_point": "1.5.0",
         "drupal/geocoder": "2.22.0",
         "drupal/geofield": "1.15.0",
         "drupal/google_analytics": "^3.0",
