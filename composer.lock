@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "26e5bfcde5a3ec04e0f4793c9654edab91815f0a"
+                "reference": "3dd45bf973dff474a6a60a330e810d12bd1fc5e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/26e5bfcde5a3ec04e0f4793c9654edab91815f0a",
-                "reference": "26e5bfcde5a3ec04e0f4793c9654edab91815f0a",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/3dd45bf973dff474a6a60a330e810d12bd1fc5e3",
+                "reference": "3dd45bf973dff474a6a60a330e810d12bd1fc5e3",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -33,7 +33,7 @@
                 }
             ],
             "description": "a lightweight framework for headless e-commerce with Drupal. Starter connectors for major e-commerce engines",
-            "time": "2020-10-01T20:05:16+00:00"
+            "time": "2020-10-02T15:27:17+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -4605,17 +4605,17 @@
         },
         {
             "name": "drupal/component",
-            "version": "1.0.0-beta3",
+            "version": "1.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/component.git",
-                "reference": "1.0.0-beta3"
+                "reference": "1.0.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-beta3.zip",
-                "reference": "1.0.0-beta3",
-                "shasum": "fd611a5a16b734db56a1d50443212e1b4d875a83"
+                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc1.zip",
+                "reference": "1.0.0-rc1",
+                "shasum": "ad211017e289c2e7493695759d54ae6b658a3306"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -4623,8 +4623,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-beta3",
-                    "datestamp": "1595789887",
+                    "version": "1.0.0-rc1",
+                    "datestamp": "1601647470",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
