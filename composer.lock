@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b81492e23b7245e0619a98eecfff55e0",
+    "content-hash": "dd161e2c1eec29a5b2d951b4f8fcaaa9",
     "packages": [
         {
             "name": "acquia/acf",
@@ -3990,6 +3990,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Update icon| http://drupal.org/node/3163092": "https://www.drupal.org/files/issues/2020-10-07/icon-update-3163092-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

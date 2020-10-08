@@ -118,6 +118,10 @@
                 "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch"
 
             },
+            "drupal/adminimal_admin_toolbar": {
+                "Update icon| http://drupal.org/node/3163092":
+                "https://www.drupal.org/files/issues/2020-10-07/icon-update-3163092-4.patch"
+            },
             "drupal/block_class": {
                 "Integration with Drupal core's new Layout Builder| http://drupal.org/node/2998114":
                 "https://www.drupal.org/files/issues/2019-11-30/2998114-67.patch"

@@ -23,6 +23,7 @@ projects[admin_login_path][version] = 1.0
 projects[admin_toolbar][type] = module
 projects[admin_toolbar][version] = 2.4
 projects[adminimal_admin_toolbar][type] = module
+projects[adminimal_admin_toolbar][patch][] = https://www.drupal.org/files/issues/2020-10-07/icon-update-3163092-4.patch
 projects[adminimal_admin_toolbar][version] = 1.11
 projects[allowed_formats][type] = module
 projects[allowed_formats][version] = 1.3
