@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4e486371e03ea359231c80be0516080",
+    "content-hash": "345a681e7840d8a315bdc6bcd5d09799",
     "packages": [
         {
             "name": "acquia/acf",
@@ -7938,17 +7938,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.15.0",
+            "version": "1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.15"
+                "reference": "8.x-1.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.15.zip",
-                "reference": "8.x-1.15",
-                "shasum": "b2726d7d6cd46a8b4615c828f7944bcba1193875"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.16.zip",
+                "reference": "8.x-1.16",
+                "shasum": "b759dbf3e0c7225bce8bcead6954115e255dc349"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -7957,8 +7957,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.15",
-                    "datestamp": "1591556172",
+                    "version": "8.x-1.16",
+                    "datestamp": "1601938843",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7967,7 +7967,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -9111,17 +9111,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "2.1.1"
+                "reference": "2.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.1.zip",
-                "reference": "2.1.1",
-                "shasum": "8d8f39e4004c36ebd5b98f2830bab3285113fdef"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.2.zip",
+                "reference": "2.1.2",
+                "shasum": "750b7cce495e530082e1e48734fa49e68db2feab"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -9130,8 +9130,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.1",
-                    "datestamp": "1601163304",
+                    "version": "2.1.2",
+                    "datestamp": "1602361198",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
