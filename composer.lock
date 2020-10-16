@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0014c311f3c37505691d069b3065166",
+    "content-hash": "9260ae8fe3712afe995dc3a868769e3a",
     "packages": [
         {
             "name": "acquia/acf",
@@ -10016,26 +10016,26 @@
         },
         {
             "name": "drupal/link_class",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/link_class.git",
-                "reference": "8.x-1.4"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/link_class-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "21bd635a57620261b4959f98b83a26680fe32b22"
+                "url": "https://ftp.drupal.org/files/projects/link_class-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "a1217a5b6a90594dba85d5faf92a45afe314f7ea"
             },
             "require": {
-                "drupal/core": "^8"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1564049892",
+                    "version": "2.0.0",
+                    "datestamp": "1601892765",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

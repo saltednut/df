@@ -228,7 +228,7 @@
         "drupal/layout_builder_at": "2.11.0",
         "drupal/layout_builder_modal": "^1.0",
         "drupal/leaflet": "2.1.2",
-        "drupal/link_class": "1.4.0",
+        "drupal/link_class": "2.0.0",
         "drupal/linkit": "^4.3",
         "drupal/mautic": "1.11.0",
         "drupal/media_acquiadam": "1.45.0",
