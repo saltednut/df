@@ -245,7 +245,7 @@
         "drupal/responsive_preview": "1.0.0",
         "drupal/restui": "1.18.0",
         "drupal/revision_log_default": "1.2.0",
-        "drupal/rules": "3.0.0-alpha5",
+        "drupal/rules": "3.0.0-alpha6",
         "drupal/samlauth": "3.0.0-alpha2",
         "drupal/search_api_autocomplete": "1.4.0",
         "drupal/search_api_solr": "4.1.6",
