@@ -248,7 +248,7 @@
         "drupal/rules": "3.0.0-alpha6",
         "drupal/samlauth": "3.0.0-alpha2",
         "drupal/search_api_autocomplete": "1.4.0",
-        "drupal/search_api_solr": "4.1.6",
+        "drupal/search_api_solr": "4.1.7",
         "drupal/scenarios": "4.x-dev",
         "drupal/swiftmailer": "2.0.0-beta1",
         "drupal/upgrade_status": "^2.0",
