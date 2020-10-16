@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "345a681e7840d8a315bdc6bcd5d09799",
+    "content-hash": "3cab367c9bbbeb559613bd6a811481b0",
     "packages": [
         {
             "name": "acquia/acf",
@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-lift-samples.git",
-                "reference": "44d6afbef3e4236d20bd3e9db650e0aa081f18b5"
+                "reference": "2cbe520e658a397b7c666c2502e47932760440c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/44d6afbef3e4236d20bd3e9db650e0aa081f18b5",
-                "reference": "44d6afbef3e4236d20bd3e9db650e0aa081f18b5",
+                "url": "https://api.github.com/repos/acquia/acquia-lift-samples/zipball/2cbe520e658a397b7c666c2502e47932760440c8",
+                "reference": "2cbe520e658a397b7c666c2502e47932760440c8",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -65,20 +65,20 @@
                 "source": "https://github.com/acquia/acquia-lift-samples/tree/master",
                 "issues": "https://github.com/acquia/acquia-lift-samples/issues"
             },
-            "time": "2020-09-30T13:18:11+00:00"
+            "time": "2020-10-15T19:48:23+00:00"
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.3.2",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "55523d804c5fe93c0abc5a72054de301c56febf0"
+                "reference": "a9469a6056d02edfa264d7d9557b9ab943ab7584"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/55523d804c5fe93c0abc5a72054de301c56febf0",
-                "reference": "55523d804c5fe93c0abc5a72054de301c56febf0",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/a9469a6056d02edfa264d7d9557b9ab943ab7584",
+                "reference": "a9469a6056d02edfa264d7d9557b9ab943ab7584",
                 "shasum": ""
             },
             "require": {
@@ -118,6 +118,7 @@
                     "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -129,26 +130,24 @@
                 }
             ],
             "description": "Site Studio",
-            "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.3.2"
-            },
-            "time": "2020-10-01T10:53:07+00:00"
+            "time": "2020-10-16T08:48:36+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.3.2",
+            "version": "6.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "a018d4b9d7f2e96528ecaf0382cfe19b4dbdd8a2"
+                "reference": "380faa59691d7da953d43a92d42ac4fe6443987c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/a018d4b9d7f2e96528ecaf0382cfe19b4dbdd8a2",
-                "reference": "a018d4b9d7f2e96528ecaf0382cfe19b4dbdd8a2",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/380faa59691d7da953d43a92d42ac4fe6443987c",
+                "reference": "380faa59691d7da953d43a92d42ac4fe6443987c",
                 "shasum": ""
             },
             "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -160,11 +159,7 @@
                 }
             ],
             "description": "Site Studio minimal theme",
-            "support": {
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.3.2",
-                "issues": "https://github.com/acquia/cohesion-theme/issues"
-            },
-            "time": "2020-10-01T10:53:18+00:00"
+            "time": "2020-10-16T08:48:45+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -788,7 +783,7 @@
             "version": "v1.8.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:kenwheeler/slick.git",
+                "url": "https://github.com/kenwheeler/slick.git",
                 "reference": "0f40c9d6a02a5c08b5f4dd80fdada3a854a59bee"
             },
             "dist": {
@@ -4637,17 +4632,17 @@
         },
         {
             "name": "drupal/component",
-            "version": "1.0.0-rc1",
+            "version": "1.0.0-rc2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/component.git",
-                "reference": "1.0.0-rc1"
+                "reference": "1.0.0-rc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc1.zip",
-                "reference": "1.0.0-rc1",
-                "shasum": "ad211017e289c2e7493695759d54ae6b658a3306"
+                "url": "https://ftp.drupal.org/files/projects/component-1.0.0-rc2.zip",
+                "reference": "1.0.0-rc2",
+                "shasum": "dc08b76339faa015151265e5828e50fa21eaa990"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -4655,8 +4650,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "1.0.0-rc1",
-                    "datestamp": "1601647470",
+                    "version": "1.0.0-rc2",
+                    "datestamp": "1602798265",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -5837,10 +5832,10 @@
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467": "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
@@ -17494,16 +17489,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.35.1",
+            "version": "v3.35.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "82fdabf0a916e93a9d20dc91c5a31fb61b8d2e35"
+                "reference": "8fecd98c8bdc9541555155065d477d41d0bf3233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/82fdabf0a916e93a9d20dc91c5a31fb61b8d2e35",
-                "reference": "82fdabf0a916e93a9d20dc91c5a31fb61b8d2e35",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/8fecd98c8bdc9541555155065d477d41d0bf3233",
+                "reference": "8fecd98c8bdc9541555155065d477d41d0bf3233",
                 "shasum": ""
             },
             "type": "library",
@@ -17547,7 +17542,7 @@
                 "swagger",
                 "ui"
             ],
-            "time": "2020-10-08T23:06:37+00:00"
+            "time": "2020-10-15T21:07:34+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

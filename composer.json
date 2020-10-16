@@ -29,14 +29,6 @@
         "lift-samples": {
             "type": "vcs",
             "url": "https://github.com/acquia/acquia-lift-samples"
-        },
-        "cohesion": {
-            "type": "vcs",
-            "url": "https://github.com/acquia/cohesion"
-        },
-        "cohesion-theme": {
-            "type": "vcs",
-            "url": "https://github.com/acquia/cohesion-theme"
         }
     },
     "scripts": {
@@ -187,8 +179,8 @@
     "require": {
         "acquia/lightning": "4.1.7",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "6.3.2",
-        "acquia/cohesion-theme": "6.3.2",
+        "acquia/cohesion": "6.3.3",
+        "acquia/cohesion-theme": "6.3.3",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
