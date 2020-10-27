@@ -4,13 +4,13 @@ dependencies:
   module:
     - focal_point
 name: card_tall
-label: 'Card tall (220x333)'
+label: 'Card tall (250x378)'
 effects:
   159ad5bf-22ed-4b46-b673-fa1883644d73:
     uuid: 159ad5bf-22ed-4b46-b673-fa1883644d73
     id: focal_point_scale_and_crop
     weight: 1
     data:
-      width: 220
-      height: 333
+      width: 250
+      height: 378
       crop_type: focal_point
