@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f476d23b6d7fb671ac0691b58f457170",
+    "content-hash": "e460937357cfc5487f82c10d4d4786e1",
     "packages": [
         {
             "name": "acquia/acf",
@@ -10229,17 +10229,17 @@
         },
         {
             "name": "drupal/media_acquiadam",
-            "version": "1.45.0",
+            "version": "1.46.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_acquiadam.git",
-                "reference": "8.x-1.45"
+                "reference": "8.x-1.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.45.zip",
-                "reference": "8.x-1.45",
-                "shasum": "3691d4ab110496f0867f871362ade26c4bbfcf5b"
+                "url": "https://ftp.drupal.org/files/projects/media_acquiadam-8.x-1.46.zip",
+                "reference": "8.x-1.46",
+                "shasum": "450f2ee1757b7585bad55027e1b248d736414ce1"
             },
             "require": {
                 "cweagans/php-webdam-client": "^1.0.1",
@@ -10261,8 +10261,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.45",
-                    "datestamp": "1595856668",
+                    "version": "8.x-1.46",
+                    "datestamp": "1602871176",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
