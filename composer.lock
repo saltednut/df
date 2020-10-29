@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e460937357cfc5487f82c10d4d4786e1",
+    "content-hash": "8b3ddc877dc4cc5596792f388a272532",
     "packages": [
         {
             "name": "acquia/acf",
@@ -115,7 +115,8 @@
                 },
                 "enable-patching": true,
                 "patches_applied": {
-                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
+                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
+                    "Missing page elements | http://drupal.org/node/2770791": "https://www.drupal.org/files/issues/2020-10-29/cohesion-missing-page-elements.patch"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -11802,6 +11803,10 @@
                 {
                     "name": "sdleslie",
                     "homepage": "https://www.drupal.org/user/3608649"
+                },
+                {
+                    "name": "segovia94",
+                    "homepage": "https://www.drupal.org/user/780142"
                 }
             ],
             "description": "Progressively Decoupled Blocks (PDB). Build stuff with javascript frameworks as blocks.",
@@ -12787,7 +12792,7 @@
             "extra": {
                 "drupal": {
                     "version": "4.1.7",
-                    "datestamp": "1602656969",
+                    "datestamp": "1603086036",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13092,6 +13097,10 @@
                     "homepage": "https://www.drupal.org/u/gbyte.co",
                     "email": "contact@gbyte.co",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "gbyte",
+                    "homepage": "https://www.drupal.org/user/2381352"
                 }
             ],
             "description": "Creates a standard conform hreflang XML sitemap of the site content and provides a framework for developing other sitemap types.",
@@ -17499,16 +17508,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.36.0",
+            "version": "v3.36.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "b9915b112821eca7bd99926787fbe38b91204d5d"
+                "reference": "7a0c1ea556a4b393bace21f80a5c65acaed7a49f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/b9915b112821eca7bd99926787fbe38b91204d5d",
-                "reference": "b9915b112821eca7bd99926787fbe38b91204d5d",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/7a0c1ea556a4b393bace21f80a5c65acaed7a49f",
+                "reference": "7a0c1ea556a4b393bace21f80a5c65acaed7a49f",
                 "shasum": ""
             },
             "type": "library",
@@ -17552,7 +17561,7 @@
                 "swagger",
                 "ui"
             ],
-            "time": "2020-10-22T17:41:54+00:00"
+            "time": "2020-10-29T17:39:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
