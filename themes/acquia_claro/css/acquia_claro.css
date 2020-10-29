@@ -154,6 +154,11 @@ div.scheduled-transition input {
  top: 0.26rem !important;
 }
 
+/* Entity Browser */
+.eb-tabs ul li {
+  padding: 5px 5px 0 5px;
+}
+
 /* Acquia DAM */
 .acquiadam-browser-breadcrumb-container {
   display: inline-flex;
