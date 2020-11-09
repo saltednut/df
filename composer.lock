@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dd6555ab6c5c68e427e625c6253a7be",
+    "content-hash": "b622ce3a3cd88889cec3edcda6bc6393",
     "packages": [
         {
             "name": "acquia/acf",
@@ -13427,17 +13427,17 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "2.11.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "8.x-2.11"
+                "reference": "8.x-3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-2.11.zip",
-                "reference": "8.x-2.11",
-                "shasum": "d05dffe400b6a9bf01ca36305e7e788ba4026745"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "ad59ab409fd5ad7fb38e1aff425419f292fe1df7"
             },
             "require": {
                 "drupal/core": "^8",
@@ -13453,8 +13453,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.11",
-                    "datestamp": "1602256220",
+                    "version": "8.x-3.0",
+                    "datestamp": "1604508427",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
