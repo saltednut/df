@@ -241,6 +241,7 @@
         "drupal/migrate_tools": "4.1.0",
         "drupal/oauth": "2.1.0",
         "drupal/page_manager": "4.0-beta6",
+        "drupal/permissions_by_term": "^2.26",
         "drupal/pwa": "1.4.0",
         "drupal/radix": "~4.10.0",
         "drupal/refreshless": "1.0.0-alpha3",
