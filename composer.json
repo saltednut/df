@@ -275,7 +275,7 @@
         "drupal/yoast_seo": "^1.5",
         "drupal/simple_sitemap": "^3.3",
         "drupal/gdpr": "^2.0@alpha",
-        "drupal/environment_indicator": "^3.6",
+        "drupal/environment_indicator": "^4.0",
         "drupal/entity_reference_revisions": "^1.6",
         "mautic/api-library": "^2.15",
         "drupal/object_log": "1.x-dev",
