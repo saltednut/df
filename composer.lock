@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7947bf255404edb0d616d80f635d643d",
+    "content-hash": "b458ac35984698fa0097430a3fe8d4e2",
     "packages": [
         {
             "name": "acquia/acf",
@@ -69,16 +69,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.3.3",
+            "version": "6.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "a9469a6056d02edfa264d7d9557b9ab943ab7584"
+                "reference": "6576ccdcfa4ac93bb9ff826d3ae45673917be7a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/a9469a6056d02edfa264d7d9557b9ab943ab7584",
-                "reference": "a9469a6056d02edfa264d7d9557b9ab943ab7584",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/6576ccdcfa4ac93bb9ff826d3ae45673917be7a2",
+                "reference": "6576ccdcfa4ac93bb9ff826d3ae45673917be7a2",
                 "shasum": ""
             },
             "require": {
@@ -115,8 +115,7 @@
                 },
                 "enable-patching": true,
                 "patches_applied": {
-                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
-                    "Missing page elements | http://drupal.org/node/2770791": "https://www.drupal.org/files/issues/2020-10-29/cohesion-missing-page-elements.patch"
+                    "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630": "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -131,20 +130,20 @@
                 }
             ],
             "description": "Site Studio",
-            "time": "2020-10-16T08:48:36+00:00"
+            "time": "2020-11-19T14:19:25+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.3.3",
+            "version": "6.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "380faa59691d7da953d43a92d42ac4fe6443987c"
+                "reference": "5fa20742a77ea177d6eb7bc26990ad219f547d60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/380faa59691d7da953d43a92d42ac4fe6443987c",
-                "reference": "380faa59691d7da953d43a92d42ac4fe6443987c",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/5fa20742a77ea177d6eb7bc26990ad219f547d60",
+                "reference": "5fa20742a77ea177d6eb7bc26990ad219f547d60",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -160,7 +159,7 @@
                 }
             ],
             "description": "Site Studio minimal theme",
-            "time": "2020-10-16T08:48:45+00:00"
+            "time": "2020-11-19T14:19:36+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -5838,10 +5837,10 @@
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467": "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                     "1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
+                    "2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
                 }
             },
             "autoload": {
