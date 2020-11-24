@@ -313,6 +313,7 @@ projects[scenarios][patch][] = https://www.drupal.org/files/issues/2020-03-06/31
 projects[schemata][type] = module
 projects[schemata][version] = 1.0-beta2
 projects[search_api][type] = module
+projects[search_api][patch][] = https://www.drupal.org/files/issues/2020-10-26/search_api-use-entity-type-manager-interface-790418-1.patch
 projects[search_api][version] = 1.18
 projects[search_api_autocomplete][type] = module
 projects[search_api_autocomplete][version] = 1.4
