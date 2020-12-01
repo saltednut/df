@@ -5837,10 +5837,10 @@
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467": "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "[subprofile support] 1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
@@ -15131,29 +15131,27 @@
         },
         {
             "name": "laminas/laminas-servicemanager",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-servicemanager.git",
-                "reference": "1b0074bc8ab79ad66c23d0ca640a4e5f978161b8"
+                "reference": "0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/1b0074bc8ab79ad66c23d0ca640a4e5f978161b8",
-                "reference": "1b0074bc8ab79ad66c23d0ca640a4e5f978161b8",
+                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1",
+                "reference": "0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1",
                 "shasum": ""
             },
             "require": {
+                "container-interop/container-interop": "^1.2",
                 "laminas/laminas-stdlib": "^3.2.1",
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^7.4 || ~8.0.0",
+                "php": "^5.6 || ^7.0",
                 "psr/container": "^1.0"
             },
-            "conflict": {
-                "container-interop/container-interop": "<1.2.0",
-                "zendframework/zend-code": "<3.3.1"
-            },
             "provide": {
+                "container-interop/container-interop-implementation": "^1.2",
                 "psr/container-implementation": "^1.0"
             },
             "replace": {
@@ -15161,22 +15159,26 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "laminas/laminas-container-config-test": "^0.2.1",
-                "mikey179/vfsstream": "^1.6.8",
-                "ocramius/proxy-manager": "^2.8",
-                "phpbench/phpbench": "^0.17",
-                "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.4"
+                "mikey179/vfsstream": "^1.6.5",
+                "ocramius/proxy-manager": "^1.0 || ^2.0",
+                "phpbench/phpbench": "^0.13.0",
+                "phpunit/phpunit": "^5.7.25 || ^6.4.4"
             },
             "suggest": {
-                "laminas/laminas-stdlib": "laminas-stdlib ^2.7.7 | ^3.1 if you wish to use the MergeReplaceKey or MergeRemoveKey features in Config instances",
-                "ocramius/proxy-manager": "ProxyManager ^2.1.1 to handle lazy initialization of services"
+                "laminas/laminas-stdlib": "laminas-stdlib ^2.5 if you wish to use the MergeReplaceKey or MergeRemoveKey features in Config instances",
+                "ocramius/proxy-manager": "ProxyManager 1.* to handle lazy initialization of services"
             },
             "bin": [
                 "bin/generate-deps-for-config-factory",
                 "bin/generate-factory-for-class"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev",
+                    "dev-develop": "4.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\ServiceManager\\": "src/"
@@ -15203,7 +15205,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-12-01T11:50:40+00:00"
+            "time": "2020-05-11T14:43:22+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
