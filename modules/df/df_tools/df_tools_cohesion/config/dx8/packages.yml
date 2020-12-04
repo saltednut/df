@@ -1,0 +1,6 @@
+# Site Studio packages for df_tools_cohesion.
+# Components
+- config/dx8/cpt_banner_bar.package.yml
+- config/dx8/cpt_drupal_block.package.yml
+- config/dx8/cpt_hero.package.yml
+- config/dx8/cpt_lift_slot.package.yml
