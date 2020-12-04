@@ -5615,16 +5615,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.10",
+            "version": "8.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "e725c01cdf6fb6d8b330a27fa75caab91034805a"
+                "reference": "8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/e725c01cdf6fb6d8b330a27fa75caab91034805a",
-                "reference": "e725c01cdf6fb6d8b330a27fa75caab91034805a",
+                "url": "https://api.github.com/repos/drupal/core/zipball/8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d",
+                "reference": "8fc1d510b8fcff90e2f3a7c96a893ba16bbdc62d",
                 "shasum": ""
             },
             "require": {
@@ -5652,7 +5652,7 @@
                 "laminas/laminas-feed": "^2.12",
                 "masterminds/html5": "^2.1",
                 "pear/archive_tar": "^1.4.11",
-                "php": ">=7.0.8",
+                "php": "^7.0.8",
                 "psr/log": "^1.0",
                 "stack/builder": "^1.0",
                 "symfony-cmf/routing": "^1.4",
@@ -5837,10 +5837,10 @@
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467": "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "[subprofile support] 1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
@@ -5864,7 +5864,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2020-11-26T01:49:15+00:00"
+            "time": "2020-12-03T20:57:10+00:00"
         },
         {
             "name": "drupal/crop",
@@ -16240,21 +16240,21 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "3.4.1",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "5fbf3486704ac9835b68184023ab54862c95f213"
+                "reference": "593aca859b67d607923fe50d8ad7315373f5b6dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/5fbf3486704ac9835b68184023ab54862c95f213",
-                "reference": "5fbf3486704ac9835b68184023ab54862c95f213",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/593aca859b67d607923fe50d8ad7315373f5b6dd",
+                "reference": "593aca859b67d607923fe50d8ad7315373f5b6dd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
-                "robrichards/xmlseclibs": ">=3.0.4"
+                "robrichards/xmlseclibs": ">=3.1.1"
             },
             "require-dev": {
                 "pdepend/pdepend": "^2.5.0",
@@ -16286,7 +16286,7 @@
                 "onelogin",
                 "saml"
             ],
-            "time": "2019-11-25T17:30:07+00:00"
+            "time": "2020-12-03T20:08:41+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -17264,16 +17264,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.10.4",
+            "version": "v0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "a8aec1b2981ab66882a01cce36a49b6317dc3560"
+                "reference": "7c710551d4a2653afa259c544508dc18a9098956"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/a8aec1b2981ab66882a01cce36a49b6317dc3560",
-                "reference": "a8aec1b2981ab66882a01cce36a49b6317dc3560",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/7c710551d4a2653afa259c544508dc18a9098956",
+                "reference": "7c710551d4a2653afa259c544508dc18a9098956",
                 "shasum": ""
             },
             "require": {
@@ -17332,7 +17332,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2020-05-03T19:32:03+00:00"
+            "time": "2020-12-04T02:51:30+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
