@@ -2,5 +2,5 @@
 # Components
 - config/dx8/cpt_banner_bar.package.yml
 - config/dx8/cpt_drupal_block.package.yml
-- config/dx8/cpt_hero.package.yml
+- config/dx8/cpt_hero_traditional.package.yml
 - config/dx8/cpt_lift_slot.package.yml
