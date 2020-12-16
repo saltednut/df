@@ -1710,7 +1710,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: admin/content/media-table
+      path: admin/content/media
       display_description: ''
     cache_metadata:
       max-age: 0
