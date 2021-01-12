@@ -2,11 +2,7 @@
   "name": "one",
   "description": "A theme based on Radix.",
   "private": true,
-  "resolutions": {
-    "axios": "0.21.1"
-  },
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "postinstall": "find node_modules/ -name '*.info' -type f -delete",
     "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
