@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "54ac6a9248bb6a6ce9174a3438bc0786e0303d76"
+                "reference": "eacc296c79fada68e78fe637de5fc9433ce1c4aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/54ac6a9248bb6a6ce9174a3438bc0786e0303d76",
-                "reference": "54ac6a9248bb6a6ce9174a3438bc0786e0303d76",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/eacc296c79fada68e78fe637de5fc9433ce1c4aa",
+                "reference": "eacc296c79fada68e78fe637de5fc9433ce1c4aa",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -33,7 +33,7 @@
                 }
             ],
             "description": "a lightweight framework for headless e-commerce with Drupal. Starter connectors for major e-commerce engines",
-            "time": "2020-10-06T14:29:40+00:00"
+            "time": "2021-01-14T21:16:21+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -528,7 +528,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fengyuanchen/cropper.git",
+                "url": "git@github.com:fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -636,7 +636,7 @@
             "version": "v4.1.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:desandro/imagesloaded.git",
+                "url": "https://github.com/desandro/imagesloaded.git",
                 "reference": "72b5d600a435803ab1dd2c549b8cba2941ab79ba"
             },
             "dist": {
@@ -736,7 +736,7 @@
             "version": "v4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
+                "url": "git@github.com:desandro/masonry.git",
                 "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb"
             },
             "dist": {
@@ -987,16 +987,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
-                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+                "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
                 "shasum": ""
             },
             "require": {
@@ -1007,17 +1007,18 @@
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.6.* || 2.0.*@dev",
-                "composer/semver": "1.0.* || 2.0.*@dev",
-                "phpunit/phpunit": "^4.8.36",
-                "sebastian/comparator": "^1.2.4",
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
                 "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -1055,6 +1056,7 @@
                 "Porto",
                 "RadPHP",
                 "SMF",
+                "Starbug",
                 "Thelia",
                 "Whmcs",
                 "WolfCMS",
@@ -1095,6 +1097,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "processwire",
                 "puppet",
                 "pxcms",
                 "reindex",
@@ -1116,11 +1119,15 @@
                     "type": "custom"
                 },
                 {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/composer/composer",
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-04-07T06:57:05+00:00"
+            "time": "2021-01-14T11:07:16+00:00"
         },
         {
             "name": "composer/semver",
@@ -5835,10 +5842,10 @@
                     "Expose Layout Builder data to REST and JSON:API | https://www.drupal.org/project/drupal/issues/2942975": "https://www.drupal.org/files/issues/2020-05-20/2942975-100.patch",
                     "Imported PO files have no public URL but have a link at admin/content/files | https://www.drupal.org/project/drupal/issues/2449895": "https://www.drupal.org/files/issues/2020-06-01/2449895-2-80.patch",
                     "'Negate' form value for condition plugins should be cast to boolean in validation | https://www.drupal.org/project/drupal/issues/3114467": "https://www.drupal.org/files/issues/2020-03-23/3114467-8.patch",
-                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                    "2869592 - Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2020-02-07/2869592-remove-update-warning-34.patch",
+                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch",
                     "[subprofile support] 1356276 - Allow profiles to define a base/parent profile and load them in the correct order": "https://www.drupal.org/files/issues/2019-11-05/1356276-531-8.8.x-4.patch",
-                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch",
-                    "2815221 - Add quickedit to the latest-revision route": "https://www.drupal.org/files/issues/2019-11-27/2815221-125.patch"
+                    "[subprofile support] 2914389 - Allow profiles to exclude dependencies of their parent": "https://www.drupal.org/files/issues/2018-07-09/2914389-8-do-not-test.patch"
                 }
             },
             "autoload": {
@@ -6220,17 +6227,17 @@
         },
         {
             "name": "drupal/depcalc",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "abc5245139499be376621d6daea28319bbf23f16"
+                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "df0f4f83d44de860b701ef8333816c7e36dcdd6c"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -6241,8 +6248,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1590104431",
+                    "version": "8.x-1.2",
+                    "datestamp": "1610655276",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10300,17 +10307,17 @@
         },
         {
             "name": "drupal/media_entity_twitter",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/media_entity_twitter.git",
-                "reference": "8.x-2.5"
+                "reference": "8.x-2.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/media_entity_twitter-8.x-2.5.zip",
-                "reference": "8.x-2.5",
-                "shasum": "0e524f3b32a4f9c4de427cbd6facdfc7b39706dd"
+                "url": "https://ftp.drupal.org/files/projects/media_entity_twitter-8.x-2.6.zip",
+                "reference": "8.x-2.6",
+                "shasum": "777062eb55314da47ee3878db6d10d022e91bed6"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -10319,8 +10326,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.5",
-                    "datestamp": "1610021868",
+                    "version": "8.x-2.6",
+                    "datestamp": "1610375564",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15095,24 +15102,28 @@
         },
         {
             "name": "laminas/laminas-servicemanager",
-            "version": "3.5.1",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-servicemanager.git",
-                "reference": "0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1"
+                "reference": "d55e4e78fc7c9bbef1e9e098dada979eeef04439"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1",
-                "reference": "0d4c8628a71fae9f7bd0b1b74b76382e5e9a04b1",
+                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/d55e4e78fc7c9bbef1e9e098dada979eeef04439",
+                "reference": "d55e4e78fc7c9bbef1e9e098dada979eeef04439",
                 "shasum": ""
             },
             "require": {
                 "container-interop/container-interop": "^1.2",
                 "laminas/laminas-stdlib": "^3.2.1",
                 "laminas/laminas-zendframework-bridge": "^1.0",
-                "php": "^5.6 || ^7.0",
+                "php": "^7.3 || ~8.0.0",
                 "psr/container": "^1.0"
+            },
+            "conflict": {
+                "laminas/laminas-code": "<3.3.1",
+                "zendframework/zend-code": "<3.3.1"
             },
             "provide": {
                 "container-interop/container-interop-implementation": "^1.2",
@@ -15122,27 +15133,24 @@
                 "zendframework/zend-servicemanager": "^3.4.0"
             },
             "require-dev": {
+                "composer/package-versions-deprecated": "^1.0",
                 "laminas/laminas-coding-standard": "~1.0.0",
-                "mikey179/vfsstream": "^1.6.5",
-                "ocramius/proxy-manager": "^1.0 || ^2.0",
-                "phpbench/phpbench": "^0.13.0",
-                "phpunit/phpunit": "^5.7.25 || ^6.4.4"
+                "laminas/laminas-container-config-test": "^0.3",
+                "laminas/laminas-dependency-plugin": "^2.1",
+                "mikey179/vfsstream": "^1.6.8",
+                "ocramius/proxy-manager": "^2.2.3",
+                "phpbench/phpbench": "^1.0.0-alpha3",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.4"
             },
             "suggest": {
-                "laminas/laminas-stdlib": "laminas-stdlib ^2.5 if you wish to use the MergeReplaceKey or MergeRemoveKey features in Config instances",
-                "ocramius/proxy-manager": "ProxyManager 1.* to handle lazy initialization of services"
+                "ocramius/proxy-manager": "ProxyManager ^2.1.1 to handle lazy initialization of services"
             },
             "bin": [
                 "bin/generate-deps-for-config-factory",
                 "bin/generate-factory-for-class"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.3-dev",
-                    "dev-develop": "4.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Laminas\\ServiceManager\\": "src/"
@@ -15169,7 +15177,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-05-11T14:43:22+00:00"
+            "time": "2021-01-10T22:25:38+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -16059,16 +16067,16 @@
         },
         {
             "name": "nette/utils",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7"
+                "reference": "2bc2f58079c920c2ecbb6935645abf6f2f5f94ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/d0427c1811462dbb6c503143eabe5478b26685f7",
-                "reference": "d0427c1811462dbb6c503143eabe5478b26685f7",
+                "url": "https://api.github.com/repos/nette/utils/zipball/2bc2f58079c920c2ecbb6935645abf6f2f5f94ba",
+                "reference": "2bc2f58079c920c2ecbb6935645abf6f2f5f94ba",
                 "shasum": ""
             },
             "require": {
@@ -16136,7 +16144,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2020-11-25T23:47:50+00:00"
+            "time": "2021-01-11T03:05:59+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -16825,16 +16833,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.65",
+            "version": "0.12.67",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "1c7658668b28f8d647a8b874372acf14c4352688"
+                "reference": "ced7a5d9c5dba908c1c00cea3f1d4ad74da71b86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1c7658668b28f8d647a8b874372acf14c4352688",
-                "reference": "1c7658668b28f8d647a8b874372acf14c4352688",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ced7a5d9c5dba908c1c00cea3f1d4ad74da71b86",
+                "reference": "ced7a5d9c5dba908c1c00cea3f1d4ad74da71b86",
                 "shasum": ""
             },
             "require": {
@@ -16877,7 +16885,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-06T16:51:10+00:00"
+            "time": "2021-01-14T14:16:19+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -17524,16 +17532,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.39.0",
+            "version": "v3.40.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "aab0511e07cbb059e1f430aae02ed1f226366829"
+                "reference": "8264f72af350eff0a564a3ca6f6292c8818f8466"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/aab0511e07cbb059e1f430aae02ed1f226366829",
-                "reference": "aab0511e07cbb059e1f430aae02ed1f226366829",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/8264f72af350eff0a564a3ca6f6292c8818f8466",
+                "reference": "8264f72af350eff0a564a3ca6f6292c8818f8466",
                 "shasum": ""
             },
             "type": "library",
@@ -17577,20 +17585,20 @@
                 "swagger",
                 "ui"
             ],
-            "time": "2021-01-07T21:16:03+00:00"
+            "time": "2021-01-14T20:20:17+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v6.2.4",
+            "version": "v6.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e"
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
-                "reference": "56f0ab23f54c4ccbb0d5dcc67ff8552e0c98d59e",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/698a6a9f54d7eb321274de3ad19863802c879fb7",
+                "reference": "698a6a9f54d7eb321274de3ad19863802c879fb7",
                 "shasum": ""
             },
             "require": {
@@ -17648,7 +17656,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T18:02:06+00:00"
+            "time": "2021-01-12T09:35:59+00:00"
         },
         {
             "name": "symfony-cmf/routing",
