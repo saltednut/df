@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb8d549dc5c3e7f3cdd60bbf4b8fa346",
+    "content-hash": "9163939b4329ac341f523bb55985761a",
     "packages": [
         {
             "name": "acquia/acf",
@@ -9736,7 +9736,10 @@
                 "installer-types": [
                     "bower-asset",
                     "npm-asset"
-                ]
+                ],
+                "patches_applied": {
+                    "PHP 7.4 notice: Trying to access array offset on value of type null | http://drupal.org/node/3113656": "https://www.drupal.org/files/issues/2020-02-14/3113656-2.patch"
+                }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "scripts": {

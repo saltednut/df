@@ -212,6 +212,7 @@ projects[lightning_core][version] = 5.5
 projects[lightning_layout][type] = module
 projects[lightning_layout][version] = 2.9
 projects[lightning_media][type] = module
+projects[lightning_media][patch][] = https://www.drupal.org/files/issues/2020-02-14/3113656-2.patch
 projects[lightning_media][version] = 4.4
 projects[lightning_workflow][type] = module
 projects[lightning_workflow][version] = 3.16
