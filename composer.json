@@ -6,6 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
+        "drupal/core-composer-scaffold": "^8",
         "drupal/drupal-extension": "^3.4.0",
         "se/selenium-server-standalone": "^2.53",
         "drupal/devel": "*",
@@ -33,7 +34,6 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "@composer drupal-scaffold",
             "@composer push"
         ],
         "post-update-cmd": [
@@ -42,11 +42,28 @@
         ],
         "package": "Acquia\\DF\\Composer\\Package::execute",
         "push": "./vendor/bin/phing push",
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "nuke": "rm -r -f docroot vendor modules/contrib themes/contrib",
         "remove-git-submodules" : "find . -mindepth 2 -type d -name .git | xargs rm -rf"
     },
     "extra": {
+        "drupal-scaffold": {
+            "file-mapping": {
+                "[project-root]/.editorconfig": false,
+                "[project-root]/.gitattributes": false,
+                "[web-root]/.csslintrc": false,
+                "[web-root]/INSTALL.txt": false,
+                "[web-root]/example.gitignore": false,
+                "[web-root]/modules/README.txt": false,
+                "[web-root]/profiles/README.txt": false,
+                "[web-root]/robots.txt": false,
+                "[web-root]/sites/README.txt": false,
+                "[web-root]/themes/README.txt": false,
+                "[web-root]/web.config": false
+            },
+            "locations": {
+                "web-root": "docroot/"
+            }
+        },
         "installer-types": [
             "bower-asset",
             "npm-asset"
@@ -266,9 +283,8 @@
         "drupal/webform_mautic": "1.1.0",
         "drupal/webform_views": "5.0.0-alpha8",
         "drupal/workbench_email": "1.7",
-        "drupal-composer/drupal-scaffold": "^2.0.0",
-        "cweagans/composer-patches": "1.6.6",
-        "oomphinc/composer-installers-extender": "^1.1",
+        "cweagans/composer-patches": "^1.6",
+        "oomphinc/composer-installers-extender": "^1.1 || ^2",
         "phing/phing": "^2.14",
         "acquia/acf": "2.x-dev",
         "drupal/basic_data": "^1.1",
@@ -286,8 +302,7 @@
         "drupal/environment_indicator": "^4.0",
         "drupal/entity_reference_revisions": "^1.6",
         "mautic/api-library": "^2.15",
-        "drupal/object_log": "1.x-dev",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "drupal/object_log": "1.x-dev"
     },
     "autoload": {
         "psr-4": {
