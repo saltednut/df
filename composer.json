@@ -6,7 +6,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "drupal/core-composer-scaffold": "^8",
         "drupal/drupal-extension": "^3.4.0",
         "se/selenium-server-standalone": "^2.53",
         "drupal/devel": "*",
@@ -233,6 +232,7 @@
         "drupal/config_tools": "1.x-dev",
         "drupal/content_browser": "1.0.0",
         "drupal/context": "4.0-beta5",
+        "drupal/core-composer-scaffold": "^8",
         "drupal/default_content": "1.0.0-alpha9",
         "drupal/default_content_deploy": "1.x-dev#97ea1ae as 1.x-dev",
         "drupal/dx8_addtoany": "^1.1",
