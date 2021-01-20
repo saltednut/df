@@ -184,7 +184,9 @@
             },
             "drupal/radix": {
               "Integrate with OffCanvas (Layout Builder) | http://drupal.org/node/3053579":
-              "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch"
+              "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch",
+              "components API | http://drupal.org/node/3193046-09":
+              "https://www.drupal.org/files/issues/2021-01-20/components-API-3193046-09.patch"
             },
             "drupal/search_api": {
               "TypeError: Argument 1 passed to ContentEntityTrackingManager | https://drupal.org/node/3179045":

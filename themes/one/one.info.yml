@@ -31,7 +31,7 @@ libraries-override:
 ckeditor_stylesheets:
   - assets/css/one.style.css
 
-component-libraries:
-  one:
-    paths:
+components:
+  namespaces:
+    one:
       - ./src/components
