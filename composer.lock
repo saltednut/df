@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "017ca23947208fbd370e212ae0ee2a85",
+    "content-hash": "97c74d25b6a76d611da11d2d73e6c516",
     "packages": [
         {
             "name": "acquia/acf",
@@ -75,16 +75,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.4.1",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b"
+                "reference": "b0ee051d9cc104de63cadda458b94586329b392f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/1e452143588bcdaefa2098ab0322f9fbc382fe6b",
-                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/b0ee051d9cc104de63cadda458b94586329b392f",
+                "reference": "b0ee051d9cc104de63cadda458b94586329b392f",
                 "shasum": ""
             },
             "require": {
@@ -134,22 +134,22 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.4.1"
+                "source": "https://github.com/acquia/cohesion/tree/6.4.0"
             },
-            "time": "2021-01-18T15:24:40+00:00"
+            "time": "2020-11-24T16:25:54+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.4.1",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b"
+                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
-                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
+                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -167,9 +167,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.1"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.0"
             },
-            "time": "2021-01-18T15:24:50+00:00"
+            "time": "2020-11-24T16:26:03+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -553,7 +553,7 @@
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:fengyuanchen/cropper.git",
+                "url": "https://github.com/fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -682,7 +682,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -743,7 +743,7 @@
             "version": "v1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Leaflet/Leaflet.git",
+                "url": "git@github.com:Leaflet/Leaflet.git",
                 "reference": "ed36a04aefd12cb92c78074fe63a8e460db1d464"
             },
             "dist": {
@@ -10616,7 +10616,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.15",
-                    "datestamp": "1607188979",
+                    "datestamp": "1611210662",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13481,7 +13481,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-3.1",
-                    "datestamp": "1608580905",
+                    "datestamp": "1609764666",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -20528,12 +20528,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -20571,8 +20571,8 @@
                 "validate"
             ],
             "support": {
-                "issues": "https://github.com/webmozart/assert/issues",
-                "source": "https://github.com/webmozart/assert/tree/master"
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
             },
             "time": "2020-07-08T17:02:28+00:00"
         },
