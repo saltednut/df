@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3df7f351835d845aca18d3b16b8f7aee",
+    "content-hash": "b8d2826f15e4cf52eb9e7e166424a28c",
     "packages": [
         {
             "name": "acquia/acf",
@@ -10056,17 +10056,17 @@
         },
         {
             "name": "drupal/lightning_media",
-            "version": "4.4.0",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lightning_media.git",
-                "reference": "8.x-4.4"
+                "reference": "8.x-4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-4.4.zip",
-                "reference": "8.x-4.4",
-                "shasum": "9e29a80fe478cda96ae45680964f35069e6c6349"
+                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-4.5.zip",
+                "reference": "8.x-4.5",
+                "shasum": "254516bd315a19fb6ce9900838f6f2718bba5110"
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
@@ -10082,7 +10082,7 @@
                 "drupal/inline_entity_form": "^1.0-rc7",
                 "drupal/lightning_core": "5.*",
                 "drupal/media_entity_instagram": "^3",
-                "drupal/media_entity_twitter": "^2.1",
+                "drupal/media_entity_twitter": "^2.5",
                 "drupal/slick_entityreference": "^2.0",
                 "drupal/video_embed_field": "^2.0",
                 "drupal/views_infinite_scroll": "^1.6",
@@ -10103,8 +10103,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-4.4",
-                    "datestamp": "1603487264",
+                    "version": "8.x-4.5",
+                    "datestamp": "1611679007",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -21416,16 +21416,16 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.7.0",
+            "version": "v4.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "0ffe6a7f67f8d038166143d71b30a9088f932576"
+                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/0ffe6a7f67f8d038166143d71b30a9088f932576",
-                "reference": "0ffe6a7f67f8d038166143d71b30a9088f932576",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
+                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
                 "shasum": ""
             },
             "require": {
@@ -21473,9 +21473,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.7.0"
+                "source": "https://github.com/Behat/Gherkin/tree/v4.7.1"
             },
-            "time": "2021-01-24T14:06:27+00:00"
+            "time": "2021-01-26T16:24:32+00:00"
         },
         {
             "name": "behat/mink",

@@ -168,10 +168,6 @@
               "Tests using FixtureContext fail due to Content Hub 2.0 enabled | http://drupal.org/node/3055022":
               "https://www.drupal.org/files/issues/2019-05-15/lightning_core-ch-publisher-fixture-setup-0.patch"
             },
-            "drupal/lightning_media": {
-              "PHP 7.4 notice: Trying to access array offset on value of type null | http://drupal.org/node/3113656":
-              "https://www.drupal.org/files/issues/2020-02-14/3113656-2.patch"
-            },
             "drupal/object_log": {
                 "Change call to kprint_r() to kpr() to resolve PHP Fatal | http://drupal.org/node/2854348":
                 "https://www.drupal.org/files/issues/use_kpr_to_print_logs-2854348-2.patch"
