@@ -1,0 +1,8 @@
+sidebar_view_style: titles
+image_browser:
+  config:
+    type: imce_imagebrowser
+    dx8_imce_stream_wrapper: public
+  content:
+    type: entity_imagebrowser
+    dx8_entity_browser: image_browser
