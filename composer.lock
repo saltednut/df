@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2789911fb0811fe35df8286d6d4be38f",
+    "content-hash": "500a878eaaa33a4f5e82ae79275cc7c9",
     "packages": [
         {
             "name": "acquia/acf",
@@ -75,16 +75,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.4.0",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "b0ee051d9cc104de63cadda458b94586329b392f"
+                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/b0ee051d9cc104de63cadda458b94586329b392f",
-                "reference": "b0ee051d9cc104de63cadda458b94586329b392f",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/1e452143588bcdaefa2098ab0322f9fbc382fe6b",
+                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b",
                 "shasum": ""
             },
             "require": {
@@ -134,22 +134,22 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.4.0"
+                "source": "https://github.com/acquia/cohesion/tree/6.4.1"
             },
-            "time": "2020-11-24T16:25:54+00:00"
+            "time": "2021-01-18T15:24:40+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.4.0",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69"
+                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
-                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
+                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -167,9 +167,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.0"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.1"
             },
-            "time": "2020-11-24T16:26:03+00:00"
+            "time": "2021-01-18T15:24:50+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -17360,16 +17360,16 @@
         },
         {
             "name": "phing/phing",
-            "version": "2.16.3",
+            "version": "2.16.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phingofficial/phing.git",
-                "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567"
+                "reference": "30831b22fc6bab57003f1893842668c44b7f65ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phingofficial/phing/zipball/b34c2bf9cd6abd39b4287dee31e68673784c8567",
-                "reference": "b34c2bf9cd6abd39b4287dee31e68673784c8567",
+                "url": "https://api.github.com/repos/phingofficial/phing/zipball/30831b22fc6bab57003f1893842668c44b7f65ae",
+                "reference": "30831b22fc6bab57003f1893842668c44b7f65ae",
                 "shasum": ""
             },
             "require": {
@@ -17452,9 +17452,23 @@
             "support": {
                 "irc": "irc://irc.freenode.net/phing",
                 "issues": "https://www.phing.info/trac/report",
-                "source": "https://github.com/phingofficial/phing/tree/oldstable"
+                "source": "https://github.com/phingofficial/phing/tree/2.16.4"
             },
-            "time": "2020-02-03T18:50:54+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/mrook",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/siad007",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/michielrook",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-01-29T14:00:54+00:00"
         },
         {
             "name": "phpdocumentor/reflection-common",
