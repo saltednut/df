@@ -196,7 +196,9 @@
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
               "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
               "Add log error settings to templates | https://drupal.org/node/2770791":
-              "https://www.drupal.org/files/issues/2021-01-28/cohesion_templates-log-error-setting.patch"
+              "https://www.drupal.org/files/issues/2021-01-28/cohesion_templates-log-error-setting.patch",
+              "Increase batch operation items | https://drupal.org/node/2770791":
+              "https://www.drupal.org/files/issues/2021-01-29/cohesion-sync-increase-batch-operation-items.patch"
             }
         }
     },
