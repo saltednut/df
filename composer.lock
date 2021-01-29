@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "138a24f90a027dd44173c2849df7c2b9",
+    "content-hash": "2789911fb0811fe35df8286d6d4be38f",
     "packages": [
         {
             "name": "acquia/acf",
@@ -9470,17 +9470,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "2.1.8",
+            "version": "2.1.9",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "2.1.8"
+                "reference": "2.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.8.zip",
-                "reference": "2.1.8",
-                "shasum": "8e5bb85168a4351d7028e713b8467a34ccd7066e"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.9.zip",
+                "reference": "2.1.9",
+                "shasum": "de1fde07225b5139665ab748c953f0396d5e3813"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -9489,8 +9489,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.8",
-                    "datestamp": "1609007739",
+                    "version": "2.1.9",
+                    "datestamp": "1611096358",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
