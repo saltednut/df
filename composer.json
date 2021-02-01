@@ -184,10 +184,6 @@
               "components API | http://drupal.org/node/3193046-09":
               "https://www.drupal.org/files/issues/2021-01-20/components-API-3193046-09.patch"
             },
-            "drupal/search_api": {
-              "TypeError: Argument 1 passed to ContentEntityTrackingManager | https://drupal.org/node/3179045":
-              "https://www.drupal.org/files/issues/2020-10-26/search_api-use-entity-type-manager-interface-790418-1.patch"
-            },
             "drupal/scenarios": {
               "Update DCD importer | http://drupal.org/node/3113974":
               "https://www.drupal.org/files/issues/2020-03-06/3113974-update-dcd-dev-importer-4.patch"
