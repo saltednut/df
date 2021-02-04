@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ff7397dd51265958f799d10fb26ad3f",
+    "content-hash": "1bf8eb7db3b74567412e038876292372",
     "packages": [
         {
             "name": "acquia/acf",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "b0e173030bfcadedff6a38d14884b597e843371a"
+                "reference": "e810d7b8969fc07fb642646543f18b8d7f132272"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/b0e173030bfcadedff6a38d14884b597e843371a",
-                "reference": "b0e173030bfcadedff6a38d14884b597e843371a",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/e810d7b8969fc07fb642646543f18b8d7f132272",
+                "reference": "e810d7b8969fc07fb642646543f18b8d7f132272",
                 "shasum": ""
             },
             "default-branch": true,
@@ -38,7 +38,7 @@
                 "issues": "https://github.com/acquia/acf/issues",
                 "source": "https://github.com/acquia/acf/tree/2.x"
             },
-            "time": "2021-02-01T18:54:38+00:00"
+            "time": "2021-02-04T03:38:05+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -75,16 +75,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.4.1",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b"
+                "reference": "b0ee051d9cc104de63cadda458b94586329b392f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/1e452143588bcdaefa2098ab0322f9fbc382fe6b",
-                "reference": "1e452143588bcdaefa2098ab0322f9fbc382fe6b",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/b0ee051d9cc104de63cadda458b94586329b392f",
+                "reference": "b0ee051d9cc104de63cadda458b94586329b392f",
                 "shasum": ""
             },
             "require": {
@@ -134,22 +134,22 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.4.1"
+                "source": "https://github.com/acquia/cohesion/tree/6.4.0"
             },
-            "time": "2021-01-18T15:24:40+00:00"
+            "time": "2020-11-24T16:25:54+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.4.1",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b"
+                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
-                "reference": "e1a45529f57e6ef5fa110ffe2afa347b02a6351b",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
+                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -167,9 +167,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.1"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.0"
             },
-            "time": "2021-01-18T15:24:50+00:00"
+            "time": "2020-11-24T16:26:03+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -13921,17 +13921,17 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "3.3.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "8.x-3.3"
+                "reference": "8.x-3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-3.3.zip",
-                "reference": "8.x-3.3",
-                "shasum": "05d20bca1b75ce57a7ce9db5335f3d68df94fb91"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-3.4.zip",
+                "reference": "8.x-3.4",
+                "shasum": "75d56ca9ae59da6e47c71b9f28e9df1ac502b22d"
             },
             "require": {
                 "drupal/core": "^8.7.0",
@@ -13944,8 +13944,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.3",
-                    "datestamp": "1611903069",
+                    "version": "8.x-3.4",
+                    "datestamp": "1612379526",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -21454,26 +21454,26 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.7.2",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "d1ff9aa23bb280e8aee9118d42eec386d6f851f7"
+                "reference": "2391482cd003dfdc36b679b27e9f5326bd656acd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/d1ff9aa23bb280e8aee9118d42eec386d6f851f7",
-                "reference": "d1ff9aa23bb280e8aee9118d42eec386d6f851f7",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/2391482cd003dfdc36b679b27e9f5326bd656acd",
+                "reference": "2391482cd003dfdc36b679b27e9f5326bd656acd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": "~7.2|~8.0"
             },
             "require-dev": {
                 "cucumber/cucumber": "dev-gherkin-16.0.0",
-                "phpunit/phpunit": "^5.7.1|~6|~7",
-                "symfony/phpunit-bridge": "~2.7|~3|~4",
-                "symfony/yaml": "~2.3|~3|~4"
+                "phpunit/phpunit": "~8|~9",
+                "symfony/phpunit-bridge": "~3|~4|~5",
+                "symfony/yaml": "~3|~4|~5"
             },
             "suggest": {
                 "symfony/yaml": "If you want to parse features, represented in YAML files"
@@ -21512,9 +21512,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.7.2"
+                "source": "https://github.com/Behat/Gherkin/tree/v4.8.0"
             },
-            "time": "2021-02-03T16:10:01+00:00"
+            "time": "2021-02-04T12:44:21+00:00"
         },
         {
             "name": "behat/mink",
