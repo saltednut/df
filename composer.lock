@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "e810d7b8969fc07fb642646543f18b8d7f132272"
+                "reference": "f46582e1502b00b82c80df88f9509b6450433188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/e810d7b8969fc07fb642646543f18b8d7f132272",
-                "reference": "e810d7b8969fc07fb642646543f18b8d7f132272",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/f46582e1502b00b82c80df88f9509b6450433188",
+                "reference": "f46582e1502b00b82c80df88f9509b6450433188",
                 "shasum": ""
             },
             "default-branch": true,
@@ -38,7 +38,7 @@
                 "issues": "https://github.com/acquia/acf/issues",
                 "source": "https://github.com/acquia/acf/tree/2.x"
             },
-            "time": "2021-02-04T03:38:05+00:00"
+            "time": "2021-02-05T17:57:26+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -11393,6 +11393,10 @@
                 {
                     "name": "juampynr",
                     "homepage": "https://www.drupal.org/user/682736"
+                },
+                {
+                    "name": "kevin.dutra",
+                    "homepage": "https://www.drupal.org/user/1312744"
                 }
             ],
             "description": "Provides OAuth 1.0a server authentication",
