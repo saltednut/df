@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bf8eb7db3b74567412e038876292372",
+    "content-hash": "1856e2f528733ff21758fa72ec490a77",
     "packages": [
         {
             "name": "acquia/acf",
@@ -9541,17 +9541,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "2.1.9",
+            "version": "2.1.10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "2.1.9"
+                "reference": "2.1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.9.zip",
-                "reference": "2.1.9",
-                "shasum": "de1fde07225b5139665ab748c953f0396d5e3813"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.10.zip",
+                "reference": "2.1.10",
+                "shasum": "0cd2bc979988e564d8eb8549d938c3d31c8b5d92"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -9560,8 +9560,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.9",
-                    "datestamp": "1611096358",
+                    "version": "2.1.10",
+                    "datestamp": "1611948911",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -16526,16 +16526,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "0.12.7",
+            "version": "0.12.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "9c53a7be3f1b92766046469e2bf2e5f1cbfa0276"
+                "reference": "7598084f8a0d6de21015faa9e2151cc4540f4344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/9c53a7be3f1b92766046469e2bf2e5f1cbfa0276",
-                "reference": "9c53a7be3f1b92766046469e2bf2e5f1cbfa0276",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/7598084f8a0d6de21015faa9e2151cc4540f4344",
+                "reference": "7598084f8a0d6de21015faa9e2151cc4540f4344",
                 "shasum": ""
             },
             "require": {
@@ -16603,7 +16603,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/0.12.7"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/0.12.8"
             },
             "funding": [
                 {
@@ -16619,7 +16619,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-21T13:42:17+00:00"
+            "time": "2021-02-05T01:40:26+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -18397,21 +18397,21 @@
         },
         {
             "name": "solarium/solarium",
-            "version": "6.0.4",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "efdbb4c3cad33fbb8ac971f45405f5c1856b506b"
+                "reference": "a161014dea4799c46adeb542d0a25ec334dcccc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/efdbb4c3cad33fbb8ac971f45405f5c1856b506b",
-                "reference": "efdbb4c3cad33fbb8ac971f45405f5c1856b506b",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/a161014dea4799c46adeb542d0a25ec334dcccc2",
+                "reference": "a161014dea4799c46adeb542d0a25ec334dcccc2",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.2 || ^8.0",
+                "php": "^7.3 || ^8.0",
                 "psr/event-dispatcher": "^1.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0",
@@ -18454,9 +18454,9 @@
             ],
             "support": {
                 "issues": "https://github.com/solariumphp/solarium/issues",
-                "source": "https://github.com/solariumphp/solarium/tree/6.0.4"
+                "source": "https://github.com/solariumphp/solarium/tree/6.1.1"
             },
-            "time": "2020-11-05T17:28:49+00:00"
+            "time": "2021-02-05T13:03:56+00:00"
         },
         {
             "name": "stack/builder",
@@ -18514,16 +18514,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.41.1",
+            "version": "v3.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "4be20654c612b09863e7952ad9a572583e55d0b7"
+                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/4be20654c612b09863e7952ad9a572583e55d0b7",
-                "reference": "4be20654c612b09863e7952ad9a572583e55d0b7",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/2a3afb84402e108f7c426fc7a6873b9e063e05c6",
+                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6",
                 "shasum": ""
             },
             "type": "library",
@@ -18569,9 +18569,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.41.1"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.42.0"
             },
-            "time": "2021-01-28T19:56:37+00:00"
+            "time": "2021-02-04T18:21:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
