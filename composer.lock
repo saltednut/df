@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "668198614fb2459b29be13790fb9970d",
+    "content-hash": "c074bbee1863e032aec09bf1ac012926",
     "packages": [
         {
             "name": "acquia/acf",
@@ -562,45 +562,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/fengyuanchen/cropper/zipball/30c58b29ee21010e17e58ebab165fbd84285c685",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
-            },
-            "type": "bower-asset",
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/ev-emitter",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/metafizzy/ev-emitter.git",
-                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/metafizzy/ev-emitter/zipball/1c67f55ea625b87857c2846e9505aee43f45bc6c",
-                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c"
-            },
-            "type": "bower-asset",
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/imagesloaded",
-            "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/imagesloaded.git",
-                "reference": "72b5d600a435803ab1dd2c549b8cba2941ab79ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/imagesloaded/zipball/72b5d600a435803ab1dd2c549b8cba2941ab79ba",
-                "reference": "72b5d600a435803ab1dd2c549b8cba2941ab79ba"
-            },
-            "require": {
-                "bower-asset/ev-emitter": "~1.0.0"
             },
             "type": "bower-asset",
             "license": [
@@ -16825,10 +16786,10 @@
         },
         {
             "name": "npm-asset/ev-emitter",
-            "version": "1.1.1",
+            "version": "1.0.3",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/ev-emitter/-/ev-emitter-1.1.1.tgz"
+                "url": "https://registry.npmjs.org/ev-emitter/-/ev-emitter-1.0.3.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -16865,6 +16826,21 @@
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/get-size/-/get-size-2.0.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/imagesloaded",
+            "version": "4.1.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/imagesloaded/-/imagesloaded-4.1.1.tgz"
+            },
+            "require": {
+                "npm-asset/ev-emitter": "~1.0.0"
             },
             "type": "npm-asset",
             "license": [
