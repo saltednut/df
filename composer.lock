@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b46d4395ff179fbc86f649dd781f2699",
+    "content-hash": "59e59c24aee5e1e10e450c37d2b7c67c",
     "packages": [
         {
             "name": "acquia/acf",
@@ -723,24 +723,6 @@
             "type": "bower-asset",
             "license": [
                 "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/leaflet",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:Leaflet/Leaflet.git",
-                "reference": "ed36a04aefd12cb92c78074fe63a8e460db1d464"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Leaflet/Leaflet/zipball/ed36a04aefd12cb92c78074fe63a8e460db1d464",
-                "reference": "ed36a04aefd12cb92c78074fe63a8e460db1d464"
-            },
-            "type": "bower-asset",
-            "license": [
-                "BSD-2-Clause"
             ]
         },
         {
@@ -16939,6 +16921,18 @@
                 "url": "https://registry.npmjs.org/fontawesome-iconpicker/-/fontawesome-iconpicker-1.3.0.tgz"
             },
             "type": "npm-asset"
+        },
+        {
+            "name": "npm-asset/leaflet",
+            "version": "1.7.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/leaflet/-/leaflet-1.7.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "BSD-2-Clause"
+            ]
         },
         {
             "name": "onelogin/php-saml",
