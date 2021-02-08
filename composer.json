@@ -208,6 +208,7 @@
         "acquia/cohesion": "6.4.0",
         "acquia/cohesion-theme": "6.4.0",
         "acquia/lift-sdk-php": "dev-master",
+        "bower-asset/dropzone": "5.7.0",
         "bower-asset/imagesloaded": "4.1.1",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
         "bower-asset/leaflet": "1.0.3",
