@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c074bbee1863e032aec09bf1ac012926",
+    "content-hash": "d7c3d480f7975acba1c0d95648bf0ad9",
     "packages": [
         {
             "name": "acquia/acf",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "f46582e1502b00b82c80df88f9509b6450433188"
+                "reference": "65a334e3da428da910191bb6da24bba6881e6a41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/f46582e1502b00b82c80df88f9509b6450433188",
-                "reference": "f46582e1502b00b82c80df88f9509b6450433188",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/65a334e3da428da910191bb6da24bba6881e6a41",
+                "reference": "65a334e3da428da910191bb6da24bba6881e6a41",
                 "shasum": ""
             },
             "default-branch": true,
@@ -38,7 +38,7 @@
                 "issues": "https://github.com/acquia/acf/issues",
                 "source": "https://github.com/acquia/acf/tree/2.x"
             },
-            "time": "2021-02-05T17:57:26+00:00"
+            "time": "2021-02-11T15:41:04+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -573,7 +573,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/jquery/jquery-dist.git",
+                "url": "git@github.com:jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -2292,6 +2292,7 @@
                 "issues": "https://github.com/cpliakas/git-wrapper/issues",
                 "source": "https://github.com/cpliakas/git-wrapper/tree/master"
             },
+            "abandoned": "symplify/git-wrapper",
             "time": "2016-04-19T16:12:33+00:00"
         },
         {
@@ -3684,17 +3685,17 @@
         },
         {
             "name": "drupal/acsf",
-            "version": "2.68.0",
+            "version": "2.69.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acsf.git",
-                "reference": "8.x-2.68"
+                "reference": "8.x-2.69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.68.zip",
-                "reference": "8.x-2.68",
-                "shasum": "6b8afd8b2bc72e85c7c01be6f0187992ee4e91d8"
+                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.69.zip",
+                "reference": "8.x-2.69",
+                "shasum": "649186e899e719f8886ab385706bf56e6afe1183"
             },
             "require": {
                 "drupal/acsf_duplication": "*",
@@ -3713,8 +3714,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.68",
-                    "datestamp": "1603275065",
+                    "version": "8.x-2.69",
+                    "datestamp": "1612957028",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3784,7 +3785,7 @@
         },
         {
             "name": "drupal/acsf_duplication",
-            "version": "2.68.0",
+            "version": "2.69.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/core": "^8 || ^9"
@@ -3792,8 +3793,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.68",
-                    "datestamp": "1603275065",
+                    "version": "8.x-2.69",
+                    "datestamp": "1612957028",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3854,7 +3855,7 @@
         },
         {
             "name": "drupal/acsf_theme",
-            "version": "2.68.0",
+            "version": "2.69.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/acsf_variables": "*",
@@ -3863,8 +3864,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.68",
-                    "datestamp": "1603275065",
+                    "version": "8.x-2.69",
+                    "datestamp": "1612957028",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3925,7 +3926,7 @@
         },
         {
             "name": "drupal/acsf_variables",
-            "version": "2.68.0",
+            "version": "2.69.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/core": "^8 || ^9"
@@ -3933,8 +3934,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.68",
-                    "datestamp": "1603275065",
+                    "version": "8.x-2.69",
+                    "datestamp": "1612957028",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15843,16 +15844,16 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "3.4.3",
+            "version": "3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "cd83b5421df3dbbbc66bd07a5b970c9efb6371b9"
+                "reference": "ff92156cd27d3abe7fc8814516ae0615215f01ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/cd83b5421df3dbbbc66bd07a5b970c9efb6371b9",
-                "reference": "cd83b5421df3dbbbc66bd07a5b970c9efb6371b9",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/ff92156cd27d3abe7fc8814516ae0615215f01ae",
+                "reference": "ff92156cd27d3abe7fc8814516ae0615215f01ae",
                 "shasum": ""
             },
             "require": {
@@ -15904,7 +15905,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
-                "source": "https://github.com/lcobucci/jwt/tree/3.4.3"
+                "source": "https://github.com/lcobucci/jwt/tree/3.4.4"
             },
             "funding": [
                 {
@@ -15916,7 +15917,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-01-27T23:38:30+00:00"
+            "time": "2021-02-10T11:08:20+00:00"
         },
         {
             "name": "league/container",
@@ -16774,10 +16775,10 @@
         },
         {
             "name": "npm-asset/dropzone",
-            "version": "5.7.4",
+            "version": "5.7.6",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.4.tgz"
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.6.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -17604,16 +17605,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.74",
+            "version": "0.12.75",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "bc5f9483c8f461c86653dcbd040cf0d2778c91a2"
+                "reference": "2e4738cd67e0163861a065180eff7eb5c8417d6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/bc5f9483c8f461c86653dcbd040cf0d2778c91a2",
-                "reference": "bc5f9483c8f461c86653dcbd040cf0d2778c91a2",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2e4738cd67e0163861a065180eff7eb5c8417d6e",
+                "reference": "2e4738cd67e0163861a065180eff7eb5c8417d6e",
                 "shasum": ""
             },
             "require": {
@@ -17644,7 +17645,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.74"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.75"
             },
             "funding": [
                 {
@@ -17660,7 +17661,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-08T15:00:25+00:00"
+            "time": "2021-02-11T13:58:47+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
