@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7c3d480f7975acba1c0d95648bf0ad9",
+    "content-hash": "32dee9994f09890b4cf983316c065ec2",
     "packages": [
         {
             "name": "acquia/acf",
@@ -8195,17 +8195,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.18.0",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.18"
+                "reference": "8.x-1.19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.18.zip",
-                "reference": "8.x-1.18",
-                "shasum": "d1f20ecb66c262f8fd55fea517e4e696b91f2c10"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.19.zip",
+                "reference": "8.x-1.19",
+                "shasum": "0a4bbd647401b7e52c536423b4b2b9ca88bbd747"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -8214,8 +8214,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.18",
-                    "datestamp": "1608852700",
+                    "version": "8.x-1.19",
+                    "datestamp": "1613077460",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9368,17 +9368,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "2.1.10",
+            "version": "2.1.11",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "2.1.10"
+                "reference": "2.1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.10.zip",
-                "reference": "2.1.10",
-                "shasum": "0cd2bc979988e564d8eb8549d938c3d31c8b5d92"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.11.zip",
+                "reference": "2.1.11",
+                "shasum": "72e260a4f29f1335f304719dcedb8af1db6ce492"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -9387,8 +9387,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.10",
-                    "datestamp": "1611948911",
+                    "version": "2.1.11",
+                    "datestamp": "1612696834",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -18468,16 +18468,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.42.0",
+            "version": "v3.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6"
+                "reference": "973e4614f83e2b2b6a48202cc3e1bd0661d31c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/2a3afb84402e108f7c426fc7a6873b9e063e05c6",
-                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/973e4614f83e2b2b6a48202cc3e1bd0661d31c8f",
+                "reference": "973e4614f83e2b2b6a48202cc3e1bd0661d31c8f",
                 "shasum": ""
             },
             "type": "library",
@@ -18523,9 +18523,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.42.0"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.43.0"
             },
-            "time": "2021-02-04T18:21:00+00:00"
+            "time": "2021-02-11T18:53:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
