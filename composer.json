@@ -265,7 +265,7 @@
         "drupal/migrate_plus": "4.1.0",
         "drupal/migrate_source_csv": "2.0.0",
         "drupal/migrate_tools": "4.1.0",
-        "drupal/oauth": "2.1.0",
+        "drupal/oauth": "2.2.0",
         "drupal/page_manager": "4.0-beta6",
         "drupal/permissions_by_term": "^2.26",
         "drupal/pwa": "1.4.0",
