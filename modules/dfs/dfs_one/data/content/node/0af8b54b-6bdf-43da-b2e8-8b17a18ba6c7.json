@@ -8,12 +8,12 @@
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/person\/revision_uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/user\/7?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/person\/uid": [
             {
-                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/user\/7?_format=hal_json",
                 "lang": "en"
             }
         ],
@@ -39,11 +39,6 @@
             "value": "0af8b54b-6bdf-43da-b2e8-8b17a18ba6c7"
         }
     ],
-    "vid": [
-        {
-            "value": 22
-        }
-    ],
     "langcode": [
         {
             "value": "en",
@@ -66,7 +61,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/7?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -74,7 +69,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
+                        "value": "3aa4f897-4b37-4e07-8608-41428afb2163"
                     }
                 ]
             }
@@ -83,7 +78,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/user\/7?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -91,7 +86,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "af82cec6-c9dc-498f-8dd0-81a96fe1e8fb"
+                        "value": "3aa4f897-4b37-4e07-8608-41428afb2163"
                     }
                 ],
                 "lang": "en"
