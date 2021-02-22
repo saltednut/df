@@ -196,17 +196,15 @@
             },
             "acquia/cohesion": {
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
-              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
-              "Add log error settings to templates | https://drupal.org/node/2770791":
-              "https://www.drupal.org/files/issues/2021-01-28/cohesion_templates-log-error-setting.patch"
+              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
             }
         }
     },
     "require": {
         "acquia/lightning": "4.1.11",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "6.4.1",
-        "acquia/cohesion-theme": "6.4.1",
+        "acquia/cohesion": "dev-master",
+        "acquia/cohesion-theme": "dev-master",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
         "npm-asset/fontawesome-iconpicker": "1.3.0",
