@@ -196,7 +196,9 @@
             },
             "acquia/cohesion": {
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
-              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch"
+              "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
+              "Cohesion templates route is null | http://drupal.org/node/2681947":
+              "https://www.drupal.org/files/issues/2021-02-23/cohesion_templates-route-is-null.patch"
             }
         }
     },

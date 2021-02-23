@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d2309f8384f4da37c60ae1c9a9351fd",
+    "content-hash": "7ec92c2d477721290da684bd73b6bc08",
     "packages": [
         {
             "name": "acquia/acf",
@@ -79,12 +79,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "ce022db46abb8b47b989d6997f794804c3a6f315"
+                "reference": "9039ef68d6c4547c457750cb144a31ff22388865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/ce022db46abb8b47b989d6997f794804c3a6f315",
-                "reference": "ce022db46abb8b47b989d6997f794804c3a6f315",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/9039ef68d6c4547c457750cb144a31ff22388865",
+                "reference": "9039ef68d6c4547c457750cb144a31ff22388865",
                 "shasum": ""
             },
             "require": {
@@ -137,7 +137,7 @@
             "support": {
                 "source": "https://github.com/acquia/cohesion/tree/master"
             },
-            "time": "2021-02-22T12:46:15+00:00"
+            "time": "2021-02-23T08:14:22+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
@@ -145,12 +145,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "060ca9b55c3e191144b96fd6f329157af4ba8d17"
+                "reference": "71a2afd89b2baca2e17ec21a61ad5f61cec2149d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/060ca9b55c3e191144b96fd6f329157af4ba8d17",
-                "reference": "060ca9b55c3e191144b96fd6f329157af4ba8d17",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/71a2afd89b2baca2e17ec21a61ad5f61cec2149d",
+                "reference": "71a2afd89b2baca2e17ec21a61ad5f61cec2149d",
                 "shasum": ""
             },
             "default-branch": true,
@@ -171,7 +171,7 @@
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
                 "source": "https://github.com/acquia/cohesion-theme/tree/master"
             },
-            "time": "2021-02-22T12:46:25+00:00"
+            "time": "2021-02-23T08:14:32+00:00"
         },
         {
             "name": "acquia/content-hub-php",
