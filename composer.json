@@ -215,6 +215,7 @@
         "npm-asset/masonry-layout": "4.2.0",
         "drupal/acquia_contenthub": "2.20",
         "drupal/acquia_lift": "~4",
+        "drupal/acquia_search": "^3.0",
         "drupal/acsf": "2.69.0",
         "drupal/address": "1.9.0",
         "drupal/addtoany": "1.14.0",
