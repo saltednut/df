@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de00d301a32a411ddbed9bd01cc6df8e",
+    "content-hash": "33eee4052071ee221f4f17e3c1f4ef84",
     "packages": [
         {
             "name": "acquia/acf",
@@ -14287,29 +14287,29 @@
         },
         {
             "name": "drupal/workbench_email",
-            "version": "1.7.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/workbench_email.git",
-                "reference": "8.x-1.7"
+                "reference": "2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workbench_email-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "a381e3d6c8a470a08469049bf7c7dd911556a493"
+                "url": "https://ftp.drupal.org/files/projects/workbench_email-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "2665405b2c6d0855d6f4b023b9e5253f1f75cd93"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
             },
             "require-dev": {
-                "drupal/workbench_moderation": "*"
+                "drupal/workbench_moderation": "^1.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1594680642",
+                    "version": "2.0.0",
+                    "datestamp": "1613451329",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14346,10 +14346,11 @@
                     "homepage": "https://www.drupal.org/user/731188"
                 }
             ],
-            "description": "Send emails to users when workbench transitions occur",
+            "description": "Extends Workbench/Content Moderation by adding the ability to add emails to specific transitions.",
             "homepage": "https://www.drupal.org/project/workbench_email",
             "support": {
-                "source": "https://git.drupalcode.org/project/workbench_email"
+                "source": "https://git.drupalcode.org/project/workbench_email",
+                "issues": "http://drupal.org/project/issues/workbench_email"
             }
         },
         {

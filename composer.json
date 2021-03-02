@@ -286,7 +286,7 @@
         "drupal/webform": "6.0.1",
         "drupal/webform_mautic": "1.1.0",
         "drupal/webform_views": "5.0.0-alpha8",
-        "drupal/workbench_email": "1.7",
+        "drupal/workbench_email": "2.0.0",
         "cweagans/composer-patches": "^1.6",
         "oomphinc/composer-installers-extender": "^1.1 || ^2",
         "phing/phing": "^2.14",
