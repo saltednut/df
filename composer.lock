@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed7641bb80b00eb85315ebea7fb329d7",
+    "content-hash": "6b4111e00d7fb0e034eab77ef395124b",
     "packages": [
         {
             "name": "acquia/acf",
@@ -8255,17 +8255,17 @@
         },
         {
             "name": "drupal/geofield",
-            "version": "1.19.0",
+            "version": "1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/geofield.git",
-                "reference": "8.x-1.19"
+                "reference": "8.x-1.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.19.zip",
-                "reference": "8.x-1.19",
-                "shasum": "0a4bbd647401b7e52c536423b4b2b9ca88bbd747"
+                "url": "https://ftp.drupal.org/files/projects/geofield-8.x-1.20.zip",
+                "reference": "8.x-1.20",
+                "shasum": "cff7baf2e5e98325c7fbbe1be170538a76dfacc9"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -8274,8 +8274,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.19",
-                    "datestamp": "1613077460",
+                    "version": "8.x-1.20",
+                    "datestamp": "1613156933",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9428,17 +9428,17 @@
         },
         {
             "name": "drupal/leaflet",
-            "version": "2.1.11",
+            "version": "2.1.13",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/leaflet.git",
-                "reference": "2.1.11"
+                "reference": "2.1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.11.zip",
-                "reference": "2.1.11",
-                "shasum": "72e260a4f29f1335f304719dcedb8af1db6ce492"
+                "url": "https://ftp.drupal.org/files/projects/leaflet-2.1.13.zip",
+                "reference": "2.1.13",
+                "shasum": "95fe22714916f14a0faedc870f94dff6c36fe12d"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -9447,8 +9447,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.11",
-                    "datestamp": "1612696834",
+                    "version": "2.1.13",
+                    "datestamp": "1615195090",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
