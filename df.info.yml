@@ -21,6 +21,7 @@ install:
   - df_tools_media
   - df_tools_user_demo
   - df_tools_workflow
+  - dfs_default
   - dynamic_page_cache
   - google_analytics
   - pathauto
