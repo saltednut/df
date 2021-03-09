@@ -14,24 +14,47 @@ use Drupal\user\RoleInterface;
  * @see system_install()
  */
 function df_install() {
-  // Set the default and admin theme.
-  \Drupal::configFactory()
-    ->getEditable('system.theme')
-    ->set('default', 'one')
-    ->set('admin', 'acquia_claro')
-    ->save(TRUE);
-
-  // Set front page to "node" and set site name to "DF"
-  \Drupal::configFactory()
-    ->getEditable('system.site')
-    ->set('name', "DF")
-    ->save(TRUE);
-
   // Now that all modules are installed, make sure the entity storage and other
   // handlers are up to date with the current entity and field definitions. For
   // example, Path module adds a base field to nodes and taxonomy terms after
   // those modules are already installed.
   \Drupal::service('entity.definition_update_manager')->applyUpdates();
+}
+
+/**
+ * Implements hook_install_tasks().
+ */
+function df_install_tasks(): array {
+  $tasks = [];
+
+  // Set site settings after install.
+  $tasks['df_system_settings'] = [];
+
+  return $tasks;
+}
+
+/**
+ * Set site settings.
+ *
+ * The site name gets overwritten when the install configuration form is
+ * submitted by Drush. We are using hook_install_tasks() to set values after
+ * the form has been submitted.
+ */
+function df_system_settings() {
+  $config_factory = \Drupal::configFactory();
+
+  // Set the default and admin theme.
+  $config_factory
+    ->getEditable('system.theme')
+    ->set('default', 'one')
+    ->set('admin', 'acquia_claro')
+    ->save(TRUE);
+
+  // Set site name.
+  $config_factory
+    ->getEditable('system.site')
+    ->set('name', "DF")
+    ->save(TRUE);
 }
 
 /**
