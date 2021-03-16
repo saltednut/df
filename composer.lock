@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b4111e00d7fb0e034eab77ef395124b",
+    "content-hash": "d9bf19afbd6b6fa755a95a9b5b9d77a0",
     "packages": [
         {
             "name": "acquia/acf",
@@ -569,6 +569,81 @@
             ]
         },
         {
+            "name": "bower-asset/desandro-matches-selector",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:desandro/matches-selector.git",
+                "reference": "42ee1cbab7469454d140bdab04d2ceed9c68b85e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/matches-selector/zipball/42ee1cbab7469454d140bdab04d2ceed9c68b85e",
+                "reference": "42ee1cbab7469454d140bdab04d2ceed9c68b85e"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/ev-emitter",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metafizzy/ev-emitter.git",
+                "reference": "1baa3a03d8e07f665b0eb797661fcc2b0d2a5736"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/ev-emitter/zipball/1baa3a03d8e07f665b0eb797661fcc2b0d2a5736",
+                "reference": "1baa3a03d8e07f665b0eb797661fcc2b0d2a5736"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/fizzy-ui-utils",
+            "version": "v2.0.7",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:metafizzy/fizzy-ui-utils.git",
+                "reference": "72feb9fc3d6de25696291941121bb3ec2db8221e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/fizzy-ui-utils/zipball/72feb9fc3d6de25696291941121bb3ec2db8221e",
+                "reference": "72feb9fc3d6de25696291941121bb3ec2db8221e"
+            },
+            "require": {
+                "bower-asset/desandro-matches-selector": ">=2.0.0,<3.0.0"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/get-size",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:desandro/get-size.git",
+                "reference": "6879e7f15b4b6e19ca392b6955edfa8d4aa6f787"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/get-size/zipball/6879e7f15b4b6e19ca392b6955edfa8d4aa6f787",
+                "reference": "6879e7f15b4b6e19ca392b6955edfa8d4aa6f787"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "bower-asset/jquery",
             "version": "3.6.0",
             "source": {
@@ -623,6 +698,51 @@
             "require": {
                 "bower-asset/jquery": ">=1.10.2",
                 "bower-asset/jquery-ui": ">=1.9.2"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/masonry",
+            "version": "v4.2.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:desandro/masonry.git",
+                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/masonry/zipball/dec5a382574eb62a2baf2867a0b0db4bd0b78ceb",
+                "reference": "dec5a382574eb62a2baf2867a0b0db4bd0b78ceb"
+            },
+            "require": {
+                "bower-asset/get-size": ">=2.0.2,<3.0.0",
+                "bower-asset/outlayer": ">=2.1.0,<3.0.0"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/outlayer",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:metafizzy/outlayer.git",
+                "reference": "bf31c5748bf84fcc2c553d1199a6ecaf0ebd9878"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/outlayer/zipball/bf31c5748bf84fcc2c553d1199a6ecaf0ebd9878",
+                "reference": "bf31c5748bf84fcc2c553d1199a6ecaf0ebd9878"
+            },
+            "require": {
+                "bower-asset/ev-emitter": ">=1.0.0,<2.0.0",
+                "bower-asset/fizzy-ui-utils": ">=2.0.0,<3.0.0",
+                "bower-asset/get-size": ">=2.0.2,<3.0.0"
             },
             "type": "bower-asset",
             "license": [
