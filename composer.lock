@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fd6d364586b6267a8d4aa8da70dafc6",
+    "content-hash": "a32628256ab7746d1f5eb78daf7bc59f",
     "packages": [
         {
             "name": "acquia/acf",
@@ -169,16 +169,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "dev-master",
+            "version": "6.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "5d5774a7b61ec10f8bb6b96e30f6b6476edf16d5"
+                "reference": "c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/5d5774a7b61ec10f8bb6b96e30f6b6476edf16d5",
-                "reference": "5d5774a7b61ec10f8bb6b96e30f6b6476edf16d5",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9",
+                "reference": "c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9",
                 "shasum": ""
             },
             "require": {
@@ -206,7 +206,6 @@
                 "drupal/views_infinite_scroll": "Provides infinite scroll functionality to Views",
                 "drupal/webform": "This module allows you to use webforms."
             },
-            "default-branch": true,
             "type": "drupal-module",
             "extra": {
                 "drush": {
@@ -229,25 +228,24 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/master"
+                "source": "https://github.com/acquia/cohesion/tree/6.5.x"
             },
-            "time": "2021-03-09T18:57:29+00:00"
+            "time": "2021-03-17T12:28:33+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "dev-master",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "3a9943b41d78ae5c5c8bf162e3ac119764f6adaf"
+                "reference": "7315b225c7ea4f6974e36a6ad788af2bd64c547a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/3a9943b41d78ae5c5c8bf162e3ac119764f6adaf",
-                "reference": "3a9943b41d78ae5c5c8bf162e3ac119764f6adaf",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/7315b225c7ea4f6974e36a6ad788af2bd64c547a",
+                "reference": "7315b225c7ea4f6974e36a6ad788af2bd64c547a",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "drupal-theme",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -263,9 +261,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/master"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.0"
             },
-            "time": "2021-03-09T18:57:38+00:00"
+            "time": "2021-03-17T12:28:47+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -336,22 +334,22 @@
         },
         {
             "name": "acquia/contenthub-console",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console.git",
-                "reference": "798010032b5bfaba68a18013a7b00aae02362913"
+                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/798010032b5bfaba68a18013a7b00aae02362913",
-                "reference": "798010032b5bfaba68a18013a7b00aae02362913",
+                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
+                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
                 "shasum": ""
             },
             "require": {
                 "acquia/acsf-contenthub-console": "^1.0",
                 "ext-json": "*",
-                "spatie/ssl-certificate": "^1.19"
+                "spatie/ssl-certificate": "1.21"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4",
@@ -378,9 +376,9 @@
             "description": "A package providing Acquia ContentHub commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console/issues",
-                "source": "https://github.com/acquia/contenthub-console/tree/1.0"
+                "source": "https://github.com/acquia/contenthub-console/tree/1.1"
             },
-            "time": "2021-02-17T13:09:26+00:00"
+            "time": "2021-03-15T20:29:46+00:00"
         },
         {
             "name": "acquia/contenthub-console-helpers",
@@ -19457,28 +19455,28 @@
         },
         {
             "name": "spatie/ssl-certificate",
-            "version": "1.22.1",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ssl-certificate.git",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c"
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/c4756c3f18f9abeea62cfe99fc841229d9fead2c",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c",
+                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/3f827acdbff1745e1af2a4a38d7b985494db4ac1",
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1",
                 "shasum": ""
             },
             "require": {
                 "ext-intl": "*",
                 "ext-json": "*",
-                "nesbot/carbon": "^2.23",
-                "php": "^7.4|^8.0",
+                "nesbot/carbon": "^2.3",
+                "php": "^7.2",
                 "spatie/macroable": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.0",
-                "spatie/phpunit-snapshot-assertions": "^4.2.3"
+                "phpunit/phpunit": "^8.0",
+                "spatie/phpunit-snapshot-assertions": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -19509,19 +19507,14 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ssl-certificate/issues",
-                "source": "https://github.com/spatie/ssl-certificate/tree/1.22.1"
+                "source": "https://github.com/spatie/ssl-certificate/tree/1.21.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/sponsors/spatie",
-                    "type": "github"
-                },
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "other"
+                    "type": "spatie"
                 }
             ],
-            "time": "2021-02-15T15:42:15+00:00"
+            "time": "2020-10-19T06:41:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -24364,8 +24357,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "acquia/acquia-lift-samples": 20,
-        "acquia/cohesion": 20,
-        "acquia/cohesion-theme": 20,
         "acquia/lift-sdk-php": 20,
         "drupal/component": 10,
         "drupal/config_inspector": 10,

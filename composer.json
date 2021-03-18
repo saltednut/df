@@ -198,17 +198,15 @@
               "After import, field default value is set, instead of exported one | http://drupal.org/node/3098630":
               "https://www.drupal.org/files/issues/2020-05-14/cohesion-layout-remove-setDefaultValue.patch",
               "Cohesion templates route is null | http://drupal.org/node/2681947":
-              "https://www.drupal.org/files/issues/2021-02-23/cohesion_templates-route-is-null.patch",
-              "Object of class stdclass could not be converted to string | http://drupal.org/node/2681947":
-              "https://www.drupal.org/files/issues/2021-03-09/cohesion-object-of-class-stdclass-could-not-be-converted-to-string.patch"
+              "https://www.drupal.org/files/issues/2021-02-23/cohesion_templates-route-is-null.patch"
             }
         }
     },
     "require": {
         "acquia/lightning": "4.1.11",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "dev-master",
-        "acquia/cohesion-theme": "dev-master",
+        "acquia/cohesion": "6.5.x",
+        "acquia/cohesion-theme": "6.5.x",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
         "bower-asset/masonry": "4.2.0",
