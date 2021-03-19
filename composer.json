@@ -184,6 +184,10 @@
               "Incorrect page_title title in browser toolbar | http://drupal.org/node/2752227":
               "https://www.drupal.org/files/issues/2018-10-26/page_manager-incorrect-page_title-2752227-37-8.x.4.x.patch"
             },
+            "drupal/pathauto": {
+              "Batch operations stuck on Drush version >= 9.6.2| http://drupal.org/node/2681947":
+              "https://www.drupal.org/files/issues/2021-03-19/pathauto-batch-operations-stuck.patch"
+            },
             "drupal/radix": {
               "Integrate with OffCanvas (Layout Builder) | http://drupal.org/node/3053579":
               "https://www.drupal.org/files/issues/2020-02-16/integrate-with-offcanvas-3053579-12.patch",

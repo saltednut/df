@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75757e14a53be4fa5c6b75eb887a51f6",
+    "content-hash": "d072b5e2f7beab7d485ce236885fb1b2",
     "packages": [
         {
             "name": "acquia/acf",
@@ -334,22 +334,22 @@
         },
         {
             "name": "acquia/contenthub-console",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console.git",
-                "reference": "798010032b5bfaba68a18013a7b00aae02362913"
+                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/798010032b5bfaba68a18013a7b00aae02362913",
-                "reference": "798010032b5bfaba68a18013a7b00aae02362913",
+                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
+                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
                 "shasum": ""
             },
             "require": {
                 "acquia/acsf-contenthub-console": "^1.0",
                 "ext-json": "*",
-                "spatie/ssl-certificate": "^1.19"
+                "spatie/ssl-certificate": "1.21"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4",
@@ -376,9 +376,9 @@
             "description": "A package providing Acquia ContentHub commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console/issues",
-                "source": "https://github.com/acquia/contenthub-console/tree/1.0"
+                "source": "https://github.com/acquia/contenthub-console/tree/1.1"
             },
-            "time": "2021-02-17T13:09:26+00:00"
+            "time": "2021-03-15T20:29:46+00:00"
         },
         {
             "name": "acquia/contenthub-console-helpers",
@@ -17483,10 +17483,10 @@
         },
         {
             "name": "npm-asset/dropzone",
-            "version": "5.8.0",
+            "version": "5.8.1",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.8.0.tgz"
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.8.1.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -18499,16 +18499,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.81",
+            "version": "0.12.82",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8"
+                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
-                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
+                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
                 "shasum": ""
             },
             "require": {
@@ -18539,7 +18539,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.81"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.82"
             },
             "funding": [
                 {
@@ -18555,7 +18555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-08T22:03:02+00:00"
+            "time": "2021-03-19T06:08:17+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -19455,28 +19455,28 @@
         },
         {
             "name": "spatie/ssl-certificate",
-            "version": "1.22.1",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ssl-certificate.git",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c"
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/c4756c3f18f9abeea62cfe99fc841229d9fead2c",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c",
+                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/3f827acdbff1745e1af2a4a38d7b985494db4ac1",
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1",
                 "shasum": ""
             },
             "require": {
                 "ext-intl": "*",
                 "ext-json": "*",
-                "nesbot/carbon": "^2.23",
-                "php": "^7.4|^8.0",
+                "nesbot/carbon": "^2.3",
+                "php": "^7.2",
                 "spatie/macroable": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.0",
-                "spatie/phpunit-snapshot-assertions": "^4.2.3"
+                "phpunit/phpunit": "^8.0",
+                "spatie/phpunit-snapshot-assertions": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -19507,19 +19507,14 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ssl-certificate/issues",
-                "source": "https://github.com/spatie/ssl-certificate/tree/1.22.1"
+                "source": "https://github.com/spatie/ssl-certificate/tree/1.21.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/sponsors/spatie",
-                    "type": "github"
-                },
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "other"
+                    "type": "spatie"
                 }
             ],
-            "time": "2021-02-15T15:42:15+00:00"
+            "time": "2020-10-19T06:41:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
