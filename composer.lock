@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a32628256ab7746d1f5eb78daf7bc59f",
+    "content-hash": "ddbd2372a0d9328f885369b6556560fc",
     "packages": [
         {
             "name": "acquia/acf",
@@ -173,12 +173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9"
+                "reference": "9871c682d9f15292fac1afa7caeddd9ce0c7fd1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9",
-                "reference": "c9b9ff5e038e2f72af02e0b2c21cfe882b1d3fa9",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/9871c682d9f15292fac1afa7caeddd9ce0c7fd1e",
+                "reference": "9871c682d9f15292fac1afa7caeddd9ce0c7fd1e",
                 "shasum": ""
             },
             "require": {
@@ -230,20 +230,20 @@
             "support": {
                 "source": "https://github.com/acquia/cohesion/tree/6.5.x"
             },
-            "time": "2021-03-17T12:28:33+00:00"
+            "time": "2021-03-22T11:48:56+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.5.0",
+            "version": "6.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "7315b225c7ea4f6974e36a6ad788af2bd64c547a"
+                "reference": "9794dbb5a3812b5a59444fea166e31c4a026eae5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/7315b225c7ea4f6974e36a6ad788af2bd64c547a",
-                "reference": "7315b225c7ea4f6974e36a6ad788af2bd64c547a",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/9794dbb5a3812b5a59444fea166e31c4a026eae5",
+                "reference": "9794dbb5a3812b5a59444fea166e31c4a026eae5",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -261,9 +261,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.0"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.x"
             },
-            "time": "2021-03-17T12:28:47+00:00"
+            "time": "2021-03-22T11:49:09+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -6970,17 +6970,17 @@
         },
         {
             "name": "drupal/depcalc",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "39fcc1f709a67a8cf16d5a21e8539a61face9ff9"
+                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "739877aa55de5123e0a186293a69970d46c8f229"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -6991,8 +6991,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1615500557",
+                    "version": "8.x-1.5",
+                    "datestamp": "1616184011",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15541,16 +15541,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.7.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
                 "shasum": ""
             },
             "require": {
@@ -15610,9 +15610,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.1"
             },
-            "time": "2020-09-30T07:37:11+00:00"
+            "time": "2021-03-21T16:25:00+00:00"
         },
         {
             "name": "html2text/html2text",
@@ -17944,23 +17944,23 @@
         },
         {
             "name": "pear/pear_exception",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/PEAR_Exception.git",
-                "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7"
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
-                "reference": "dbb42a5a0e45f3adcf99babfb2a1ba77b8ac36a7",
+                "url": "https://api.github.com/repos/pear/PEAR_Exception/zipball/b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
+                "reference": "b14fbe2ddb0b9f94f5b24cf08783d599f776fff0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=4.4.0"
+                "php": ">=5.2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "<9"
             },
             "type": "class",
             "extra": {
@@ -17999,7 +17999,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR_Exception",
                 "source": "https://github.com/pear/PEAR_Exception"
             },
-            "time": "2019-12-10T10:24:42+00:00"
+            "time": "2021-03-21T15:43:46+00:00"
         },
         {
             "name": "phayes/geophp",
@@ -18499,16 +18499,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.81",
+            "version": "0.12.82",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8"
+                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
-                "reference": "0dd5b0ebeff568f7000022ea5f04aa86ad3124b8",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
+                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
                 "shasum": ""
             },
             "require": {
@@ -18539,7 +18539,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.81"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.82"
             },
             "funding": [
                 {
@@ -18555,7 +18555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-08T22:03:02+00:00"
+            "time": "2021-03-19T06:08:17+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -19628,16 +19628,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.45.0",
+            "version": "v3.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "1ba7af074f97c872a64a415e0507c11cf8f3601b"
+                "reference": "72506e581f860244f3c74de5a2fb9809e53d1876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/1ba7af074f97c872a64a415e0507c11cf8f3601b",
-                "reference": "1ba7af074f97c872a64a415e0507c11cf8f3601b",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/72506e581f860244f3c74de5a2fb9809e53d1876",
+                "reference": "72506e581f860244f3c74de5a2fb9809e53d1876",
                 "shasum": ""
             },
             "type": "library",
@@ -19683,9 +19683,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.45.0"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.45.1"
             },
-            "time": "2021-03-11T17:20:14+00:00"
+            "time": "2021-03-19T17:14:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
