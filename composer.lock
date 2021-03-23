@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d072b5e2f7beab7d485ce236885fb1b2",
+    "content-hash": "0ecae80ef08d8be02680a03df555c36a",
     "packages": [
         {
             "name": "acquia/acf",
@@ -169,16 +169,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.4.0",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "b0ee051d9cc104de63cadda458b94586329b392f"
+                "reference": "c257aec0f0b0c8ff162151fcf687aa210d708f4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/b0ee051d9cc104de63cadda458b94586329b392f",
-                "reference": "b0ee051d9cc104de63cadda458b94586329b392f",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/c257aec0f0b0c8ff162151fcf687aa210d708f4b",
+                "reference": "c257aec0f0b0c8ff162151fcf687aa210d708f4b",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -228,22 +228,22 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.4.0"
+                "source": "https://github.com/acquia/cohesion/tree/6.5.0"
             },
-            "time": "2020-11-24T16:25:54+00:00"
+            "time": "2021-03-23T09:39:11+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.4.0",
+            "version": "6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69"
+                "reference": "21ac548e9ada843aebc6e52c4d7a114c924c0c08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
-                "reference": "46f39dd9e10d1f7e3dafd5c665e589c70471ae69",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/21ac548e9ada843aebc6e52c4d7a114c924c0c08",
+                "reference": "21ac548e9ada843aebc6e52c4d7a114c924c0c08",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -261,9 +261,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.4.0"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.0"
             },
-            "time": "2020-11-24T16:26:03+00:00"
+            "time": "2021-03-23T09:39:29+00:00"
         },
         {
             "name": "acquia/content-hub-php",
