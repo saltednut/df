@@ -1,0 +1,7 @@
+df_tools_decoupled.frontpage:
+  path: '/frontpage'
+  defaults:
+    _title: 'Login'
+    _controller: '\Drupal\df_tools_decoupled\Controller\FrontController::frontpage'
+  requirements:
+    _access: 'TRUE'
