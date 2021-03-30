@@ -59,7 +59,7 @@ class ArticleNodeEndpointBlock extends BlockBase implements ContainerFactoryPlug
     $json_output = (string) $this->httpClient->get($base_url . '/api/node/article')->getBody();
     $json_pretty = json_encode(json_decode($json_output), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
     $json_indented_by_2 = preg_replace('/^(  +?)\\1(?=[^ ])/m', '$1', $json_pretty);
-    $build['article_node_endpoint_block']['#markup'] = '<a class="btn btn-primary coh-style-link-button open-apiModal" href="#open">Expand API Response</a>
+    $build['article_node_endpoint_block']['#markup'] = '<a class="btn btn-primary button button--primary coh-style-link-button open-apiModal" href="#open">Expand API Response</a>
     <div class="apiResponse"><pre><code class="language-json">' . $json_indented_by_2 . '</code></pre></div>
     <div class="apiResponseModal"><pre><code class="language-json">' . $json_indented_by_2 . '</code></pre></div>';
     $build['article_node_endpoint_block']['#attached']['library'][] = 'df_tools_articles/main';
