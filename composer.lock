@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fecb21628135102a81133767b3ea59d3",
+    "content-hash": "d492a5159365db578ff212b493bca7fb",
     "packages": [
         {
             "name": "acquia/acf",
@@ -14651,17 +14651,17 @@
         },
         {
             "name": "drupal/workbench_email",
-            "version": "2.0.1",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/workbench_email.git",
-                "reference": "2.0.1"
+                "reference": "2.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workbench_email-2.0.1.zip",
-                "reference": "2.0.1",
-                "shasum": "7f9c6e56906e8732f0ddb617b1692b4aa9a2b281"
+                "url": "https://ftp.drupal.org/files/projects/workbench_email-2.2.0.zip",
+                "reference": "2.2.0",
+                "shasum": "f0f95028b6a2cd6b57c83c121b84f6351f704953"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -14672,8 +14672,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.1",
-                    "datestamp": "1614808028",
+                    "version": "2.2.0",
+                    "datestamp": "1616363546",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
