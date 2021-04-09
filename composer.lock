@@ -75,20 +75,20 @@
         },
         {
             "name": "acquia/acsf-contenthub-console",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acsf-contenthub-console.git",
-                "reference": "fbe4d313ed47281ed5006fdea10dc6e2e8c5351e"
+                "reference": "06c14c6126993639ac32771ed7ca6bbfab15a22d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/fbe4d313ed47281ed5006fdea10dc6e2e8c5351e",
-                "reference": "fbe4d313ed47281ed5006fdea10dc6e2e8c5351e",
+                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/06c14c6126993639ac32771ed7ca6bbfab15a22d",
+                "reference": "06c14c6126993639ac32771ed7ca6bbfab15a22d",
                 "shasum": ""
             },
             "require": {
-                "acquia/cloud-contenthub-console": "^1.0"
+                "acquia/cloud-contenthub-console": "^1.1"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4",
@@ -115,28 +115,28 @@
             "description": "A package providing Acquia Cloud Site Factory commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/acsf-contenthub-console/issues",
-                "source": "https://github.com/acquia/acsf-contenthub-console/tree/1.0"
+                "source": "https://github.com/acquia/acsf-contenthub-console/tree/1.1"
             },
-            "time": "2021-02-16T23:14:14+00:00"
+            "time": "2021-04-07T16:46:24+00:00"
         },
         {
             "name": "acquia/cloud-contenthub-console",
-            "version": "1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cloud-contenthub-console.git",
-                "reference": "2a0d01b9daaffb7339b0fbd37e9df6cd0b31d69d"
+                "reference": "6f7bfa8eaeaed31e21e82cc2306df3b971d69cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/2a0d01b9daaffb7339b0fbd37e9df6cd0b31d69d",
-                "reference": "2a0d01b9daaffb7339b0fbd37e9df6cd0b31d69d",
+                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/6f7bfa8eaeaed31e21e82cc2306df3b971d69cca",
+                "reference": "6f7bfa8eaeaed31e21e82cc2306df3b971d69cca",
                 "shasum": ""
             },
             "require": {
                 "acquia/contenthub-console-helpers": "^1.0",
                 "ext-json": "*",
-                "typhonius/acquia-php-sdk-v2": "^2.0.0"
+                "typhonius/acquia-php-sdk-v2": "2.0.15"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4",
@@ -163,9 +163,9 @@
             "description": "A package providing Acquia Cloud commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/cloud-contenthub-console/issues",
-                "source": "https://github.com/acquia/cloud-contenthub-console/tree/1.0"
+                "source": "https://github.com/acquia/cloud-contenthub-console/tree/1.1"
             },
-            "time": "2021-02-16T22:55:54+00:00"
+            "time": "2021-04-07T16:13:05+00:00"
         },
         {
             "name": "acquia/cohesion",
@@ -334,22 +334,23 @@
         },
         {
             "name": "acquia/contenthub-console",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console.git",
-                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7"
+                "reference": "b25e37ed193ad39d98c90b1499a5f035a53d99f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
-                "reference": "255928e4a42dd8e53a3945e3f5621a7f46ef16f7",
+                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/b25e37ed193ad39d98c90b1499a5f035a53d99f8",
+                "reference": "b25e37ed193ad39d98c90b1499a5f035a53d99f8",
                 "shasum": ""
             },
             "require": {
-                "acquia/acsf-contenthub-console": "^1.0",
+                "acquia/acsf-contenthub-console": "^1.1",
                 "ext-json": "*",
-                "spatie/ssl-certificate": "1.21"
+                "spatie/ssl-certificate": "1.21",
+                "zumba/amplitude-php": "^1"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.4",
@@ -376,9 +377,9 @@
             "description": "A package providing Acquia ContentHub commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console/issues",
-                "source": "https://github.com/acquia/contenthub-console/tree/1.1"
+                "source": "https://github.com/acquia/contenthub-console/tree/1.2"
             },
-            "time": "2021-03-15T20:29:46+00:00"
+            "time": "2021-04-07T18:08:08+00:00"
         },
         {
             "name": "acquia/contenthub-console-helpers",
@@ -995,16 +996,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.11",
+            "version": "v0.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86"
+                "reference": "7fb8aa0ad77864f1d3604ae4a31af9cbabb91485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
-                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/7fb8aa0ad77864f1d3604ae4a31af9cbabb91485",
+                "reference": "7fb8aa0ad77864f1d3604ae4a31af9cbabb91485",
                 "shasum": ""
             },
             "require": {
@@ -1050,9 +1051,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.11"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.12"
             },
-            "time": "2021-02-02T11:07:36+00:00"
+            "time": "2021-04-05T21:19:33+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -6971,17 +6972,17 @@
         },
         {
             "name": "drupal/depcalc",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "8.x-1.5"
+                "reference": "8.x-1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "739877aa55de5123e0a186293a69970d46c8f229"
+                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "71eb03cf280f4c1d61b88e2661ba1a96262cac52"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -6992,8 +6993,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1616184011",
+                    "version": "8.x-1.6",
+                    "datestamp": "1617729783",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13818,17 +13819,17 @@
         },
         {
             "name": "drupal/simple_sitemap",
-            "version": "3.9.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/simple_sitemap.git",
-                "reference": "8.x-3.9"
+                "reference": "8.x-3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-3.9.zip",
-                "reference": "8.x-3.9",
-                "shasum": "4892f2196e35e6fc67f3da8748825815efe6462d"
+                "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-3.10.zip",
+                "reference": "8.x-3.10",
+                "shasum": "4836e5d5bae0b4348406c832f81eabfaf16483e3"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -13837,8 +13838,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.9",
-                    "datestamp": "1614984547",
+                    "version": "8.x-3.10",
+                    "datestamp": "1617833756",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -17472,10 +17473,10 @@
         },
         {
             "name": "npm-asset/dropzone",
-            "version": "5.8.1",
+            "version": "5.9.2",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.8.1.tgz"
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.9.2.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -18489,16 +18490,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.82",
+            "version": "0.12.83",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11"
+                "reference": "4a967cec6efb46b500dd6d768657336a3ffe699f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
-                "reference": "3920f0fb0aff39263d3a4cb0bca120a67a1a6a11",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/4a967cec6efb46b500dd6d768657336a3ffe699f",
+                "reference": "4a967cec6efb46b500dd6d768657336a3ffe699f",
                 "shasum": ""
             },
             "require": {
@@ -18529,7 +18530,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/0.12.82"
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.83"
             },
             "funding": [
                 {
@@ -18545,7 +18546,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-19T06:08:17+00:00"
+            "time": "2021-04-03T15:35:45+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -19508,16 +19509,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.8",
+            "version": "3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9d583721a7157ee997f235f327de038e7ea6dac4"
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9d583721a7157ee997f235f327de038e7ea6dac4",
-                "reference": "9d583721a7157ee997f235f327de038e7ea6dac4",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
                 "shasum": ""
             },
             "require": {
@@ -19560,7 +19561,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2020-10-23T02:01:07+00:00"
+            "time": "2021-04-09T00:54:41+00:00"
         },
         {
             "name": "stack/builder",
@@ -22854,6 +22855,65 @@
                 "source": "https://github.com/geocoder-php/php-common/tree/v3.3.0"
             },
             "time": "2015-12-06T20:17:20+00:00"
+        },
+        {
+            "name": "zumba/amplitude-php",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zumba/amplitude-php.git",
+                "reference": "144da6e648b21a95e5bc67e711af6858f7dae38e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zumba/amplitude-php/zipball/144da6e648b21a95e5bc67e711af6858f7dae38e",
+                "reference": "144da6e648b21a95e5bc67e711af6858f7dae38e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.2",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "8.3.*",
+                "squizlabs/php_codesniffer": "3.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zumba\\Amplitude\\": "./src/",
+                    "Zumba\\Amplitude\\Test\\": "./test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Zumba Fitness, LLC",
+                    "homepage": "https://tech.zumba.com"
+                },
+                {
+                    "name": "Jonathan Foote",
+                    "email": "jonathan.foote@zumba.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP SDK for Amplitude",
+            "homepage": "https://github.com/zumba/amplitude-php",
+            "keywords": [
+                "amplitude",
+                "analytics",
+                "sdk",
+                "tracking"
+            ],
+            "support": {
+                "issues": "https://github.com/zumba/amplitude-php/issues",
+                "source": "https://github.com/zumba/amplitude-php/tree/1.0.2"
+            },
+            "time": "2021-01-26T15:42:42+00:00"
         }
     ],
     "packages-dev": [
