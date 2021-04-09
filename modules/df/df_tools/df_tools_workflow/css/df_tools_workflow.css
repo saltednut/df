@@ -84,3 +84,13 @@
   background-color: #609234;
   border-color: #609234;
 }
+
+/* Translation styles */
+.ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-container .translation-language,
+.ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-translation-view-all-container {
+  display: block;
+}
+
+.ui-dialog-off-canvas #drupal-off-canvas .moderation-sidebar-translation-item .translation-links-container {
+  margin: 5px 0 5px 0;
+}
