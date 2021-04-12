@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: component_content
+label: 'Component content'
+revision: 0
+description: 'A block with a reference to Site Studio''s component content.'
