@@ -174,10 +174,6 @@
               "Tests using FixtureContext fail due to Content Hub 2.0 enabled | http://drupal.org/node/3055022":
               "https://www.drupal.org/files/issues/2019-05-15/lightning_core-ch-publisher-fixture-setup-0.patch"
             },
-            "drupal/object_log": {
-                "Change call to kprint_r() to kpr() to resolve PHP Fatal | http://drupal.org/node/2854348":
-                "https://www.drupal.org/files/issues/use_kpr_to_print_logs-2854348-2.patch"
-            },
             "drupal/page_manager": {
               "Custom attributes in blocks | http://drupal.org/node/2710169":
               "https://www.drupal.org/files/issues/2710169-block-attributes-24.patch",
