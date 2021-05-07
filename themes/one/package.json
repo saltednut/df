@@ -3,6 +3,7 @@
   "description": "A theme based on Radix.",
   "private": true,
   "resolutions": {
+    "hosted-git-info": ">=3.0.8",
     "is-svg": "4.2.2",
     "ssri": ">=8.0.1",
     "xmlhttprequest-ssl": ">=1.6.2"
