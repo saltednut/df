@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e53127015b84b57bbf1da4cf2876f6a0",
+    "content-hash": "4d5b235ff1d8427e97f1c7724fb34f4b",
     "packages": [
         {
             "name": "acquia/acf",
@@ -5469,6 +5469,50 @@
             "homepage": "https://drupal.org/project/components",
             "support": {
                 "source": "https://git.drupalcode.org/project/components"
+            }
+        },
+        {
+            "name": "drupal/condition_query",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/condition_query.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/condition_query-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "e4a5dc56628da920ee640043f8dcd3d67e658565"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1526589180",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "logan.H",
+                    "homepage": "https://www.drupal.org/user/629136"
+                }
+            ],
+            "description": "Adds condition plugin by query parameter",
+            "homepage": "https://www.drupal.org/project/condition_query",
+            "support": {
+                "source": "https://git.drupalcode.org/project/condition_query"
             }
         },
         {
