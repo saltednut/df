@@ -9,6 +9,7 @@
     "is-svg": "4.2.2",
     "postcss": ">=8.3.0",
     "ssri": ">=8.0.1",
+    "ws": ">=7.4.6",
     "xmlhttprequest-ssl": ">=1.6.2"
   },
   "scripts": {
