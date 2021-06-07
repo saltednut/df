@@ -1,5 +1,0 @@
-toolbar:
-  version: VERSION
-  css:
-    theme:
-      css/df_tools_gdpr.icons.css: { weight: 1 }
