@@ -26,11 +26,14 @@ class RouteSubscriber extends RouteSubscriberBase {
    * {@inheritdoc}
    */
   protected function alterRoutes(RouteCollection $collection) {
-    $collection->get('entity.node.latest_version')->setRequirements([
-      '_entity_access' => 'node.view',
-      '_permission' => 'view latest version,view any unpublished content',
-      'node' => "\d+",
-      '_method' => 'GET|POST|OPTIONS'
-    ]);
+    $node_latest_version = $collection->get('entity.node.latest_version');
+    if (isset($node_latest_version)) {
+      $collection->get('entity.node.latest_version')->setRequirements([
+        '_entity_access' => 'node.view',
+        '_permission' => 'view latest version,view any unpublished content',
+        'node' => "\d+",
+        '_method' => 'GET|POST|OPTIONS'
+      ]);
+    }
   }
 }

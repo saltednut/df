@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * @file
+ * Contains df_tools_decoupled.install.
+ */
+
+use Drupal\shortcut\Entity\Shortcut;
+
+/**
+ * Implements hook_install().
+ */
+function df_tools_decoupled_install() {
+  $config_factory = \Drupal::configFactory();
+
+  // Set the default theme.
+  $config_factory
+    ->getEditable('system.theme')
+    ->set('default', 'acquia_claro')
+    ->save(TRUE);
+
+  // Set front page to "frontpage".
+  $config_factory
+    ->getEditable('system.site')
+    ->set('page.front', '/frontpage')
+    ->save(TRUE);
+
+  // Create a shortcut for the inspiration app.
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Inspiration App'),
+    'weight' => 0,
+    'link' => [
+      'uri' => 'https://inspiration.acquia-demo.com/',
+      'options' => [
+        'attributes' => [
+          'target' => '_blank',
+        ],
+      ],
+    ],
+  ]);
+  $shortcut->save();
+
+  // Create a shortcut for jsonapi explorer.
+  global $base_url;
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('JSON:API Explorer'),
+    'weight' => 0,
+    'link' => [
+      'uri' => 'internal:/jsonapi/explorer/app',
+      'options' => [
+        'query' => [
+          'location' => $base_url,
+        ],
+        'attributes' => [
+          'target' => '_blank',
+        ],
+      ],
+    ],
+  ]);
+  $shortcut->save();
+
+}

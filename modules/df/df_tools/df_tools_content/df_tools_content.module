@@ -5,6 +5,7 @@
  * Contains df_tools_content.module.
  */
 
+use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
@@ -24,5 +25,16 @@ function df_tools_content_form_alter(&$form, FormStateInterface $form_state, $fo
 
   if ($form_id = 'dcd_export_entity_form') {
     $form['tar']['#default_value'] = TRUE;
+  }
+}
+
+/**
+ * Implements hook_entity_operation().
+ */
+function df_tools_content_entity_operation_alter(array &$operations, EntityInterface $entity) {
+  // Removes the clone operation from Entity clone for Access unpublished.
+  $entityTypeId = $entity->getEntityTypeId();
+  if ($entityTypeId == 'access_token') {
+    unset($operations['clone']);
   }
 }

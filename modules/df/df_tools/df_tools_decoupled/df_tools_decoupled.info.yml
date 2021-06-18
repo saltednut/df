@@ -1,0 +1,8 @@
+name: DF Tools Decoupled
+type: module
+description: Decoupled demos start here.
+core_version_requirement: ^8.8 || ^9
+package: Demo Framework Tools
+dependencies:
+  - df_tools_services
+  - jsonapi_explorer
