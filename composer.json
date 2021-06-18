@@ -203,8 +203,8 @@
     "require": {
         "acquia/lightning": "4.1.14",
         "acquia/acquia-lift-samples": "dev-master",
-        "acquia/cohesion": "6.5.x",
-        "acquia/cohesion-theme": "6.5.x",
+        "acquia/cohesion": "6.6.x",
+        "acquia/cohesion-theme": "6.6.x",
         "acquia/lift-sdk-php": "dev-master",
         "bower-asset/jquery-ui-slider-pips": "1.11.3",
         "bower-asset/masonry": "4.2.0",
