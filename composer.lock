@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1402388a70206b63b6acd3f8bab15179",
+    "content-hash": "8e02256245c54371a29b8a6168b2fa8c",
     "packages": [
         {
             "name": "acquia/acf",
@@ -169,16 +169,16 @@
         },
         {
             "name": "acquia/cohesion",
-            "version": "6.5.1",
+            "version": "6.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion.git",
-                "reference": "7e9a7be653309dcd43a8726164b0cc00a70d80d6"
+                "reference": "91bfaabc430de438070147be39333a734ea293c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion/zipball/7e9a7be653309dcd43a8726164b0cc00a70d80d6",
-                "reference": "7e9a7be653309dcd43a8726164b0cc00a70d80d6",
+                "url": "https://api.github.com/repos/acquia/cohesion/zipball/91bfaabc430de438070147be39333a734ea293c9",
+                "reference": "91bfaabc430de438070147be39333a734ea293c9",
                 "shasum": ""
             },
             "require": {
@@ -228,22 +228,22 @@
             ],
             "description": "Site Studio",
             "support": {
-                "source": "https://github.com/acquia/cohesion/tree/6.5.1"
+                "source": "https://github.com/acquia/cohesion/tree/6.6.0"
             },
-            "time": "2021-05-13T12:47:32+00:00"
+            "time": "2021-06-23T13:05:37+00:00"
         },
         {
             "name": "acquia/cohesion-theme",
-            "version": "6.5.1",
+            "version": "6.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cohesion-theme.git",
-                "reference": "9dd42c1b00df7f5c45d8807bff9661d2cfd0167e"
+                "reference": "364d380b550ca010931d36ff3e76b221597f3daf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/9dd42c1b00df7f5c45d8807bff9661d2cfd0167e",
-                "reference": "9dd42c1b00df7f5c45d8807bff9661d2cfd0167e",
+                "url": "https://api.github.com/repos/acquia/cohesion-theme/zipball/364d380b550ca010931d36ff3e76b221597f3daf",
+                "reference": "364d380b550ca010931d36ff3e76b221597f3daf",
                 "shasum": ""
             },
             "type": "drupal-theme",
@@ -261,9 +261,9 @@
             "description": "Site Studio minimal theme",
             "support": {
                 "issues": "https://github.com/acquia/cohesion-theme/issues",
-                "source": "https://github.com/acquia/cohesion-theme/tree/6.5.1"
+                "source": "https://github.com/acquia/cohesion-theme/tree/6.6.0"
             },
-            "time": "2021-05-13T12:47:55+00:00"
+            "time": "2021-06-23T13:06:00+00:00"
         },
         {
             "name": "acquia/content-hub-php",
@@ -15932,16 +15932,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32"
+                "reference": "9aaa3fde4a184c53f893d938ea9d3f9375cd0622"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/6cccbddfcfc742eb02158d6137ca5687d92cee32",
-                "reference": "6cccbddfcfc742eb02158d6137ca5687d92cee32",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/9aaa3fde4a184c53f893d938ea9d3f9375cd0622",
+                "reference": "9aaa3fde4a184c53f893d938ea9d3f9375cd0622",
                 "shasum": ""
             },
             "require": {
@@ -15990,7 +15990,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-02-25T21:54:58+00:00"
+            "time": "2021-06-24T10:54:07+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -19204,16 +19204,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.50.0",
+            "version": "v3.51.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "91858cc811d3cddb45ef604365e2c88cd96e4ca0"
+                "reference": "8a0489d181e60d3f52b03f4edabc375b2a7f90d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/91858cc811d3cddb45ef604365e2c88cd96e4ca0",
-                "reference": "91858cc811d3cddb45ef604365e2c88cd96e4ca0",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/8a0489d181e60d3f52b03f4edabc375b2a7f90d4",
+                "reference": "8a0489d181e60d3f52b03f4edabc375b2a7f90d4",
                 "shasum": ""
             },
             "type": "library",
@@ -19259,9 +19259,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.50.0"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.51.0"
             },
-            "time": "2021-06-03T21:00:28+00:00"
+            "time": "2021-06-23T18:34:42+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
