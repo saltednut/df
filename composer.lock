@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acf.git",
-                "reference": "699ae4b743917781ab06936fed997082fbeb7513"
+                "reference": "2db51a228d5f0f1404453d27cab17d7f67719dfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acf/zipball/699ae4b743917781ab06936fed997082fbeb7513",
-                "reference": "699ae4b743917781ab06936fed997082fbeb7513",
+                "url": "https://api.github.com/repos/acquia/acf/zipball/2db51a228d5f0f1404453d27cab17d7f67719dfa",
+                "reference": "2db51a228d5f0f1404453d27cab17d7f67719dfa",
                 "shasum": ""
             },
             "default-branch": true,
@@ -38,7 +38,7 @@
                 "issues": "https://github.com/acquia/acf/issues",
                 "source": "https://github.com/acquia/acf/tree/2.x"
             },
-            "time": "2021-04-01T19:57:17+00:00"
+            "time": "2021-06-25T14:07:10+00:00"
         },
         {
             "name": "acquia/acquia-lift-samples",
@@ -14029,17 +14029,17 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "3.6.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "8.x-3.6"
+                "reference": "8.x-3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-3.6.zip",
-                "reference": "8.x-3.6",
-                "shasum": "269830c5095b7fd5dafad295c551cee4d6324b4b"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-8.x-3.7.zip",
+                "reference": "8.x-3.7",
+                "shasum": "f060f72dcf539084c5beb997b2920f04c9a517fc"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -14052,8 +14052,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.6",
-                    "datestamp": "1623856046",
+                    "version": "8.x-3.7",
+                    "datestamp": "1624540305",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -15584,16 +15584,16 @@
         },
         {
             "name": "laminas/laminas-escaper",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
-                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5"
+                "reference": "67dac07c6b4857fbf2bd7a5257a4e1ca8a1c00d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/5e04bc5ae5990b17159d79d331055e2c645e5cc5",
-                "reference": "5e04bc5ae5990b17159d79d331055e2c645e5cc5",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/67dac07c6b4857fbf2bd7a5257a4e1ca8a1c00d0",
+                "reference": "67dac07c6b4857fbf2bd7a5257a4e1ca8a1c00d0",
                 "shasum": ""
             },
             "require": {
@@ -15604,7 +15604,7 @@
                 "zendframework/zend-escaper": "^2.6.1"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~1.0.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "phpunit/phpunit": "^9.3",
                 "psalm/plugin-phpunit": "^0.12.2",
                 "vimeo/psalm": "^3.16"
@@ -15643,7 +15643,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2020-11-17T21:26:43+00:00"
+            "time": "2021-06-24T16:45:38+00:00"
         },
         {
             "name": "laminas/laminas-feed",
@@ -15932,16 +15932,16 @@
         },
         {
             "name": "laminas/laminas-zendframework-bridge",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-zendframework-bridge.git",
-                "reference": "9aaa3fde4a184c53f893d938ea9d3f9375cd0622"
+                "reference": "13af2502d9bb6f7d33be2de4b51fb68c6cdb476e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/9aaa3fde4a184c53f893d938ea9d3f9375cd0622",
-                "reference": "9aaa3fde4a184c53f893d938ea9d3f9375cd0622",
+                "url": "https://api.github.com/repos/laminas/laminas-zendframework-bridge/zipball/13af2502d9bb6f7d33be2de4b51fb68c6cdb476e",
+                "reference": "13af2502d9bb6f7d33be2de4b51fb68c6cdb476e",
                 "shasum": ""
             },
             "require": {
@@ -15990,7 +15990,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-06-24T10:54:07+00:00"
+            "time": "2021-06-24T12:49:22+00:00"
         },
         {
             "name": "lcobucci/jwt",
@@ -18918,16 +18918,16 @@
         },
         {
             "name": "solarium/solarium",
-            "version": "6.1.2",
+            "version": "6.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "725e6e410d5a7c5c3144b4b0c80555f9a92777c0"
+                "reference": "f6e18891368400b6a15d8863175310997792848c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/725e6e410d5a7c5c3144b4b0c80555f9a92777c0",
-                "reference": "725e6e410d5a7c5c3144b4b0c80555f9a92777c0",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/f6e18891368400b6a15d8863175310997792848c",
+                "reference": "f6e18891368400b6a15d8863175310997792848c",
                 "shasum": ""
             },
             "require": {
@@ -18975,9 +18975,9 @@
             ],
             "support": {
                 "issues": "https://github.com/solariumphp/solarium/issues",
-                "source": "https://github.com/solariumphp/solarium/tree/6.1.2"
+                "source": "https://github.com/solariumphp/solarium/tree/6.1.3"
             },
-            "time": "2021-06-23T07:32:40+00:00"
+            "time": "2021-06-24T15:04:42+00:00"
         },
         {
             "name": "spatie/macroable",
