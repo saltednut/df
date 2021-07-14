@@ -196,7 +196,9 @@
               "Set batch limit from UI | http://drupal.org/node/2681947":
               "https://www.drupal.org/files/issues/2021-03-19/site-studio-set-batch-limit-from-ui.patch",
               "Do not rebuild on module import | http://drupal.org/node/2681947":
-              "https://www.drupal.org/files/issues/2021-03-19/cohesion_sync-do-no-rebuild-on-module-import.patch"
+              "https://www.drupal.org/files/issues/2021-03-19/cohesion_sync-do-no-rebuild-on-module-import.patch",
+              "When creating a new menu template and applying in the menu element it renders the default menu.html.twig": 
+              "https://www.drupal.org/files/issues/2021-07-14/aco-1183-01.patch"
             }
         }
     },
