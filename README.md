@@ -31,6 +31,13 @@ By default, you will be asked to select a demo scenario to install.
 
 Installation may take a few minutes depending on your environment. ☕️
 
+To install the DF installation profile and the One scenario without the UI.
+
+  ``drush si df -y && drush en dfs_one -y``
+
+Then login to your site.
+
+  ``drush uli``
 
 ## Deploying Demo Framework using version control
 
